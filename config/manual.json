@@ -1,0 +1,19 @@
+{
+  "_comment": "Values here are used ONLY when no live source is available. They appear in italic on the page. Edit directly on GitHub (pencil icon) and commit; the page updates on the next run.",
+
+  "central_bank_rates": {
+    "israel": null,
+    "us": null,
+    "ecb": null,
+    "uk": null,
+    "japan": null
+  },
+
+  "bond_yields": {
+    "us":      { "1Y": null, "3Y": null, "5Y": null, "10Y": null },
+    "israel":  { "1Y": null, "3Y": null, "5Y": null, "10Y": null },
+    "germany": { "1Y": null, "3Y": null, "5Y": null, "10Y": null },
+    "uk":      { "1Y": null, "3Y": null, "5Y": null, "10Y": null },
+    "japan":   { "1Y": null, "3Y": null, "5Y": null, "10Y": null }
+  }
+}

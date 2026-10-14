@@ -1,0 +1,13 @@
+{
+  "_comment": "Economic calendar. Add events here; the page shows only the next 30 days, sorted by date. Time is Israel time (HH:MM). previous/forecast are free text; use \"—\" when unknown.",
+  "events": [
+    {
+      "date": "2026-10-15",
+      "time": "15:30",
+      "country": "US",
+      "event": "CPI (Sep) — example row, replace me",
+      "previous": "—",
+      "forecast": "—"
+    }
+  ]
+}

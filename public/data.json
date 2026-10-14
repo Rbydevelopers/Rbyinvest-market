@@ -1,0 +1,380 @@
+{
+ "updated_il": "SAMPLE DATA — first automatic run pending",
+ "updated_iso": null,
+ "central_bank_rates": [
+  {
+   "label": "Israel — BoI",
+   "key": "israel",
+   "value": 4.5,
+   "status": "indicative"
+  },
+  {
+   "label": "United States — Fed",
+   "key": "us",
+   "value": 4.25,
+   "status": "ok"
+  },
+  {
+   "label": "Euro Area — ECB",
+   "key": "ecb",
+   "value": 2.0,
+   "status": "ok"
+  },
+  {
+   "label": "United Kingdom — BoE",
+   "key": "uk",
+   "value": 4.0,
+   "status": "ok"
+  },
+  {
+   "label": "Japan — BoJ",
+   "key": "japan",
+   "value": null,
+   "status": "missing"
+  }
+ ],
+ "commodities": [
+  {
+   "label": "VIX",
+   "key": "^VIX",
+   "value": 16.42,
+   "status": "ok",
+   "d1": -2.1
+  },
+  {
+   "label": "Brent Oil",
+   "key": "BZ=F",
+   "value": 71.35,
+   "status": "ok",
+   "d1": 0.8
+  },
+  {
+   "label": "Gold (USD/oz)",
+   "key": "GC=F",
+   "value": 3312.1,
+   "status": "ok",
+   "d1": 0.35
+  },
+  {
+   "label": "Silver (USD/oz)",
+   "key": "SI=F",
+   "value": 38.02,
+   "status": "stale",
+   "d1": -0.6
+  }
+ ],
+ "fx": [
+  {
+   "label": "USD/ILS",
+   "key": "ILS=X",
+   "value": 3.3412,
+   "status": "ok",
+   "d1": -0.21
+  },
+  {
+   "label": "EUR/ILS",
+   "key": "EURILS=X",
+   "value": 3.912,
+   "status": "ok",
+   "d1": 0.12
+  }
+ ],
+ "bond_yields": [
+  {
+   "key": "us",
+   "label": "United States",
+   "tenors": {
+    "1Y": {
+     "value": 3.95,
+     "status": "ok"
+    },
+    "3Y": {
+     "value": 3.72,
+     "status": "ok"
+    },
+    "5Y": {
+     "value": 3.8,
+     "status": "ok"
+    },
+    "10Y": {
+     "value": 4.12,
+     "status": "ok"
+    }
+   }
+  },
+  {
+   "key": "israel",
+   "label": "Israel",
+   "tenors": {
+    "1Y": {
+     "value": 4.05,
+     "status": "indicative"
+    },
+    "3Y": {
+     "value": 4.0,
+     "status": "indicative"
+    },
+    "5Y": {
+     "value": 4.1,
+     "status": "indicative"
+    },
+    "10Y": {
+     "value": 4.35,
+     "status": "indicative"
+    }
+   }
+  },
+  {
+   "key": "germany",
+   "label": "Germany",
+   "tenors": {
+    "1Y": {
+     "value": null,
+     "status": "missing"
+    },
+    "3Y": {
+     "value": null,
+     "status": "missing"
+    },
+    "5Y": {
+     "value": 2.3,
+     "status": "indicative"
+    },
+    "10Y": {
+     "value": 2.62,
+     "status": "indicative"
+    }
+   }
+  },
+  {
+   "key": "uk",
+   "label": "United Kingdom",
+   "tenors": {
+    "1Y": {
+     "value": null,
+     "status": "missing"
+    },
+    "3Y": {
+     "value": null,
+     "status": "missing"
+    },
+    "5Y": {
+     "value": null,
+     "status": "missing"
+    },
+    "10Y": {
+     "value": 4.55,
+     "status": "indicative"
+    }
+   }
+  },
+  {
+   "key": "japan",
+   "label": "Japan",
+   "tenors": {
+    "1Y": {
+     "value": null,
+     "status": "missing"
+    },
+    "3Y": {
+     "value": null,
+     "status": "missing"
+    },
+    "5Y": {
+     "value": null,
+     "status": "missing"
+    },
+    "10Y": {
+     "value": 1.58,
+     "status": "indicative"
+    }
+   }
+  }
+ ],
+ "indices": {
+  "israel": [
+   {
+    "label": "TA-35",
+    "key": "TA35.TA",
+    "value": 2451.3,
+    "status": "ok",
+    "d1": -1.0969072676627962,
+    "w1": 2.084602421623396,
+    "m1": 2.6377461897661405,
+    "ytd": -1.07258409912024
+   },
+   {
+    "label": "TA-90",
+    "key": "TA90.TA",
+    "value": 3301.2,
+    "status": "ok",
+    "d1": -0.013694738724177036,
+    "w1": -0.303053611267571,
+    "m1": 1.515929727227629,
+    "ytd": 17.60531728974296
+   },
+   {
+    "label": "TA-125",
+    "key": "^TA125.TA",
+    "value": 2698.9,
+    "status": "ok",
+    "d1": -1.2184212396772953,
+    "w1": -2.8299151408679624,
+    "m1": 3.3576510391986965,
+    "ytd": 5.1468473766768685
+   },
+   {
+    "label": "TA Banks 5",
+    "key": "TA-BANKS5.TA",
+    "value": 5120.0,
+    "status": "stale",
+    "d1": 0.7868402473738261,
+    "w1": -2.9873636798933356,
+    "m1": -0.546128059451986,
+    "ytd": 15.253901131927389
+   },
+   {
+    "label": "TA Insurance",
+    "key": "TA-INSURANCE.TA",
+    "value": null,
+    "status": "missing",
+    "d1": -0.8137133361886421,
+    "w1": 2.6716241733235337,
+    "m1": 4.014274576114836,
+    "ytd": -8.929350593825626
+   }
+  ],
+  "us": [
+   {
+    "label": "S&P 500",
+    "key": "^GSPC",
+    "value": 6412.55,
+    "status": "ok",
+    "d1": -1.4236624170196177,
+    "w1": 0.24847483676097948,
+    "m1": 4.391491627785106,
+    "ytd": 3.3421483190874355
+   },
+   {
+    "label": "Nasdaq Composite",
+    "key": "^IXIC",
+    "value": 21055.2,
+    "status": "ok",
+    "d1": -0.8502018086081599,
+    "w1": -0.46730054650369635,
+    "m1": -4.709592124251321,
+    "ytd": -2.240791680443773
+   },
+   {
+    "label": "Dow Jones",
+    "key": "^DJI",
+    "value": 44810.4,
+    "status": "ok",
+    "d1": -0.18633721904828393,
+    "w1": -0.025126551708896105,
+    "m1": -2.6691554974242737,
+    "ytd": -1.9196710460655488
+   },
+   {
+    "label": "Russell 2000",
+    "key": "^RUT",
+    "value": 2290.1,
+    "status": "ok",
+    "d1": -0.8436568879869342,
+    "w1": -0.2423792055735987,
+    "m1": -2.102183854095144,
+    "ytd": -9.24786031569319
+   }
+  ],
+  "europe": [
+   {
+    "label": "DAX — Germany",
+    "key": "^GDAXI",
+    "value": 23980.5,
+    "status": "ok",
+    "d1": 1.0127339269877185,
+    "w1": 0.33872593591460065,
+    "m1": 1.4229436293244557,
+    "ytd": -3.4932806936848806
+   },
+   {
+    "label": "CAC 40 — France",
+    "key": "^FCHI",
+    "value": 7812.3,
+    "status": "ok",
+    "d1": 1.4776302365281953,
+    "w1": 2.159679172771739,
+    "m1": -3.791100401941936,
+    "ytd": 1.6443314876045179
+   },
+   {
+    "label": "FTSE 100 — United Kingdom",
+    "key": "^FTSE",
+    "value": 9120.7,
+    "status": "ok",
+    "d1": 0.6644532227498052,
+    "w1": 1.2671506181716783,
+    "m1": 4.364405867994597,
+    "ytd": 4.773744998649532
+   }
+  ],
+  "asia": [
+   {
+    "label": "Nikkei 225 — Japan",
+    "key": "^N225",
+    "value": 41230.0,
+    "status": "ok",
+    "d1": 0.9901070798229812,
+    "w1": 1.021833398484426,
+    "m1": -1.9663148906708239,
+    "ytd": 10.565321215024582
+   },
+   {
+    "label": "KOSPI — South Korea",
+    "key": "^KS11",
+    "value": 3180.5,
+    "status": "ok",
+    "d1": 1.1474370024955731,
+    "w1": 2.077184510569877,
+    "m1": 0.052838205796003734,
+    "ytd": 10.61507902938931
+   },
+   {
+    "label": "Nifty 50 — India",
+    "key": "^NSEI",
+    "value": 25410.8,
+    "status": "ok",
+    "d1": -1.3964225095459752,
+    "w1": -1.5435601587415941,
+    "m1": 2.974042475543028,
+    "ytd": 4.5009899755271
+   }
+  ]
+ },
+ "calendar": [
+  {
+   "date": "2026-10-15",
+   "time": "15:30",
+   "country": "US",
+   "event": "CPI (Sep)",
+   "previous": "2.9%",
+   "forecast": "3.0%"
+  },
+  {
+   "date": "2026-10-20",
+   "time": "16:00",
+   "country": "IL",
+   "event": "Bank of Israel rate decision",
+   "previous": "4.50%",
+   "forecast": "4.50%"
+  },
+  {
+   "date": "2026-10-29",
+   "time": "21:00",
+   "country": "US",
+   "event": "FOMC rate decision",
+   "previous": "4.25%",
+   "forecast": "4.00%"
+  }
+ ]
+}
