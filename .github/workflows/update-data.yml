@@ -4,10 +4,11 @@ on:
   schedule:
     # Every hour, 06:00–23:00 Israel time (03:00–20:00 UTC). Cron is always UTC.
     - cron: "7 3-20 * * *"
-  workflow_dispatch:        # lets you press "Run workflow" manually on GitHub
+  workflow_dispatch:
 
 permissions:
   contents: write
+  pages: write
 
 concurrency:
   group: update-data
@@ -16,6 +17,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 
@@ -27,8 +29,9 @@ jobs:
         run: pip install -r scripts/requirements.txt
 
       - name: Fetch data
+        timeout-minutes: 10
         env:
-          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}   # optional; see README
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
         run: python scripts/fetch_data.py
 
       - name: Commit data.json if it changed
@@ -42,3 +45,8 @@ jobs:
             git commit -m "data: update $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           fi
+
+      - name: Rebuild GitHub Pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || echo "Pages rebuild request failed (non-fatal)"
