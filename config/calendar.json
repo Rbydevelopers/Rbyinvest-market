@@ -1,13 +1,300 @@
 {
-  "_comment": "Economic calendar. Add events here; the page shows only the next 30 days, sorted by date. Time is Israel time (HH:MM). previous/forecast are free text; use \"—\" when unknown.",
-  "events": [
-    {
-      "date": "2026-10-15",
-      "time": "15:30",
-      "country": "US",
-      "event": "CPI (Sep) — example row, replace me",
-      "previous": "—",
-      "forecast": "—"
-    }
-  ]
+ "_comment": "Scheduled events. 'time' is in the time zone given in 'tz' and is converted to Israel time automatically. Set \"indicative\": true for dates that follow a usual pattern but were not confirmed in an official calendar (shown in italic). Events inside the current week for US/EU/UK/JP are replaced automatically by the ForexFactory feed, which also adds forecasts and previous values.",
+ "events": [
+  {
+   "date": "2026-10-14",
+   "time": "08:30",
+   "tz": "America/New_York",
+   "country": "US",
+   "event": "CPI (Sep)",
+   "previous": "—",
+   "forecast": "—"
+  },
+  {
+   "date": "2026-10-15",
+   "time": "08:30",
+   "tz": "America/New_York",
+   "country": "US",
+   "event": "PPI (Sep)",
+   "previous": "—",
+   "forecast": "—"
+  },
+  {
+   "date": "2026-10-15",
+   "time": "18:30",
+   "tz": "Asia/Jerusalem",
+   "country": "IL",
+   "event": "CPI (Sep)",
+   "previous": "—",
+   "forecast": "—",
+   "indicative": true
+  },
+  {
+   "date": "2026-10-21",
+   "time": "07:00",
+   "tz": "Europe/London",
+   "country": "UK",
+   "event": "CPI (Sep)",
+   "previous": "—",
+   "forecast": "—"
+  },
+  {
+   "date": "2026-10-21",
+   "time": "16:00",
+   "tz": "Asia/Jerusalem",
+   "country": "IL",
+   "event": "Bank of Israel rate decision",
+   "previous": "—",
+   "forecast": "—"
+  },
+  {
+   "date": "2026-10-28",
+   "time": "14:00",
+   "tz": "America/New_York",
+   "country": "US",
+   "event": "FOMC rate decision",
+   "previous": "—",
+   "forecast": "—"
+  },
+  {
+   "date": "2026-10-29",
+   "time": "08:30",
+   "tz": "America/New_York",
+   "country": "US",
+   "event": "GDP Q3 (advance)",
+   "previous": "—",
+   "forecast": "—"
+  },
+  {
+   "date": "2026-10-29",
+   "time": "08:30",
+   "tz": "America/New_York",
+   "country": "US",
+   "event": "PCE / Personal income (Sep)",
+   "previous": "—",
+   "forecast": "—"
+  },
+  {
+   "date": "2026-10-29",
+   "time": "14:15",
+   "tz": "Europe/Berlin",
+   "country": "EU",
+   "event": "ECB rate decision",
+   "previous": "—",
+   "forecast": "—"
+  },
+  {
+   "date": "2026-10-30",
+   "time": "—",
+   "tz": "Asia/Jerusalem",
+   "country": "JP",
+   "event": "BoJ rate decision",
+   "previous": "—",
+   "forecast": "—"
+  },
+  {
+   "date": "2026-11-02",
+   "time": "10:00",
+   "tz": "America/New_York",
+   "country": "US",
+   "event": "ISM Manufacturing PMI (Oct)",
+   "previous": "—",
+   "forecast": "—",
+   "indicative": true
+  },
+  {
+   "date": "2026-11-03",
+   "time": "10:00",
+   "tz": "America/New_York",
+   "country": "US",
+   "event": "JOLTS job openings (Sep)",
+   "previous": "—",
+   "forecast": "—"
+  },
+  {
+   "date": "2026-11-04",
+   "time": "10:00",
+   "tz": "America/New_York",
+   "country": "US",
+   "event": "ISM Services PMI (Oct)",
+   "previous": "—",
+   "forecast": "—",
+   "indicative": true
+  },
+  {
+   "date": "2026-11-04",
+   "time": "—",
+   "tz": "Asia/Jerusalem",
+   "country": "EU",
+   "event": "CPI flash (Oct)",
+   "previous": "—",
+   "forecast": "—",
+   "indicative": true
+  },
+  {
+   "date": "2026-11-05",
+   "time": "12:00",
+   "tz": "Europe/London",
+   "country": "UK",
+   "event": "BoE rate decision",
+   "previous": "—",
+   "forecast": "—"
+  },
+  {
+   "date": "2026-11-06",
+   "time": "08:30",
+   "tz": "America/New_York",
+   "country": "US",
+   "event": "Non-farm payrolls / Unemployment (Oct)",
+   "previous": "—",
+   "forecast": "—"
+  },
+  {
+   "date": "2026-11-10",
+   "time": "08:30",
+   "tz": "America/New_York",
+   "country": "US",
+   "event": "CPI (Oct)",
+   "previous": "—",
+   "forecast": "—"
+  },
+  {
+   "date": "2026-11-13",
+   "time": "08:30",
+   "tz": "America/New_York",
+   "country": "US",
+   "event": "PPI (Oct)",
+   "previous": "—",
+   "forecast": "—"
+  },
+  {
+   "date": "2026-11-15",
+   "time": "18:30",
+   "tz": "Asia/Jerusalem",
+   "country": "IL",
+   "event": "CPI (Oct)",
+   "previous": "—",
+   "forecast": "—",
+   "indicative": true
+  },
+  {
+   "date": "2026-11-18",
+   "time": "07:00",
+   "tz": "Europe/London",
+   "country": "UK",
+   "event": "CPI (Oct)",
+   "previous": "—",
+   "forecast": "—"
+  },
+  {
+   "date": "2026-11-23",
+   "time": "16:00",
+   "tz": "Asia/Jerusalem",
+   "country": "IL",
+   "event": "Bank of Israel rate decision",
+   "previous": "—",
+   "forecast": "—"
+  },
+  {
+   "date": "2026-11-25",
+   "time": "08:30",
+   "tz": "America/New_York",
+   "country": "US",
+   "event": "GDP Q3 (second estimate)",
+   "previous": "—",
+   "forecast": "—"
+  },
+  {
+   "date": "2026-11-25",
+   "time": "08:30",
+   "tz": "America/New_York",
+   "country": "US",
+   "event": "PCE / Personal income (Oct)",
+   "previous": "—",
+   "forecast": "—"
+  },
+  {
+   "date": "2026-12-01",
+   "time": "10:00",
+   "tz": "America/New_York",
+   "country": "US",
+   "event": "ISM Manufacturing PMI (Nov)",
+   "previous": "—",
+   "forecast": "—",
+   "indicative": true
+  },
+  {
+   "date": "2026-12-01",
+   "time": "—",
+   "tz": "Asia/Jerusalem",
+   "country": "EU",
+   "event": "CPI flash (Nov)",
+   "previous": "—",
+   "forecast": "—",
+   "indicative": true
+  },
+  {
+   "date": "2026-12-09",
+   "time": "14:00",
+   "tz": "America/New_York",
+   "country": "US",
+   "event": "FOMC rate decision",
+   "previous": "—",
+   "forecast": "—"
+  },
+  {
+   "date": "2026-12-16",
+   "time": "07:00",
+   "tz": "Europe/London",
+   "country": "UK",
+   "event": "CPI (Nov)",
+   "previous": "—",
+   "forecast": "—"
+  },
+  {
+   "date": "2026-12-17",
+   "time": "12:00",
+   "tz": "Europe/London",
+   "country": "UK",
+   "event": "BoE rate decision",
+   "previous": "—",
+   "forecast": "—"
+  },
+  {
+   "date": "2026-12-17",
+   "time": "14:15",
+   "tz": "Europe/Berlin",
+   "country": "EU",
+   "event": "ECB rate decision",
+   "previous": "—",
+   "forecast": "—"
+  },
+  {
+   "date": "2026-12-18",
+   "time": "—",
+   "tz": "Asia/Jerusalem",
+   "country": "JP",
+   "event": "BoJ rate decision",
+   "previous": "—",
+   "forecast": "—"
+  },
+  {
+   "date": "2026-12-23",
+   "time": "08:30",
+   "tz": "America/New_York",
+   "country": "US",
+   "event": "GDP Q3 (third estimate)",
+   "previous": "—",
+   "forecast": "—"
+  },
+  {
+   "date": "2026-12-23",
+   "time": "08:30",
+   "tz": "America/New_York",
+   "country": "US",
+   "event": "PCE / Personal income (Nov)",
+   "previous": "—",
+   "forecast": "—"
+  }
+ ]
 }

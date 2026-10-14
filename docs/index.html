@@ -41,6 +41,15 @@
 
   section.page { display: none; }
   section.page.active { display: block; }
+  section.page.from-right { animation: inR .22s ease-out; }
+  section.page.from-left  { animation: inL .22s ease-out; }
+  @keyframes inR { from { opacity: 0; transform: translateX(28px); } to { opacity: 1; transform: none; } }
+  @keyframes inL { from { opacity: 0; transform: translateX(-28px); } to { opacity: 1; transform: none; } }
+  @media (prefers-reduced-motion: reduce) { section.page.from-right, section.page.from-left { animation: none; } }
+  .wrap { touch-action: pan-y; }
+  .dots { display: flex; justify-content: center; gap: 6px; margin: 14px 0 0; }
+  .dots span { width: 6px; height: 6px; border-radius: 50%; background: var(--border); }
+  .dots span.on { background: var(--navy); }
   section.page > h2 { font-size: 17px; letter-spacing: .05em; color: var(--navy); margin: 10px 0 4px; font-weight: 700; }
   h3 { font-size: 13px; letter-spacing: .06em; text-transform: uppercase; color: var(--navy-soft); margin: 10px 0 3px; font-weight: 700; }
 
@@ -151,7 +160,8 @@
       <tbody id="t-cal"></tbody></table>
   </section>
 
-  <footer class="legend"><i>Italic</i> = indicative / manually entered / last known value. — = not available.</footer>
+  <div class="dots" id="dots" aria-hidden="true"></div>
+  <footer class="legend"><i>Italic</i> = indicative / manually entered / last known value. — = not available. Swipe left/right to switch tabs.</footer>
 </div>
 
 <script>
@@ -202,18 +212,75 @@
     if (!events.length) { $('t-cal').innerHTML = `<tr><td colspan="6" class="na">No events in the next 30 days.</td></tr>`; return; }
     $('t-cal').innerHTML = events.map(e => {
       const d = e.date ? e.date.slice(8,10) + '.' + e.date.slice(5,7) : '—';
-      return `<tr><td>${d}</td><td>${esc(e.time || '—')}</td><td>${esc(e.country || '—')}</td><td class="ev">${esc(e.event)}</td><td>${esc(e.previous || '—')}</td><td>${esc(e.forecast || '—')}</td></tr>`;
+      return `<tr class="${e.indicative ? 'ind' : ''}"><td>${d}</td><td>${esc(e.time || '—')}</td><td>${esc(e.country || '—')}</td><td class="ev">${esc(e.event)}</td><td>${esc(e.previous || '—')}</td><td>${esc(e.forecast || '—')}</td></tr>`;
     }).join('');
   }
 
   // --- tabs (remember last tab on this device; harmless if storage is blocked) ---
   const tabs = $('tabs');
-  function showPage(id) {
-    document.querySelectorAll('section.page').forEach(s => s.classList.toggle('active', s.id === id));
-    tabs.querySelectorAll('button').forEach(b => b.classList.toggle('active', b.dataset.page === id));
+  const pageIds = [...tabs.querySelectorAll('button')].map(b => b.dataset.page);
+  let current = pageIds[0];
+
+  // dir: +1 = came from the right (next), -1 = from the left (previous), 0 = no animation
+  function showPage(id, dir = 0) {
+    if (!$(id)) return;
+    document.querySelectorAll('section.page').forEach(s => {
+      const on = s.id === id;
+      s.classList.toggle('active', on);
+      s.classList.remove('from-right', 'from-left');
+      if (on && dir) { void s.offsetWidth; s.classList.add(dir > 0 ? 'from-right' : 'from-left'); }
+    });
+    tabs.querySelectorAll('button').forEach(b => {
+      const on = b.dataset.page === id;
+      b.classList.toggle('active', on);
+      if (on) b.scrollIntoView({ block: 'nearest', inline: 'center', behavior: dir ? 'smooth' : 'auto' });
+    });
+    current = id;
+    const dots = $('dots');
+    if (dots) dots.innerHTML = pageIds.map(p => `<span class="${p === id ? 'on' : ''}"></span>`).join('');
     try { localStorage.setItem('rby-tab', id); } catch (_) {}
   }
-  tabs.addEventListener('click', e => { const b = e.target.closest('button'); if (b) showPage(b.dataset.page); });
+  function step(n) {
+    const i = pageIds.indexOf(current) + n;
+    if (i >= 0 && i < pageIds.length) {
+      showPage(pageIds[i], n);
+      const top = tabs.getBoundingClientRect().top + window.scrollY;
+      if (window.scrollY > top) window.scrollTo({ top, behavior: 'smooth' });
+    }
+  }
+
+  // 1) tap on a tab
+  tabs.addEventListener('click', e => {
+    const b = e.target.closest('button');
+    if (b) showPage(b.dataset.page, Math.sign(pageIds.indexOf(b.dataset.page) - pageIds.indexOf(current)));
+  });
+
+  // 2) swipe left/right anywhere on the content (vertical scrolling is untouched)
+  let sx = 0, sy = 0, st = 0, tracking = false;
+  document.addEventListener('touchstart', e => {
+    if (e.touches.length !== 1 || e.target.closest('nav.tabs')) { tracking = false; return; }
+    const t = e.touches[0];
+    // ignore swipes that start at the very screen edge (iOS uses those for "back")
+    tracking = t.clientX > 20 && t.clientX < window.innerWidth - 20;
+    sx = t.clientX; sy = t.clientY; st = Date.now();
+  }, { passive: true });
+  document.addEventListener('touchend', e => {
+    if (!tracking) return;
+    tracking = false;
+    const t = e.changedTouches[0];
+    const dx = t.clientX - sx, dy = t.clientY - sy;
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5 && Date.now() - st < 800) {
+      step(dx < 0 ? 1 : -1);   // swipe left → next tab, swipe right → previous tab
+    }
+  }, { passive: true });
+
+  // 3) keyboard arrows on desktop
+  document.addEventListener('keydown', e => {
+    if (e.key === 'ArrowRight') step(1);
+    if (e.key === 'ArrowLeft') step(-1);
+  });
+
+  showPage(current);
   try { const t = localStorage.getItem('rby-tab'); if (t && $(t)) showPage(t); } catch (_) {}
 
   // --- load data (cache-busted so phones never show a stale copy) ---

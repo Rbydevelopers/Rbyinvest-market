@@ -4,7 +4,7 @@ on:
   schedule:
     # Every hour, 06:00–23:00 Israel time (03:00–20:00 UTC). Cron is always UTC.
     - cron: "7 3-20 * * *"
-  workflow_dispatch:
+  workflow_dispatch:        # lets you press "Run workflow" manually on GitHub
 
 permissions:
   contents: write
@@ -31,7 +31,7 @@ jobs:
       - name: Fetch data
         timeout-minutes: 10
         env:
-          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}   # optional; see README
         run: python scripts/fetch_data.py
 
       - name: Commit data.json if it changed
@@ -46,6 +46,8 @@ jobs:
             git push
           fi
 
+      # Pushes made by this workflow don't always trigger a GitHub Pages rebuild,
+      # so ask for one explicitly.
       - name: Rebuild GitHub Pages
         env:
           GH_TOKEN: ${{ github.token }}

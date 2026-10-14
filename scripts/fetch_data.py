@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Fetches market data and writes public/data.json.
+Fetches market data and writes docs/data.json.
 
 Design:
   * Every item is fetched independently. If one source fails, the others still update.
@@ -115,7 +115,7 @@ def yf_history(symbol):
     if yf is None:
         return None
     try:
-        hist = yf.Ticker(symbol).history(period="14mo", interval="1d", auto_adjust=False)
+        hist = yf.Ticker(symbol).history(period="14mo", interval="1d", auto_adjust=False, timeout=20)
         if hist is None or hist.empty:
             return None
         closes = hist["Close"].dropna()
@@ -246,6 +246,238 @@ def boe_bank_rate():
 
 
 # ----------------------------------------------------------------------------
+# Government bond yields (official sources, no API key)
+# Each function returns {"1Y": float|None, "3Y": ..., "5Y": ..., "10Y": ...}
+# ----------------------------------------------------------------------------
+TENORS = ["1Y", "3Y", "5Y", "10Y"]
+UA = {"User-Agent": "Mozilla/5.0 (market-dashboard; personal use)"}
+
+
+def _to_float(s):
+    try:
+        return float(str(s).strip().strip('"').replace(",", "."))
+    except (ValueError, TypeError):
+        return None
+
+
+def us_treasury_yields():
+    """US Treasury daily par yield curve (home.treasury.gov CSV)."""
+    out = dict.fromkeys(TENORS)
+    year = date.today().year
+    url = (f"https://home.treasury.gov/resource-center/data-chart-center/interest-rates/"
+           f"daily-treasury-rates.csv/{year}/all?type=daily_treasury_yield_curve"
+           f"&field_tdr_date_value={year}&page&_format=csv")
+    try:
+        r = requests.get(url, headers=UA, timeout=25)
+        r.raise_for_status()
+        lines = [l for l in r.text.splitlines() if l.strip()]
+        header = [h.strip().strip('"') for h in lines[0].split(",")]
+        latest = lines[1].split(",")  # newest row first
+        colmap = {"1Y": "1 Yr", "3Y": "3 Yr", "5Y": "5 Yr", "10Y": "10 Yr"}
+        for t, col in colmap.items():
+            if col in header:
+                out[t] = _to_float(latest[header.index(col)])
+        log(f"  US yields ({latest[0]}): {out}")
+    except Exception as e:
+        log(f"  US Treasury: {e}")
+    return out
+
+
+def japan_mof_yields():
+    """Japan Ministry of Finance JGB yields (current-month CSV)."""
+    out = dict.fromkeys(TENORS)
+    try:
+        r = requests.get("https://www.mof.go.jp/english/jgbs/reference/interest_rate/jgbcme.csv",
+                         headers=UA, timeout=25)
+        r.raise_for_status()
+        rows = [l.split(",") for l in r.content.decode("utf-8", "ignore").splitlines() if l.strip()]
+        header = next(row for row in rows if row and row[0].strip() == "Date")
+        data = [row for row in rows if row and row[0][:4].isdigit()]
+        latest = data[-1]
+        for t in TENORS:
+            if t in header:
+                out[t] = _to_float(latest[header.index(t)])
+        log(f"  JP yields ({latest[0]}): {out}")
+    except Exception as e:
+        log(f"  Japan MoF: {e}")
+    return out
+
+
+def germany_bundesbank_yields():
+    """Bundesbank daily term structure of listed Federal securities (Bunds)."""
+    out = dict.fromkeys(TENORS)
+    codes = {"1Y": "R01XX", "3Y": "R03XX", "5Y": "R05XX", "10Y": "R10XX"}
+    for t, code in codes.items():
+        key = f"D.I.ZST.ZI.EUR.S1311.B.A604.{code}.R.A.A._Z._Z.A"
+        try:
+            r = requests.get(
+                f"https://api.statistiken.bundesbank.de/rest/data/BBSIS/{key}",
+                params={"lastNObservations": 3, "format": "csv", "lang": "en"},
+                headers=dict(UA, Accept="text/csv"), timeout=25,
+            )
+            r.raise_for_status()
+            last = None
+            for line in r.content.decode("utf-8", "ignore").splitlines():
+                parts = [p.strip().strip('"') for p in line.replace(";", ",").split(",")]
+                for i, p in enumerate(parts):
+                    if len(p) == 10 and p[4] == "-" and p[7] == "-" and p[:4].isdigit():
+                        nums = [_to_float(x) for x in parts[i + 1:]]
+                        nums = [x for x in nums if x is not None]
+                        if nums:
+                            last = nums[0]
+                        break
+            out[t] = last
+        except Exception as e:
+            log(f"  Bundesbank {t}: {e}")
+    log(f"  DE yields: {out}")
+    return out
+
+
+def boe_series(codes, days=30):
+    """Latest value for each Bank of England IADB series code."""
+    out = dict.fromkeys(codes)
+    today = date.today()
+    try:
+        r = requests.get(
+            "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp",
+            params={
+                "csv.x": "yes", "Datefrom": (today - timedelta(days=days)).strftime("%d/%b/%Y"),
+                "Dateto": today.strftime("%d/%b/%Y"), "SeriesCodes": ",".join(codes),
+                "CSVF": "TN", "UsingCodes": "Y", "VPD": "Y", "VFD": "N",
+            },
+            headers=UA, timeout=25,
+        )
+        r.raise_for_status()
+        rows = [[c.strip().strip('"') for c in l.split(",")] for l in r.text.splitlines() if l.strip()]
+        header = rows[0]
+        for code in codes:
+            if code not in header:
+                continue
+            idx = header.index(code)
+            for row in reversed(rows[1:]):
+                v = _to_float(row[idx]) if idx < len(row) else None
+                if v is not None:
+                    out[code] = v
+                    break
+    except Exception as e:
+        log(f"  BoE {codes}: {e}")
+    return out
+
+
+def uk_boe_yields():
+    """UK gilt nominal par yields from the BoE (5Y and 10Y series)."""
+    s = boe_series(["IUDSNPY", "IUDMNPY"])
+    out = {"1Y": None, "3Y": None, "5Y": s.get("IUDSNPY"), "10Y": s.get("IUDMNPY")}
+    log(f"  UK yields: {out}")
+    return out
+
+
+def israel_boi_yields():
+    """Bank of Israel nominal zero-coupon yields (shcd08_e.xls). Layout is detected heuristically."""
+    out = dict.fromkeys(TENORS)
+    try:
+        import pandas as pd
+        r = requests.get("https://boi.org.il/boi_files/Statistics/shcd08_e.xls", headers=UA, timeout=30)
+        r.raise_for_status()
+        import io
+        sheets = pd.read_excel(io.BytesIO(r.content), sheet_name=None, header=None)
+        for name, df in sheets.items():
+            df = df.dropna(how="all")
+            # find a header row whose cells contain maturities 1,3,5,10 (as numbers or text)
+            for hi in range(min(len(df), 40)):
+                row = [str(x).strip().lower().replace(".0", "") for x in df.iloc[hi].tolist()]
+                def col_for(n):
+                    for ci, c in enumerate(row):
+                        if c in (str(n), f"{n}y", f"{n} year", f"{n} years", f"{n}-year"):
+                            return ci
+                    return None
+                cols = {t: col_for(int(t[:-1])) for t in TENORS}
+                if cols["10Y"] is not None and cols["1Y"] is not None:
+                    body = df.iloc[hi + 1:]
+                    for _, brow in body[::-1].iterrows():
+                        vals = {t: _to_float(brow.iloc[c]) if c is not None else None for t, c in cols.items()}
+                        if vals["10Y"] is not None:
+                            out = vals
+                            log(f"  IL yields (sheet {name}, row {brow.iloc[0]}): {out}")
+                            return out
+        # Could not detect layout: print the top of the first sheet so it can be fixed.
+        first = next(iter(sheets.values()))
+        log("  IL yields: layout not recognised. Top of sheet:\n" + first.head(15).to_string())
+    except Exception as e:
+        log(f"  BoI yields: {e}")
+    return out
+
+
+# ----------------------------------------------------------------------------
+# Economic calendar: ForexFactory weekly feed (automatic) + config/calendar.json
+# ----------------------------------------------------------------------------
+FF_COUNTRY = {"USD": "US", "EUR": "EU", "GBP": "UK", "JPY": "JP"}
+
+
+def ff_calendar():
+    """This week's high-impact events from the ForexFactory JSON feed."""
+    try:
+        r = requests.get("https://nfs.faireconomy.media/ff_calendar_thisweek.json", headers=UA, timeout=25)
+        r.raise_for_status()
+        events = []
+        for e in r.json():
+            if e.get("impact") != "High" or e.get("country") not in FF_COUNTRY:
+                continue
+            dt = datetime.fromisoformat(e["date"]).astimezone(IL_TZ)
+            events.append({
+                "date": dt.strftime("%Y-%m-%d"), "time": dt.strftime("%H:%M"),
+                "country": FF_COUNTRY[e["country"]], "event": e.get("title", ""),
+                "previous": e.get("previous") or "—", "forecast": e.get("forecast") or "—",
+            })
+        log(f"  ForexFactory: {len(events)} high-impact events")
+        return events
+    except Exception as e:
+        log(f"  ForexFactory: {e}")
+        return None
+
+
+def manual_calendar():
+    """Events from config/calendar.json; times converted from their source time zone to Israel."""
+    events = []
+    for ev in load_json(CALENDAR_PATH, {"events": []}).get("events", []):
+        try:
+            t = ev.get("time") or ""
+            if t and t != "—":
+                src = ZoneInfo(ev.get("tz", "Asia/Jerusalem"))
+                dt = datetime.strptime(f'{ev["date"]} {t}', "%Y-%m-%d %H:%M").replace(tzinfo=src).astimezone(IL_TZ)
+                d, t = dt.strftime("%Y-%m-%d"), dt.strftime("%H:%M")
+            else:
+                d, t = ev["date"], "—"
+            events.append({
+                "date": d, "time": t, "country": ev.get("country", "—"), "event": ev.get("event", ""),
+                "previous": ev.get("previous") or "—", "forecast": ev.get("forecast") or "—",
+                "indicative": bool(ev.get("indicative")),
+            })
+        except Exception as e:
+            log(f"  calendar.json row skipped ({ev}): {e}")
+    return events
+
+
+def build_calendar(today):
+    horizon = today + timedelta(days=30)
+    manual = manual_calendar()
+    ff = ff_calendar()
+    if ff:
+        # Inside the feed's week the feed wins (it has forecasts); keep manual rows for
+        # other weeks and for countries the feed doesn't cover (e.g. Israel).
+        ff_dates = sorted(e["date"] for e in ff)
+        lo, hi = ff_dates[0], ff_dates[-1]
+        covered = set(FF_COUNTRY.values())
+        manual = [e for e in manual if not (e["country"] in covered and lo <= e["date"] <= hi)]
+        events = ff + manual
+    else:
+        events = manual
+    events = [e for e in events if today.isoformat() <= e["date"] <= horizon.isoformat()]
+    events.sort(key=lambda e: (e["date"], e["time"] if e["time"] != "—" else "99"))
+    return events
+
+
+# ----------------------------------------------------------------------------
 # Assembly
 # ----------------------------------------------------------------------------
 def with_fallback(label, auto_value, manual_value, previous, decimals=2):
@@ -315,27 +547,33 @@ def main():
     # --- Government bond yields ---
     log("Bond yields")
     my = manual.get("bond_yields", {})
-    tenors = ["1Y", "3Y", "5Y", "10Y"]
+    sources = [
+        ("us", "United States", us_treasury_yields),
+        ("israel", "Israel", israel_boi_yields),
+        ("germany", "Germany", germany_bundesbank_yields),
+        ("uk", "United Kingdom", uk_boe_yields),
+        ("japan", "Japan", japan_mof_yields),
+    ]
+    prev_yields = {r.get("key"): r for r in prev.get("bond_yields", [])}
     yields = []
-
-    # United States: FRED if key, else Yahoo for 5Y/10Y, else manual
-    us = {}
-    for t in tenors:
-        v = fred_latest(FRED_US_YIELDS[t])
-        status = "ok"
-        if v is None and t in YF_US_YIELDS:
-            v = yf_last(YF_US_YIELDS[t])
-        if v is None:
-            v = my.get("us", {}).get(t)
-            status = "indicative"
-        us[t] = {"value": round(v, 2) if v is not None else None, "status": status if v is not None else "missing"}
-    yields.append({"key": "us", "label": "United States", "tenors": us})
-
-    for key, label in [("israel", "Israel"), ("germany", "Germany"), ("uk", "United Kingdom"), ("japan", "Japan")]:
+    for key, label, fn in sources:
+        live = fn()
         row = {}
-        for t in tenors:
-            v = my.get(key, {}).get(t)
-            row[t] = {"value": v, "status": "indicative" if v is not None else "missing"}
+        for t in TENORS:
+            v = live.get(t)
+            if v is None and key == "us":
+                v = fred_latest(FRED_US_YIELDS[t])
+            if v is not None:
+                row[t] = {"value": round(v, 2), "status": "ok"}
+                continue
+            m = my.get(key, {}).get(t)
+            p = prev_yields.get(key, {}).get("tenors", {}).get(t, {})
+            if m is not None:
+                row[t] = {"value": m, "status": "indicative"}
+            elif p.get("value") is not None:
+                row[t] = {"value": p["value"], "status": "stale"}
+            else:
+                row[t] = {"value": None, "status": "missing"}
         yields.append({"key": key, "label": label, "tenors": row})
     out["bond_yields"] = yields
 
@@ -357,20 +595,9 @@ def main():
             rows.append(row)
         out["indices"][region] = rows
 
-    # --- Economic calendar (manual file; next 30 days only, sorted) ---
-    cal = load_json(CALENDAR_PATH, {"events": []}).get("events", [])
-    today = now_il.date()
-    horizon = today + timedelta(days=30)
-    events = []
-    for ev in cal:
-        try:
-            d = datetime.strptime(ev["date"], "%Y-%m-%d").date()
-        except Exception:
-            continue
-        if today <= d <= horizon:
-            events.append(ev)
-    events.sort(key=lambda e: (e["date"], e.get("time", "")))
-    out["calendar"] = events
+    # --- Economic calendar (feed + manual file; next 30 days only, sorted) ---
+    log("Calendar")
+    out["calendar"] = build_calendar(now_il.date())
 
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
     with open(OUT_PATH, "w", encoding="utf-8") as f:
