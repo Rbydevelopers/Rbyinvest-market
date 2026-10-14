@@ -9,9 +9,9 @@
 ```
 GitHub Actions (כל שעה)
    └─ scripts/fetch_data.py   ← מושך נתונים מ-Yahoo Finance / ECB / FRED / בנק ישראל
-         └─ public/data.json  ← קובץ נתונים אחד
+         └─ docs/data.json  ← קובץ נתונים אחד
                 └─ commit + push
-                      └─ GitHub Pages מפרסם את תיקיית public/
+                      └─ GitHub Pages מפרסם את תיקיית docs/
                             └─ rbyinvest.com  ← index.html קורא את data.json ומציג
 ```
 
@@ -21,9 +21,9 @@ GitHub Actions (כל שעה)
 
 | קובץ | תפקיד |
 |---|---|
-| `public/index.html` | הדף עצמו (HTML+CSS+JS בקובץ אחד) |
-| `public/data.json` | הנתונים. נכתב אוטומטית. **לא לערוך ידנית** |
-| `public/CNAME` | אומר ל-GitHub Pages שהדומיין הוא rbyinvest.com |
+| `docs/index.html` | הדף עצמו (HTML+CSS+JS בקובץ אחד) |
+| `docs/data.json` | הנתונים. נכתב אוטומטית. **לא לערוך ידנית** |
+| `docs/CNAME` | אומר ל-GitHub Pages שהדומיין הוא rbyinvest.com |
 | `scripts/fetch_data.py` | הסקריפט שאוסף נתונים |
 | `config/manual.json` | ערכים ידניים לנתונים שאין להם מקור חינמי (מוצגים בנטוי) |
 | `config/calendar.json` | היומן הכלכלי (ידני בשלב זה) |
@@ -54,12 +54,12 @@ git push -u origin main
 
 ב-GitHub: **Settings → Pages**
 - Source: `Deploy from a branch`
-- Branch: `main`, Folder: `/public`
+- Branch: `main`, Folder: `/docs`
 - שמור. אחרי דקה-שתיים הדף יעלה בכתובת זמנית `https://rbydevelopers.github.io/rbyinvest-market/`
 
 ### 3. הרצה ראשונה של העדכון
 
-**Actions → Update market data → Run workflow**. בסיום, `public/data.json` יתעדכן עם נתונים אמיתיים (הקובץ שמגיע עם הפרויקט מכיל נתוני דוגמה בלבד).
+**Actions → Update market data → Run workflow**. בסיום, `docs/data.json` יתעדכן עם נתונים אמיתיים (הקובץ שמגיע עם הפרויקט מכיל נתוני דוגמה בלבד).
 
 פתח את הלוג של ההרצה: כל מקור שנכשל מודפס שם (למשל `yfinance TA90.TA: ...`). זה המקום לבדוק אילו סימולים לא עובדים.
 

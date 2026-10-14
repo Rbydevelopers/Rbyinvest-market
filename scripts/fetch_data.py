@@ -22,7 +22,7 @@ except ImportError:  # pragma: no cover
     yf = None
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT_PATH = os.path.join(ROOT, "public", "data.json")
+OUT_PATH = os.path.join(ROOT, "docs", "data.json")
 MANUAL_PATH = os.path.join(ROOT, "config", "manual.json")
 CALENDAR_PATH = os.path.join(ROOT, "config", "calendar.json")
 IL_TZ = ZoneInfo("Asia/Jerusalem")
