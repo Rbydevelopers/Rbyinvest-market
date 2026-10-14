@@ -1,6 +1,6 @@
 {
- "updated_il": "14.10.2026 22:46",
- "updated_iso": "2026-10-14T22:46:16.308473+03:00",
+ "updated_il": "14.10.2026 23:11",
+ "updated_iso": "2026-10-14T23:11:18.333183+03:00",
  "central_bank_rates": [
   {
    "label": "Israel — BoI",
@@ -36,16 +36,16 @@
  "commodities": [
   {
    "label": "VIX",
-   "value": 16.86,
+   "value": 16.9,
    "status": "ok",
-   "d1": 10.412574360988259,
+   "d1": 10.674519396873139,
    "key": "^VIX"
   },
   {
    "label": "Brent Oil",
-   "value": 106.04,
+   "value": 106.05,
    "status": "ok",
-   "d1": 0.33115570634518754,
+   "d1": 0.3406193604273522,
    "key": "BZ=F"
   },
   {
@@ -57,25 +57,25 @@
   },
   {
    "label": "Silver (USD/oz)",
-   "value": 55.84,
+   "value": 55.78,
    "status": "ok",
-   "d1": -5.613493999271768,
+   "d1": -5.714914485745782,
    "key": "SI=F"
   }
  ],
  "fx": [
   {
    "label": "USD/ILS",
-   "value": 3.1005,
+   "value": 3.0999,
    "status": "ok",
-   "d1": 0.9139449056749571,
+   "d1": 0.8944130842872156,
    "key": "ILS=X"
   },
   {
    "label": "EUR/ILS",
-   "value": 3.4477,
+   "value": 3.4474,
    "status": "ok",
-   "d1": 0.41315995706470154,
+   "d1": 0.40442457511533636,
    "key": "EURILS=X"
   }
  ],
@@ -85,15 +85,15 @@
    "label": "United States",
    "tenors": {
     "1Y": {
-     "value": null,
-     "status": "missing"
+     "value": 4.53,
+     "status": "ok"
     },
     "3Y": {
-     "value": null,
-     "status": "missing"
+     "value": 4.92,
+     "status": "ok"
     },
     "5Y": {
-     "value": 4.99,
+     "value": 5.0,
      "status": "ok"
     },
     "10Y": {
@@ -107,20 +107,20 @@
    "label": "Israel",
    "tenors": {
     "1Y": {
-     "value": null,
-     "status": "missing"
+     "value": NaN,
+     "status": "ok"
     },
     "3Y": {
-     "value": null,
-     "status": "missing"
+     "value": NaN,
+     "status": "ok"
     },
     "5Y": {
-     "value": null,
-     "status": "missing"
+     "value": NaN,
+     "status": "ok"
     },
     "10Y": {
-     "value": null,
-     "status": "missing"
+     "value": NaN,
+     "status": "ok"
     }
    }
   },
@@ -129,20 +129,20 @@
    "label": "Germany",
    "tenors": {
     "1Y": {
-     "value": null,
-     "status": "missing"
+     "value": 2.96,
+     "status": "ok"
     },
     "3Y": {
-     "value": null,
-     "status": "missing"
+     "value": 3.15,
+     "status": "ok"
     },
     "5Y": {
-     "value": null,
-     "status": "missing"
+     "value": 3.23,
+     "status": "ok"
     },
     "10Y": {
-     "value": null,
-     "status": "missing"
+     "value": 3.51,
+     "status": "ok"
     }
    }
   },
@@ -159,12 +159,12 @@
      "status": "missing"
     },
     "5Y": {
-     "value": null,
-     "status": "missing"
+     "value": 4.97,
+     "status": "ok"
     },
     "10Y": {
-     "value": null,
-     "status": "missing"
+     "value": 5.39,
+     "status": "ok"
     }
    }
   },
@@ -173,20 +173,20 @@
    "label": "Japan",
    "tenors": {
     "1Y": {
-     "value": null,
-     "status": "missing"
+     "value": 1.66,
+     "status": "ok"
     },
     "3Y": {
-     "value": null,
-     "status": "missing"
+     "value": 2.07,
+     "status": "ok"
     },
     "5Y": {
-     "value": null,
-     "status": "missing"
+     "value": 2.37,
+     "status": "ok"
     },
     "10Y": {
-     "value": null,
-     "status": "missing"
+     "value": 3.02,
+     "status": "ok"
     }
    }
   }
@@ -243,42 +243,42 @@
   "us": [
    {
     "label": "S&P 500",
-    "value": 7710.79,
+    "value": 7718.94,
     "status": "ok",
-    "d1": -1.2127443501829926,
-    "w1": -1.1661453777923159,
-    "m1": 1.191736183382508,
-    "ytd": 12.640275203600915,
+    "d1": -1.1083313805295036,
+    "w1": -1.0616831554588257,
+    "m1": 1.298690563376148,
+    "ytd": 12.759330091392162,
     "key": "^GSPC"
    },
    {
     "label": "Nasdaq Composite",
-    "value": 26672.12,
+    "value": 26692.87,
     "status": "ok",
-    "d1": -1.9565294336282402,
-    "w1": -3.146737661481802,
-    "m1": 1.8548131701781712,
-    "ytd": 14.75832694042194,
+    "d1": -1.8802549537668578,
+    "w1": -3.071389123072521,
+    "m1": 1.934052744736836,
+    "ytd": 14.84760500908453,
     "key": "^IXIC"
    },
    {
     "label": "Dow Jones",
-    "value": 51535.94,
+    "value": 51621.48,
     "status": "ok",
-    "d1": -0.25964755669721784,
-    "w1": 0.6957233476570401,
-    "m1": -1.688740100747943,
-    "ytd": 7.225165841718129,
+    "d1": -0.09409908686009993,
+    "w1": 0.8628575366887326,
+    "m1": -1.5255636305892772,
+    "ytd": 7.403137562273443,
     "key": "^DJI"
    },
    {
     "label": "Russell 2000",
-    "value": 2727.57,
+    "value": 2726.31,
     "status": "ok",
-    "d1": -2.004879707217566,
-    "w1": -2.3497443000129237,
-    "m1": -5.693617965975939,
-    "ytd": 9.897900855438024,
+    "d1": -2.050096292468062,
+    "w1": -2.3948017589802695,
+    "m1": -5.737132505783293,
+    "ytd": 9.847192128431681,
     "key": "^RUT"
    }
   ],
@@ -349,12 +349,236 @@
  },
  "calendar": [
   {
+   "date": "2026-10-14",
+   "time": "15:30",
+   "country": "US",
+   "event": "Core CPI m/m",
+   "previous": "0.3%",
+   "forecast": "0.2%"
+  },
+  {
+   "date": "2026-10-14",
+   "time": "15:30",
+   "country": "US",
+   "event": "Core CPI y/y",
+   "previous": "2.4%",
+   "forecast": "2.5%"
+  },
+  {
+   "date": "2026-10-14",
+   "time": "15:30",
+   "country": "US",
+   "event": "CPI m/m",
+   "previous": "0.4%",
+   "forecast": "0.6%"
+  },
+  {
+   "date": "2026-10-14",
+   "time": "15:30",
+   "country": "US",
+   "event": "CPI y/y",
+   "previous": "3.4%",
+   "forecast": "3.6%"
+  },
+  {
+   "date": "2026-10-15",
+   "time": "09:00",
+   "country": "UK",
+   "event": "GDP m/m",
+   "previous": "0.4%",
+   "forecast": "-0.1%"
+  },
+  {
    "date": "2026-10-15",
    "time": "15:30",
    "country": "US",
-   "event": "CPI (Sep) — example row, replace me",
+   "event": "Core PPI m/m",
+   "previous": "0.2%",
+   "forecast": "0.3%"
+  },
+  {
+   "date": "2026-10-15",
+   "time": "15:30",
+   "country": "US",
+   "event": "Core Retail Sales m/m",
+   "previous": "1.4%",
+   "forecast": "0.6%"
+  },
+  {
+   "date": "2026-10-15",
+   "time": "15:30",
+   "country": "US",
+   "event": "PPI m/m",
+   "previous": "0.4%",
+   "forecast": "0.6%"
+  },
+  {
+   "date": "2026-10-15",
+   "time": "15:30",
+   "country": "US",
+   "event": "Retail Sales m/m",
+   "previous": "1.2%",
+   "forecast": "0.3%"
+  },
+  {
+   "date": "2026-10-15",
+   "time": "18:30",
+   "country": "IL",
+   "event": "CPI (Sep)",
+   "previous": "—",
+   "forecast": "—",
+   "indicative": true
+  },
+  {
+   "date": "2026-10-16",
+   "time": "05:00",
+   "country": "UK",
+   "event": "BOE Gov Bailey Speaks",
    "previous": "—",
    "forecast": "—"
+  },
+  {
+   "date": "2026-10-16",
+   "time": "06:30",
+   "country": "US",
+   "event": "Fed Chairman Warsh Speaks",
+   "previous": "—",
+   "forecast": "—"
+  },
+  {
+   "date": "2026-10-21",
+   "time": "09:00",
+   "country": "UK",
+   "event": "CPI (Sep)",
+   "previous": "—",
+   "forecast": "—",
+   "indicative": false
+  },
+  {
+   "date": "2026-10-21",
+   "time": "16:00",
+   "country": "IL",
+   "event": "Bank of Israel rate decision",
+   "previous": "—",
+   "forecast": "—",
+   "indicative": false
+  },
+  {
+   "date": "2026-10-28",
+   "time": "20:00",
+   "country": "US",
+   "event": "FOMC rate decision",
+   "previous": "—",
+   "forecast": "—",
+   "indicative": false
+  },
+  {
+   "date": "2026-10-29",
+   "time": "14:30",
+   "country": "US",
+   "event": "GDP Q3 (advance)",
+   "previous": "—",
+   "forecast": "—",
+   "indicative": false
+  },
+  {
+   "date": "2026-10-29",
+   "time": "14:30",
+   "country": "US",
+   "event": "PCE / Personal income (Sep)",
+   "previous": "—",
+   "forecast": "—",
+   "indicative": false
+  },
+  {
+   "date": "2026-10-29",
+   "time": "15:15",
+   "country": "EU",
+   "event": "ECB rate decision",
+   "previous": "—",
+   "forecast": "—",
+   "indicative": false
+  },
+  {
+   "date": "2026-10-30",
+   "time": "—",
+   "country": "JP",
+   "event": "BoJ rate decision",
+   "previous": "—",
+   "forecast": "—",
+   "indicative": false
+  },
+  {
+   "date": "2026-11-02",
+   "time": "17:00",
+   "country": "US",
+   "event": "ISM Manufacturing PMI (Oct)",
+   "previous": "—",
+   "forecast": "—",
+   "indicative": true
+  },
+  {
+   "date": "2026-11-03",
+   "time": "17:00",
+   "country": "US",
+   "event": "JOLTS job openings (Sep)",
+   "previous": "—",
+   "forecast": "—",
+   "indicative": false
+  },
+  {
+   "date": "2026-11-04",
+   "time": "17:00",
+   "country": "US",
+   "event": "ISM Services PMI (Oct)",
+   "previous": "—",
+   "forecast": "—",
+   "indicative": true
+  },
+  {
+   "date": "2026-11-04",
+   "time": "—",
+   "country": "EU",
+   "event": "CPI flash (Oct)",
+   "previous": "—",
+   "forecast": "—",
+   "indicative": true
+  },
+  {
+   "date": "2026-11-05",
+   "time": "14:00",
+   "country": "UK",
+   "event": "BoE rate decision",
+   "previous": "—",
+   "forecast": "—",
+   "indicative": false
+  },
+  {
+   "date": "2026-11-06",
+   "time": "15:30",
+   "country": "US",
+   "event": "Non-farm payrolls / Unemployment (Oct)",
+   "previous": "—",
+   "forecast": "—",
+   "indicative": false
+  },
+  {
+   "date": "2026-11-10",
+   "time": "15:30",
+   "country": "US",
+   "event": "CPI (Oct)",
+   "previous": "—",
+   "forecast": "—",
+   "indicative": false
+  },
+  {
+   "date": "2026-11-13",
+   "time": "15:30",
+   "country": "US",
+   "event": "PPI (Oct)",
+   "previous": "—",
+   "forecast": "—",
+   "indicative": false
   }
  ]
 }
