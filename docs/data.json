@@ -1,6 +1,6 @@
 {
- "updated_il": "18.10.2026 00:23",
- "updated_iso": "2026-10-18T00:23:24.914752+03:00",
+ "updated_il": "18.10.2026 10:56",
+ "updated_iso": "2026-10-18T10:56:51.206477+03:00",
  "central_bank_rates": [
   {
    "label": "Israel — BoI",
@@ -57,9 +57,9 @@
   },
   {
    "label": "Silver (USD/oz)",
-   "value": 56.99,
+   "value": 57.31,
    "status": "ok",
-   "d1": 0.2779828744347457,
+   "d1": 0.8234046304572029,
    "key": "SI=F"
   }
  ],
@@ -352,10 +352,9 @@
    "date": "2026-10-21",
    "time": "09:00",
    "country": "UK",
-   "event": "CPI (Sep)",
-   "previous": "—",
-   "forecast": "—",
-   "indicative": false
+   "event": "CPI y/y",
+   "previous": "3.1%",
+   "forecast": "3.4%"
   },
   {
    "date": "2026-10-21",
