@@ -1,6 +1,6 @@
 {
- "updated_il": "18.10.2026 22:22",
- "updated_iso": "2026-10-18T22:22:43.083784+03:00",
+ "updated_il": "19.10.2026 01:22",
+ "updated_iso": "2026-10-19T01:22:57.239156+03:00",
  "central_bank_rates": [
   {
    "label": "Israel — BoI",
@@ -43,23 +43,23 @@
   },
   {
    "label": "Brent Oil",
-   "value": 109.86,
+   "value": 108.81,
    "status": "ok",
-   "d1": 3.7197908888950693,
+   "d1": -0.9557646513055573,
    "key": "BZ=F"
   },
   {
    "label": "Gold (USD/oz)",
-   "value": 4181.1,
+   "value": 4195.0,
    "status": "ok",
-   "d1": 0.2637826369247698,
+   "d1": 0.3324460553226549,
    "key": "GC=F"
   },
   {
    "label": "Silver (USD/oz)",
-   "value": 57.31,
+   "value": 57.44,
    "status": "ok",
-   "d1": 0.8234046304572029,
+   "d1": 0.7720018416564889,
    "key": "SI=F"
   }
  ],
@@ -73,9 +73,9 @@
   },
   {
    "label": "EUR/ILS",
-   "value": 3.4629,
+   "value": 3.4712,
    "status": "ok",
-   "d1": -0.3767306977388585,
+   "d1": -0.13794825294354274,
    "key": "EURILS=X"
   }
  ],
@@ -490,6 +490,15 @@
    "previous": "—",
    "forecast": "—",
    "indicative": true
+  },
+  {
+   "date": "2026-11-18",
+   "time": "09:00",
+   "country": "UK",
+   "event": "CPI (Oct)",
+   "previous": "—",
+   "forecast": "—",
+   "indicative": false
   }
  ]
 }
