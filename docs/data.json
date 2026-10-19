@@ -1,6 +1,6 @@
 {
- "updated_il": "19.10.2026 19:11",
- "updated_iso": "2026-10-19T19:11:47.938926+03:00",
+ "updated_il": "19.10.2026 19:24",
+ "updated_iso": "2026-10-19T19:24:55.683361+03:00",
  "central_bank_rates": [
   {
    "label": "Israel — BoI",
@@ -11,9 +11,11 @@
   },
   {
    "label": "United States — Fed",
-   "value": null,
-   "status": "missing",
-   "key": "us"
+   "value": 4.0,
+   "status": "ok",
+   "key": "us",
+   "display": "3.75–4.00%",
+   "as_of": "2026-10-19"
   },
   {
    "label": "Euro Area — ECB",
@@ -39,33 +41,33 @@
  "commodities": [
   {
    "label": "VIX",
-   "value": 17.55,
+   "value": 17.95,
    "status": "ok",
-   "d1": -12.206105862907336,
+   "d1": -10.205097706534893,
    "key": "^VIX",
    "as_of": "2026-10-19"
   },
   {
    "label": "Brent Oil",
-   "value": 109.47,
+   "value": 109.52,
    "status": "ok",
-   "d1": -0.35499671170736713,
+   "d1": -0.30948840833441293,
    "key": "BZ=F",
    "as_of": "2026-10-19"
   },
   {
    "label": "Gold (USD/oz)",
-   "value": 4159.9,
+   "value": 4163.6,
    "status": "ok",
-   "d1": -0.5070482604418891,
+   "d1": -0.41855013253114803,
    "key": "GC=F",
    "as_of": "2026-10-19"
   },
   {
    "label": "Silver (USD/oz)",
-   "value": 57.35,
+   "value": 57.44,
    "status": "ok",
-   "d1": 0.6316354366140198,
+   "d1": 0.7807697221927201,
    "key": "SI=F",
    "as_of": "2026-10-19"
   }
@@ -73,17 +75,17 @@
  "fx": [
   {
    "label": "USD/ILS",
-   "value": 3.1013,
+   "value": 3.1,
    "status": "ok",
-   "d1": -0.0583309585800218,
+   "d1": -0.10022752300795634,
    "key": "ILS=X",
    "as_of": "2026-10-19"
   },
   {
    "label": "EUR/ILS",
-   "value": 3.4644,
+   "value": 3.4643,
    "status": "ok",
-   "d1": -0.3335738556783596,
+   "d1": -0.336454636616923,
    "key": "EURILS=X",
    "as_of": "2026-10-19"
   }
@@ -255,15 +257,10 @@
    },
    {
     "label": "TA Banks 5",
-    "value": 7767.0,
-    "status": "ok",
-    "d1": 0.1547388781431236,
-    "w1": 4.945277665180381,
-    "m1": -3.6830357142857095,
-    "ytd": 6.89512799339389,
-    "src": "HRL-F12.TA",
-    "key": "TA-BANKS5.TA",
-    "as_of": "2026-10-19"
+    "value": null,
+    "status": "missing",
+    "src": "TA-BANKS.TA",
+    "key": "TA-BANKS5.TA"
    },
    {
     "label": "TA Insurance",
@@ -275,45 +272,45 @@
   "us": [
    {
     "label": "S&P 500",
-    "value": 7713.94,
+    "value": 7709.78,
     "status": "ok",
-    "d1": 0.711540274705702,
-    "w1": -1.195048316278935,
-    "m1": 0.8292260820371267,
-    "ytd": 12.686289407731355,
+    "d1": 0.6572261697342485,
+    "w1": -1.2483341909940826,
+    "m1": 0.7748485086759072,
+    "ytd": 12.625517276404196,
     "key": "^GSPC",
     "as_of": "2026-10-19"
    },
    {
     "label": "Nasdaq Composite",
-    "value": 26555.43,
+    "value": 26527.61,
     "status": "ok",
-    "d1": 1.5891276661639475,
-    "w1": -2.534225870133411,
-    "m1": 0.12400272763288811,
-    "ytd": 14.256255452252153,
+    "d1": 1.482707129832228,
+    "w1": -2.6363269531446853,
+    "m1": 0.019116995126489122,
+    "ytd": 14.13656536076482,
     "key": "^IXIC",
     "as_of": "2026-10-19"
    },
    {
     "label": "Dow Jones",
-    "value": 52005.37,
+    "value": 52010.92,
     "status": "ok",
-    "d1": 0.005693846671928071,
-    "w1": 0.29858952348098544,
-    "m1": 0.6244465546791034,
-    "ytd": 8.201856568999766,
+    "d1": 0.016367931264005264,
+    "w1": 0.30929487022535174,
+    "m1": 0.6351866816983076,
+    "ytd": 8.21340546912348,
     "key": "^DJI",
     "as_of": "2026-10-19"
    },
    {
     "label": "Russell 2000",
-    "value": 2741.11,
+    "value": 2735.17,
     "status": "ok",
-    "d1": 0.7255130920883257,
-    "w1": -1.9096922207302192,
-    "m1": -4.170252158592747,
-    "ytd": 10.44373529828093,
+    "d1": 0.5069109044695708,
+    "w1": -2.122575284876449,
+    "m1": -4.378229183221382,
+    "ytd": 10.20404188393298,
     "key": "^RUT",
     "as_of": "2026-10-19"
    }
@@ -545,7 +542,6 @@
  ],
  "_log": [
   "Central bank rates",
-  "  FRED csv DFEDTARU: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)",
   "Commodities",
   "FX",
   "Bond yields",
@@ -556,8 +552,8 @@
   "  UK yields: {'1Y': None, '3Y': None, '5Y': 4.9187, '10Y': 5.3092}",
   "  JP yields (2026/10/16): {'1Y': 1.649, '3Y': 2.05, '5Y': 2.335, '10Y': 2.958}",
   "Indices: israel",
-  "  search 'TA Banks 5': HRL-F12.TA[TLV], TA-BANKS.TA[TLV], 204.TA[TLV]",
-  "  search 'TA Insurance': 0966.HK[HKG], CTIHY[PNK], AKHI.QA[DOH], HIUC.MU[MUN], HIUC.F[FRA]",
+  "  search 'TA Banks 5': HRL-F12.TA[TLV] Harel Index Funds Ltd. - Harel Sal (4A) TA-Banks 5, TA-BANKS.TA[TLV] TA Banks-5, 204.TA[TLV] TA Banks 5-Equal Weight",
+  "  search 'TA Insurance': 0966.HK[HKG] China Taiping Insurance Holdings Company Limited, CTIHY[PNK] China Taiping Insurance Holdings Company Limited, AKHI.QA[DOH] Al Khaleej Takaful Insurance Company Q.P.S.C., HIUC.MU[MUN] China Taiping Insurance Holdings Co Ltd, HIUC.F[FRA] China Taiping Insurance Holdings Company Limited",
   "Indices: us",
   "Indices: europe",
   "Indices: asia",
