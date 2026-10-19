@@ -9,6 +9,7 @@ Design:
     (the page shows them in italic).
 """
 import json
+import math
 import os
 import sys
 from datetime import datetime, date, timedelta
@@ -80,8 +81,12 @@ YF_US_YIELDS = {"5Y": "^FVX", "10Y": "^TNX"}
 # ----------------------------------------------------------------------------
 # Helpers
 # ----------------------------------------------------------------------------
+LOGS = []
+
+
 def log(msg):
     print(msg, file=sys.stderr)
+    LOGS.append(str(msg)[:2000])
 
 
 def load_json(path, default):
@@ -151,6 +156,22 @@ def yf_performance(label, symbol):
     )
 
 
+def find_symbol(label):
+    """Ask Yahoo's search for a Tel Aviv index matching the label; logs what it finds."""
+    if yf is None or not hasattr(yf, "Search"):
+        return None
+    try:
+        quotes = yf.Search(label.split("—")[0].strip(), max_results=10).quotes
+        log(f"  search '{label}': " + ", ".join(f"{q.get('symbol')}[{q.get('exchange')}]" for q in quotes))
+        for q in quotes:
+            s = str(q.get("symbol", ""))
+            if q.get("exchange") == "TLV" or s.endswith(".TA"):
+                return s
+    except Exception as e:
+        log(f"  search '{label}': {e}")
+    return None
+
+
 def yf_last_and_1d(label, symbol, decimals):
     closes = yf_history(symbol)
     if closes is None or len(closes) < 2:
@@ -183,6 +204,21 @@ def fred_latest(series_id):
                 return float(obs["value"])
     except Exception as e:
         log(f"  FRED {series_id}: {e}")
+    return None
+
+
+def fred_csv_latest(series_id):
+    """FRED public CSV (no API key needed)."""
+    try:
+        r = requests.get("https://fred.stlouisfed.org/graph/fredgraph.csv", params={"id": series_id},
+                         headers={"User-Agent": "Mozilla/5.0"}, timeout=25)
+        r.raise_for_status()
+        for line in reversed(r.text.strip().splitlines()[1:]):
+            v = _to_float(line.split(",")[-1])
+            if v is not None:
+                return v
+    except Exception as e:
+        log(f"  FRED csv {series_id}: {e}")
     return None
 
 
@@ -255,9 +291,10 @@ UA = {"User-Agent": "Mozilla/5.0 (market-dashboard; personal use)"}
 
 def _to_float(s):
     try:
-        return float(str(s).strip().strip('"').replace(",", "."))
+        v = float(str(s).strip().strip('"').replace(",", "."))
     except (ValueError, TypeError):
         return None
+    return v if math.isfinite(v) else None
 
 
 def us_treasury_yields():
@@ -382,6 +419,9 @@ def israel_boi_yields():
         import io
         sheets = pd.read_excel(io.BytesIO(r.content), sheet_name=None, header=None)
         for name, df in sheets.items():
+            log(f"  IL sheet '{name}' shape={df.shape}\n" + df.head(10).to_string(max_cols=14)[:1500]
+                + "\n...\n" + df.tail(3).to_string(max_cols=14)[:800])
+        for name, df in sheets.items():
             df = df.dropna(how="all")
             # find a header row whose cells contain maturities 1,3,5,10 (as numbers or text)
             for hi in range(min(len(df), 40)):
@@ -396,7 +436,7 @@ def israel_boi_yields():
                     body = df.iloc[hi + 1:]
                     for _, brow in body[::-1].iterrows():
                         vals = {t: _to_float(brow.iloc[c]) if c is not None else None for t, c in cols.items()}
-                        if vals["10Y"] is not None:
+                        if all(v is not None and -5 < v < 30 for v in vals.values()):
                             out = vals
                             log(f"  IL yields (sheet {name}, row {brow.iloc[0]}): {out}")
                             return out
@@ -486,9 +526,44 @@ def with_fallback(label, auto_value, manual_value, previous, decimals=2):
         return item(label, round(auto_value, decimals), "ok")
     if manual_value is not None:
         return item(label, manual_value, "indicative")
-    if previous and previous.get("value") is not None:
-        return item(label, previous["value"], "stale")
+    if ok_prev(previous):
+        return item(label, previous["value"], "stale", as_of=previous["as_of"])
     return item(label)
+
+
+TODAY = date.today()
+
+
+def ok_prev(p):
+    """A previous value may be shown (in italic) only if it was fetched for real within 7 days."""
+    try:
+        return (p and p.get("value") is not None and p.get("as_of")
+                and (TODAY - date.fromisoformat(p["as_of"])).days <= 7)
+    except Exception:
+        return False
+
+
+def stamp(obj):
+    """Add as_of=today to every freshly fetched ('ok') value."""
+    if isinstance(obj, dict):
+        if obj.get("status") == "ok" and "value" in obj:
+            obj["as_of"] = TODAY.isoformat()
+        for v in obj.values():
+            stamp(v)
+    elif isinstance(obj, list):
+        for v in obj:
+            stamp(v)
+
+
+def clean(obj):
+    """Replace NaN/inf with None so the file is always valid JSON for browsers."""
+    if isinstance(obj, float) and not math.isfinite(obj):
+        return None
+    if isinstance(obj, dict):
+        return {k: clean(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [clean(v) for v in obj]
+    return obj
 
 
 def previous_lookup(prev_data, section, key):
@@ -509,7 +584,7 @@ def main():
     m = manual.get("central_bank_rates", {})
     rates = [
         ("israel", "Israel — BoI", boi_interest_rate()),
-        ("us", "United States — Fed", fred_latest(FRED_FED_RATE)),
+        ("us", "United States — Fed", fred_latest(FRED_FED_RATE) or fred_csv_latest(FRED_FED_RATE)),
         ("ecb", "Euro Area — ECB", ecb_deposit_rate()),
         ("uk", "United Kingdom — BoE", boe_bank_rate()),
         ("japan", "Japan — BoJ", None),  # no free API; manual only
@@ -528,7 +603,7 @@ def main():
         row["key"] = sym
         if row["status"] == "missing":
             p = previous_lookup(prev, "commodities", sym)
-            if p and p.get("value") is not None:
+            if ok_prev(p):
                 row = dict(p, status="stale")
         out["commodities"].append(row)
 
@@ -540,7 +615,7 @@ def main():
         row["key"] = sym
         if row["status"] == "missing":
             p = previous_lookup(prev, "fx", sym)
-            if p and p.get("value") is not None:
+            if ok_prev(p):
                 row = dict(p, status="stale")
         out["fx"].append(row)
 
@@ -563,15 +638,15 @@ def main():
             v = live.get(t)
             if v is None and key == "us":
                 v = fred_latest(FRED_US_YIELDS[t])
-            if v is not None:
+            if v is not None and -5 < v < 30:
                 row[t] = {"value": round(v, 2), "status": "ok"}
                 continue
             m = my.get(key, {}).get(t)
             p = prev_yields.get(key, {}).get("tenors", {}).get(t, {})
             if m is not None:
                 row[t] = {"value": m, "status": "indicative"}
-            elif p.get("value") is not None:
-                row[t] = {"value": p["value"], "status": "stale"}
+            elif ok_prev(p):
+                row[t] = {"value": p["value"], "status": "stale", "as_of": p["as_of"]}
             else:
                 row[t] = {"value": None, "status": "missing"}
         yields.append({"key": key, "label": label, "tenors": row})
@@ -584,11 +659,16 @@ def main():
         rows = []
         for label, sym in lst:
             row = yf_performance(label, sym)
+            if row["status"] == "missing":
+                alt = find_symbol(label)
+                if alt and alt != sym:
+                    row = yf_performance(label, alt)
+                    row["src"] = alt
             row["key"] = sym
             if row["status"] == "missing":
                 try:
                     p = next(x for x in prev["indices"][region] if x.get("key") == sym)
-                    if p.get("value") is not None:
+                    if ok_prev(p):
                         row = dict(p, status="stale")
                 except Exception:
                     pass
@@ -601,7 +681,9 @@ def main():
 
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
     with open(OUT_PATH, "w", encoding="utf-8") as f:
-        json.dump(out, f, ensure_ascii=False, indent=1)
+        stamp(out)
+        out["_log"] = LOGS[-300:]
+        json.dump(clean(out), f, ensure_ascii=False, indent=1, allow_nan=False)
     log(f"Wrote {OUT_PATH}")
 
 

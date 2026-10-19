@@ -285,7 +285,8 @@
 
   // --- load data (cache-busted so phones never show a stale copy) ---
   fetch('data.json?t=' + Date.now(), { cache: 'no-store' })
-    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(r => { if (!r.ok) throw new Error(r.status); return r.text(); })
+    .then(t => JSON.parse(t.replace(/\bNaN\b|-?Infinity\b/g, 'null')))
     .then(d => {
       $('updated').textContent = d.updated_il || '—';
       renderRates(d.central_bank_rates || []);
