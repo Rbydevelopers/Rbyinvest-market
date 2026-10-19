@@ -188,7 +188,7 @@
   // --- renderers ---
   function renderRates(rows) {
     $('t-rates').innerHTML = rows.map(r =>
-      `<tr class="${indClass(r.status)}"><td>${esc(r.label)}</td><td class="pct">${r.value == null ? DASH : fmtNum(r.value, 2) + '%'}</td></tr>`).join('');
+      `<tr class="${indClass(r.status)}"><td>${esc(r.label)}</td><td class="pct">${r.value == null ? DASH : (r.display ? esc(r.display) : fmtNum(r.value, 2) + '%')}</td></tr>`).join('');
   }
   function renderLast1D(id, rows) {
     $(id).innerHTML = rows.map(r =>

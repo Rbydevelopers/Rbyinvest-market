@@ -162,10 +162,11 @@ def find_symbol(label):
         return None
     try:
         quotes = yf.Search(label.split("—")[0].strip(), max_results=10).quotes
-        log(f"  search '{label}': " + ", ".join(f"{q.get('symbol')}[{q.get('exchange')}]" for q in quotes))
+        log(f"  search '{label}': " + ", ".join(
+            f"{q.get('symbol')}[{q.get('exchange')}] {q.get('longname') or q.get('shortname')}" for q in quotes))
         for q in quotes:
             s = str(q.get("symbol", ""))
-            if q.get("exchange") == "TLV" or s.endswith(".TA"):
+            if s.startswith("TA-") and s.endswith(".TA"):
                 return s
     except Exception as e:
         log(f"  search '{label}': {e}")
@@ -205,6 +206,19 @@ def fred_latest(series_id):
     except Exception as e:
         log(f"  FRED {series_id}: {e}")
     return None
+
+
+def nyfed_target_range():
+    """Fed funds target range from the New York Fed (no key). Returns (low, high) or (None, None)."""
+    try:
+        r = requests.get("https://markets.newyorkfed.org/api/rates/unsecured/effr/last/1.json",
+                         headers={"User-Agent": "Mozilla/5.0"}, timeout=25)
+        r.raise_for_status()
+        x = r.json()["refRates"][0]
+        return _to_float(x.get("targetRateFrom")), _to_float(x.get("targetRateTo"))
+    except Exception as e:
+        log(f"  NY Fed: {e}")
+        return None, None
 
 
 def fred_csv_latest(series_id):
@@ -537,7 +551,7 @@ TODAY = date.today()
 def ok_prev(p):
     """A previous value may be shown (in italic) only if it was fetched for real within 7 days."""
     try:
-        return (p and p.get("value") is not None and p.get("as_of")
+        return (p and p.get("value") is not None and p.get("as_of") and not p.get("src")
                 and (TODAY - date.fromisoformat(p["as_of"])).days <= 7)
     except Exception:
         return False
@@ -582,9 +596,12 @@ def main():
     # --- A. Central bank rates ---
     log("Central bank rates")
     m = manual.get("central_bank_rates", {})
+    fed_lo, fed_hi = nyfed_target_range()
+    if fed_hi is None:
+        fed_hi = fred_latest(FRED_FED_RATE) or fred_csv_latest(FRED_FED_RATE)
     rates = [
         ("israel", "Israel — BoI", boi_interest_rate()),
-        ("us", "United States — Fed", fred_latest(FRED_FED_RATE) or fred_csv_latest(FRED_FED_RATE)),
+        ("us", "United States — Fed", fed_hi),
         ("ecb", "Euro Area — ECB", ecb_deposit_rate()),
         ("uk", "United Kingdom — BoE", boe_bank_rate()),
         ("japan", "Japan — BoJ", None),  # no free API; manual only
@@ -593,6 +610,8 @@ def main():
     for key, label, auto in rates:
         row = with_fallback(label, auto, m.get(key), previous_lookup(prev, "central_bank_rates", key))
         row["key"] = key
+        if key == "us" and row["status"] == "ok" and fed_lo is not None:
+            row["display"] = f"{fed_lo:.2f}–{fed_hi:.2f}%"
         out["central_bank_rates"].append(row)
 
     # --- B. Commodities & volatility ---
@@ -664,6 +683,8 @@ def main():
                 if alt and alt != sym:
                     row = yf_performance(label, alt)
                     row["src"] = alt
+                    if row["status"] == "ok":
+                        row["status"] = "indicative"   # symbol found by search, not yet verified
             row["key"] = sym
             if row["status"] == "missing":
                 try:
