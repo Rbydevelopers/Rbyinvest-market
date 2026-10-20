@@ -60,6 +60,7 @@
   .menu-panel ul { list-style: none; margin: 0; padding: 0; }
   .menu-panel li + li { border-top: 1px solid var(--row-alt); }
   .menu-item { display: block; width: 100%; text-align: left; border: 0; background: #fff; font: inherit; padding: 11px 14px; cursor: pointer; color: var(--text); }
+  a.menu-item { text-decoration: none; border-top: 1px solid var(--line, #e2e8f0); }
   .menu-item b { display: block; font-size: 14px; font-weight: 600; color: var(--navy); }
   .menu-item span { display: block; margin-top: 2px; font-size: 12px; color: var(--muted); }
   .menu-item.active { background: var(--row-alt); box-shadow: inset 3px 0 0 var(--navy); }
@@ -286,7 +287,7 @@
   $('menuList').innerHTML = pageIds.map(id => {
     const m = MENU[id] || [id, ''];
     return `<li><button type="button" class="menu-item" role="menuitem" data-page="${id}"><b>${esc(m[0])}</b><span>${esc(m[1])}</span></button></li>`;
-  }).join('');
+  }).join('') + `<li><a class="menu-item" role="menuitem" href="reviews/bits-of-gold/"><b>Company Review ↗</b><span>Bits of Gold · strategic investment report (Hebrew)</span></a></li>`;
   function setMenu(open) {
     menuPanel.hidden = menuBackdrop.hidden = !open;
     menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
@@ -296,7 +297,7 @@
   menuBackdrop.addEventListener('click', () => setMenu(false));
   menuPanel.addEventListener('click', e => {
     const b = e.target.closest('.menu-item');
-    if (!b) return;
+    if (!b || !b.dataset.page) return; // external links (e.g. the company review) just navigate
     showPage(b.dataset.page, Math.sign(pageIds.indexOf(b.dataset.page) - pageIds.indexOf(current)));
     setMenu(false); menuBtn.focus();
     const heroBottom = $('hero').offsetHeight;
