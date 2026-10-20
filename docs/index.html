@@ -30,12 +30,43 @@
   }
   .wrap { max-width: 520px; margin: 0 auto; padding: 12px 12px 40px; }
 
-  header { border-bottom: 3px solid var(--navy); padding-bottom: 6px; margin-bottom: 8px; }
-  header h1 { margin: 0; font-size: 22px; letter-spacing: .04em; color: var(--navy); font-weight: 700; }
-  header .updated { margin: 2px 0 0; font-size: 12px; color: var(--muted); }
-  header .updated b { color: var(--text); font-weight: 600; }
+  [hidden] { display: none !important; }
 
-  nav.tabs { position: sticky; top: 0; z-index: 5; background: var(--bg); display: flex; gap: 4px; padding: 6px 0; border-bottom: 1px solid var(--border); margin-bottom: 6px; overflow-x: auto; }
+  /* ---------- hero: logo + trading-room backdrop ---------- */
+  .hero { position: relative; isolation: isolate; overflow: hidden; background: #06142e; color: #fff; border-bottom: 3px solid var(--navy-soft); }
+  .hero-bg { position: absolute; inset: 0; width: 100%; height: 100%; z-index: -2; display: block; }
+  .hero::after { content: ""; position: absolute; inset: 0; z-index: -1;
+    background: linear-gradient(90deg, rgba(5,15,38,.9) 0%, rgba(5,15,38,.5) 55%, rgba(5,15,38,.1) 100%),
+                linear-gradient(0deg, rgba(5,15,38,.55) 0%, rgba(5,15,38,0) 45%); }
+  @media (min-width: 700px) {
+    .hero::after { background: linear-gradient(90deg, rgba(5,15,38,.3) 0%, rgba(5,15,38,.9) calc(50% - 300px), rgba(5,15,38,.9) calc(50% + 120px), rgba(5,15,38,.3) calc(50% + 420px), rgba(5,15,38,.12) 100%),
+                                 linear-gradient(0deg, rgba(5,15,38,.5) 0%, rgba(5,15,38,0) 45%); }
+  }
+  .hero-inner { max-width: 520px; margin: 0 auto; padding: 20px 16px 22px; min-height: 176px; }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .brand svg { width: 46px; height: 46px; flex: none; }
+  .brand .word { font-size: 28px; font-weight: 700; letter-spacing: .1em; line-height: 1; }
+  .brand .word small { display: block; margin-top: 5px; font-size: 11px; font-weight: 500; letter-spacing: .46em; color: #9fb6dc; }
+  .hero h1 { margin: 16px 0 0; font-size: 13px; font-weight: 600; letter-spacing: .2em; color: #cfe0ff; }
+  .hero .updated { margin: 3px 0 0; font-size: 12px; color: #aebfdc; }
+  .hero .updated b { color: #fff; font-weight: 600; }
+
+  .bar { position: sticky; top: 0; z-index: 10; background: var(--bg); display: flex; align-items: center; gap: 8px; padding: 6px 0; border-bottom: 1px solid var(--border); margin-bottom: 6px; }
+  nav.tabs { flex: 1; min-width: 0; display: flex; gap: 4px; overflow-x: auto; }
+  .menu-btn { flex: none; width: 42px; height: 34px; display: grid; place-items: center; border: 1px solid var(--navy); background: var(--navy); color: #fff; border-radius: 6px; cursor: pointer; padding: 0; }
+  .menu-btn svg { width: 20px; height: 20px; }
+  .menu-btn[aria-expanded="true"] { background: var(--navy-soft); }
+  .menu-panel { position: absolute; top: calc(100% + 6px); left: 0; right: 0; background: #fff; border: 1px solid var(--border); border-radius: 10px; box-shadow: 0 14px 32px rgba(11,42,85,.28); overflow: hidden; animation: menuIn .16s ease-out; }
+  .menu-panel ul { list-style: none; margin: 0; padding: 0; }
+  .menu-panel li + li { border-top: 1px solid var(--row-alt); }
+  .menu-item { display: block; width: 100%; text-align: left; border: 0; background: #fff; font: inherit; padding: 11px 14px; cursor: pointer; color: var(--text); }
+  .menu-item b { display: block; font-size: 14px; font-weight: 600; color: var(--navy); }
+  .menu-item span { display: block; margin-top: 2px; font-size: 12px; color: var(--muted); }
+  .menu-item.active { background: var(--row-alt); box-shadow: inset 3px 0 0 var(--navy); }
+  .menu-item:focus-visible, .menu-btn:focus-visible { outline: 2px solid var(--navy-soft); outline-offset: -2px; }
+  .menu-backdrop { position: fixed; inset: 0; z-index: 8; background: rgba(5,15,38,.35); }
+  @keyframes menuIn { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: none; } }
+  @media (prefers-reduced-motion: reduce) { .menu-panel { animation: none; } }
   nav.tabs button { flex: 1 0 auto; border: 1px solid var(--border); background: #fff; color: var(--navy); font: inherit; font-size: 12px; font-weight: 600; padding: 6px 8px; border-radius: 6px; white-space: nowrap; }
   nav.tabs button.active { background: var(--navy); color: #fff; border-color: var(--navy); }
 
@@ -91,12 +122,88 @@
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header>
+<header class="hero" id="hero">
+  <svg class="hero-bg" viewBox="0 0 800 240" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false">
+    <defs>
+      <linearGradient id="rbyWall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0b2350"/><stop offset="1" stop-color="#040c20"/></linearGradient>
+      <radialGradient id="rbyGlow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#3b82f6" stop-opacity=".38"/><stop offset="1" stop-color="#3b82f6" stop-opacity="0"/></radialGradient>
+      <filter id="rbyBlur" x="-5%" y="-5%" width="110%" height="110%"><feGaussianBlur stdDeviation="1.1"/></filter>
+      <symbol id="scrUp" viewBox="0 0 100 56">
+        <rect x=".5" y=".5" width="99" height="55" rx="3" fill="#0c2757" stroke="#2f62b3"/>
+        <path d="M8 14H92M8 28H92M8 42H92" stroke="#1d437f" stroke-width=".6"/>
+        <path d="M10 52v-6M20 52v-10M30 52v-5M40 52v-12M50 52v-8M60 52v-14M70 52v-9M80 52v-16M90 52v-11" stroke="#2b5cab" stroke-width="4"/>
+        <polyline points="6,40 18,34 28,37 40,26 52,29 64,18 76,21 88,9 95,11" fill="none" stroke="#34e0a1" stroke-width="2"/>
+      </symbol>
+      <symbol id="scrDown" viewBox="0 0 100 56">
+        <rect x=".5" y=".5" width="99" height="55" rx="3" fill="#0c2757" stroke="#2f62b3"/>
+        <path d="M8 14H92M8 28H92M8 42H92" stroke="#1d437f" stroke-width=".6"/>
+        <path d="M10 52v-9M20 52v-6M30 52v-12M40 52v-7M50 52v-14M60 52v-8M70 52v-11M80 52v-5M90 52v-9" stroke="#2b5cab" stroke-width="4"/>
+        <polyline points="6,10 18,16 28,13 40,24 52,21 64,32 76,29 88,40 95,38" fill="none" stroke="#ff6b6b" stroke-width="2"/>
+      </symbol>
+      <symbol id="scrMix" viewBox="0 0 100 56">
+        <rect x=".5" y=".5" width="99" height="55" rx="3" fill="#0c2757" stroke="#2f62b3"/>
+        <path d="M8 14H92M8 28H92M8 42H92" stroke="#1d437f" stroke-width=".6"/>
+        <path d="M10 52v-8M20 52v-12M30 52v-6M40 52v-10M50 52v-13M60 52v-7M70 52v-12M80 52v-9M90 52v-6" stroke="#2b5cab" stroke-width="4"/>
+        <polyline points="6,30 16,22 26,34 36,18 46,30 56,14 66,28 76,20 86,32 95,24" fill="none" stroke="#f5c451" stroke-width="2"/>
+      </symbol>
+      <symbol id="rbyMon" viewBox="0 0 52 36">
+        <rect x=".5" y=".5" width="51" height="29" rx="2" fill="#0b2a5c" stroke="#2a5cab"/>
+        <polyline points="5,22 13,16 21,19 30,10 38,14 47,6" fill="none" stroke="#34e0a1" stroke-width="1.4"/>
+        <path d="M26 30v5M16 35.5h20" stroke="#1c4a8f" stroke-width="1.5"/>
+      </symbol>
+    </defs>
+    <rect width="800" height="240" fill="url(#rbyWall)"/>
+    <ellipse cx="520" cy="80" rx="380" ry="100" fill="url(#rbyGlow)"/>
+    <g filter="url(#rbyBlur)" opacity=".85">
+      <use href="#scrUp" x="-14" y="6" width="104" height="58"/><use href="#scrMix" x="96" y="6" width="104" height="58"/>
+      <use href="#scrDown" x="206" y="6" width="104" height="58"/><use href="#scrUp" x="316" y="6" width="104" height="58"/>
+      <use href="#scrMix" x="426" y="6" width="104" height="58"/><use href="#scrUp" x="536" y="6" width="104" height="58"/>
+      <use href="#scrDown" x="646" y="6" width="104" height="58"/><use href="#scrMix" x="756" y="6" width="104" height="58"/>
+      <use href="#scrMix" x="-69" y="70" width="104" height="58"/><use href="#scrUp" x="41" y="70" width="104" height="58"/>
+      <use href="#scrUp" x="151" y="70" width="104" height="58"/><use href="#scrDown" x="261" y="70" width="104" height="58"/>
+      <use href="#scrMix" x="371" y="70" width="104" height="58"/><use href="#scrDown" x="481" y="70" width="104" height="58"/>
+      <use href="#scrUp" x="591" y="70" width="104" height="58"/><use href="#scrUp" x="701" y="70" width="104" height="58"/>
+    </g>
+    <rect y="170" width="800" height="70" fill="#050d22"/>
+    <rect y="170" width="800" height="2" fill="#1c3f7a" opacity=".8"/>
+    <g opacity=".95">
+      <use href="#rbyMon" x="24" y="140" width="52" height="36"/><use href="#rbyMon" x="124" y="140" width="52" height="36"/>
+      <use href="#rbyMon" x="224" y="140" width="52" height="36"/><use href="#rbyMon" x="324" y="140" width="52" height="36"/>
+      <use href="#rbyMon" x="424" y="140" width="52" height="36"/><use href="#rbyMon" x="524" y="140" width="52" height="36"/>
+      <use href="#rbyMon" x="624" y="140" width="52" height="36"/><use href="#rbyMon" x="724" y="140" width="52" height="36"/>
+    </g>
+    <g fill="#02050f">
+      <g transform="translate(70 192)"><circle r="9"/><path d="M-19 30Q-19 10 0 10Q19 10 19 30Z"/></g>
+      <g transform="translate(170 194)"><circle r="9"/><path d="M-19 30Q-19 10 0 10Q19 10 19 30Z"/></g>
+      <g transform="translate(330 192)"><circle r="9"/><path d="M-19 30Q-19 10 0 10Q19 10 19 30Z"/></g>
+      <g transform="translate(450 195)"><circle r="9"/><path d="M-19 30Q-19 10 0 10Q19 10 19 30Z"/></g>
+      <g transform="translate(590 192)"><circle r="9"/><path d="M-19 30Q-19 10 0 10Q19 10 19 30Z"/></g>
+      <g transform="translate(700 194)"><circle r="9"/><path d="M-19 30Q-19 10 0 10Q19 10 19 30Z"/></g>
+    </g>
+  </svg>
+  <div class="hero-inner">
+    <div class="brand">
+      <svg viewBox="0 0 48 48" role="img" aria-label="RBY Invest logo">
+        <defs><linearGradient id="rbyLogo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2563eb"/><stop offset="1" stop-color="#0b2a55"/></linearGradient></defs>
+        <rect width="48" height="48" rx="11" fill="url(#rbyLogo)"/>
+        <rect x="10" y="29" width="7" height="9" rx="1.5" fill="#fff"/>
+        <rect x="20.5" y="23" width="7" height="15" rx="1.5" fill="#fff"/>
+        <rect x="31" y="16" width="7" height="22" rx="1.5" fill="#fff"/>
+        <path d="M9 21L21 13L27 17L39 8" fill="none" stroke="#34e0a1" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M33 7.5H39.5V14" fill="none" stroke="#34e0a1" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <div class="word">RBY<small>INVEST</small></div>
+    </div>
     <h1>MARKET DASHBOARD</h1>
     <p class="updated">Updated (Israel time): <b id="updated">…</b></p>
-  </header>
+  </div>
+</header>
 
+<div class="wrap">
+  <div class="bar" id="bar">
+  <button class="menu-btn" id="menuBtn" type="button" aria-label="Menu" aria-haspopup="true" aria-expanded="false" aria-controls="menuPanel">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+  </button>
   <nav class="tabs" id="tabs">
     <button data-page="p1" class="active">Dashboard</button>
     <button data-page="p2">Yields</button>
@@ -104,6 +211,8 @@
     <button data-page="p4">EU &amp; Asia</button>
     <button data-page="p5">Calendar</button>
   </nav>
+  <div class="menu-panel" id="menuPanel" hidden><ul id="menuList"></ul></div>
+  </div>
 
   <section class="page active" id="p1">
     <h3>A. Central Bank Rates</h3>
@@ -163,6 +272,7 @@
   <div class="dots" id="dots" aria-hidden="true"></div>
   <footer class="legend"><i>Italic</i> = indicative / manually entered / last known value. — = not available. Swipe left/right to switch tabs.</footer>
 </div>
+<div class="menu-backdrop" id="menuBackdrop" hidden></div>
 
 <script>
 (function () {
@@ -221,6 +331,35 @@
   const pageIds = [...tabs.querySelectorAll('button')].map(b => b.dataset.page);
   let current = pageIds[0];
 
+  // --- menu (hamburger): lists the same pages as the tabs ---
+  const MENU = {
+    p1: ['Dashboard', 'Rates, commodities & FX'],
+    p2: ['Bond Yields', '1Y · 3Y · 5Y · 10Y by country'],
+    p3: ['Israel & US', 'Index performance'],
+    p4: ['Europe & Asia', 'Index performance'],
+    p5: ['Economic Calendar', 'Next 30 days']
+  };
+  const menuBtn = $('menuBtn'), menuPanel = $('menuPanel'), menuBackdrop = $('menuBackdrop');
+  $('menuList').innerHTML = pageIds.map(id => {
+    const m = MENU[id] || [id, ''];
+    return `<li><button type="button" class="menu-item" role="menuitem" data-page="${id}"><b>${esc(m[0])}</b><span>${esc(m[1])}</span></button></li>`;
+  }).join('');
+  function setMenu(open) {
+    menuPanel.hidden = menuBackdrop.hidden = !open;
+    menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    if (open) { const a = menuPanel.querySelector('.menu-item.active') || menuPanel.querySelector('.menu-item'); if (a) a.focus(); }
+  }
+  menuBtn.addEventListener('click', () => setMenu(menuPanel.hidden));
+  menuBackdrop.addEventListener('click', () => setMenu(false));
+  menuPanel.addEventListener('click', e => {
+    const b = e.target.closest('.menu-item');
+    if (!b) return;
+    showPage(b.dataset.page, Math.sign(pageIds.indexOf(b.dataset.page) - pageIds.indexOf(current)));
+    setMenu(false); menuBtn.focus();
+    const heroBottom = $('hero').offsetHeight;
+    if (window.scrollY > heroBottom) window.scrollTo({ top: heroBottom });
+  });
+
   // dir: +1 = came from the right (next), -1 = from the left (previous), 0 = no animation
   function showPage(id, dir = 0) {
     if (!$(id)) return;
@@ -236,6 +375,7 @@
       if (on) b.scrollIntoView({ block: 'nearest', inline: 'center', behavior: dir ? 'smooth' : 'auto' });
     });
     current = id;
+    menuPanel.querySelectorAll('.menu-item').forEach(b => b.classList.toggle('active', b.dataset.page === id));
     const dots = $('dots');
     if (dots) dots.innerHTML = pageIds.map(p => `<span class="${p === id ? 'on' : ''}"></span>`).join('');
     try { localStorage.setItem('rby-tab', id); } catch (_) {}
@@ -258,7 +398,7 @@
   // 2) swipe left/right anywhere on the content (vertical scrolling is untouched)
   let sx = 0, sy = 0, st = 0, tracking = false;
   document.addEventListener('touchstart', e => {
-    if (e.touches.length !== 1 || e.target.closest('nav.tabs')) { tracking = false; return; }
+    if (e.touches.length !== 1 || e.target.closest('nav.tabs, .menu-panel, .menu-btn')) { tracking = false; return; }
     const t = e.touches[0];
     // ignore swipes that start at the very screen edge (iOS uses those for "back")
     tracking = t.clientX > 20 && t.clientX < window.innerWidth - 20;
@@ -276,6 +416,8 @@
 
   // 3) keyboard arrows on desktop
   document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && !menuPanel.hidden) { setMenu(false); menuBtn.focus(); return; }
+    if (!menuPanel.hidden) return;
     if (e.key === 'ArrowRight') step(1);
     if (e.key === 'ArrowLeft') step(-1);
   });
