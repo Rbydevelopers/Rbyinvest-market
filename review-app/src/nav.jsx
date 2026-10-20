@@ -81,7 +81,7 @@ function NavList({ active, onPick }) {
 
 export function SideNav({ active }) {
   return (
-    <aside className="sticky top-14 hidden h-[calc(100vh-3.5rem)] w-72 shrink-0 overflow-y-auto border-e border-line p-4 lg:block print:hidden">
+    <aside className="sticky top-[114px] hidden h-[calc(100vh-114px)] w-72 shrink-0 overflow-y-auto border-e border-line p-4 lg:block print:hidden">
       <p className="mb-3 px-2.5 text-xs font-bold tracking-wide text-muted">תוכן העניינים</p>
       <NavList active={active} />
     </aside>
@@ -108,7 +108,7 @@ export function TopBar({ active }) {
 
   return (
     <>
-      <header className="sticky top-0 z-40 h-14 border-b border-line bg-bg/90 backdrop-blur print:hidden">
+      <header className="sticky top-[58px] z-40 h-14 border-b border-line bg-bg/90 backdrop-blur print:hidden">
         <div className="mx-auto flex h-full max-w-[88rem] items-center gap-2 px-3 sm:px-5">
           <button
             type="button"
@@ -129,10 +129,6 @@ export function TopBar({ active }) {
           </a>
 
           <div className="ms-auto flex items-center gap-1.5">
-            <a href="../../" className={btn} title="חזרה לדשבורד השוק">
-              <ArrowRight size={16} aria-hidden="true" />
-              <span className="hidden md:inline">דשבורד השוק</span>
-            </a>
             <button type="button" className={btn} onClick={() => window.print()} title="הדפסה או שמירה כ־PDF">
               <Printer size={16} aria-hidden="true" />
               <span className="hidden md:inline">הדפסה / PDF</span>

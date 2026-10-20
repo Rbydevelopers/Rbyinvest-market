@@ -42,17 +42,17 @@
     .hero::after { background: linear-gradient(90deg, rgba(5,15,38,.6) 0%, rgba(5,15,38,.92) calc(50% - 300px), rgba(5,15,38,.92) calc(50% + 120px), rgba(5,15,38,.6) calc(50% + 420px), rgba(5,15,38,.5) 100%),
                                  linear-gradient(0deg, rgba(5,15,38,.5) 0%, rgba(5,15,38,0) 45%); }
   }
-  .hero-inner { max-width: 520px; margin: 0 auto; padding: 20px 16px 22px; min-height: 176px; }
+  .hero-inner { max-width: 520px; margin: 0 auto; padding: 26px 16px 22px; min-height: 112px; }
   .brand { display: flex; align-items: center; gap: 12px; }
   .logo-plate { display: block; background: #fff; border-radius: 14px; padding: 6px 14px; box-shadow: 0 4px 18px rgba(0,0,0,.35); }
   .logo-plate img { display: block; width: 210px; max-width: 62vw; height: auto; }
   .brand .word { font-size: 28px; font-weight: 700; letter-spacing: .1em; line-height: 1; }
   .brand .word small { display: block; margin-top: 5px; font-size: 11px; font-weight: 500; letter-spacing: .46em; color: #9fb6dc; }
-  .hero h1 { margin: 16px 0 0; font-size: 13px; font-weight: 600; letter-spacing: .2em; color: #cfe0ff; }
+  .hero h1 { margin: 0; font-size: 13px; font-weight: 600; letter-spacing: .2em; color: #cfe0ff; }
   .hero .updated { margin: 3px 0 0; font-size: 13.5px; color: #aebfdc; }
   .hero .updated b { color: #fff; font-weight: 600; }
 
-  .bar { position: sticky; top: 0; z-index: 10; background: var(--bg); display: flex; align-items: center; gap: 8px; padding: 6px 0; border-bottom: 1px solid var(--border); margin-bottom: 6px; }
+  .bar { position: sticky; top: var(--sitenav-h, 58px); z-index: 10; background: var(--bg); display: flex; align-items: center; gap: 8px; padding: 6px 0; border-bottom: 1px solid var(--border); margin-bottom: 6px; }
   nav.tabs { flex: 1; min-width: 0; display: flex; gap: 4px; overflow-x: auto; }
   .menu-btn { flex: none; width: 42px; height: 34px; display: grid; place-items: center; border: 1px solid var(--navy); background: var(--navy); color: #fff; border-radius: 6px; cursor: pointer; padding: 0; }
   .menu-btn svg { width: 20px; height: 20px; }
@@ -127,14 +127,12 @@
   .err { color: var(--red); padding: 12px; }
   @media (min-width: 480px) { body { font-size: 17px; } td.pct { font-size: 16px; } table.perf td.pct { font-size: 15px; } table.perf td:first-child { font-size: 15px; } }
 </style>
+<script src="/site-nav.js" defer></script>
 </head>
 <body>
 <header class="hero" id="hero">
   <div class="hero-bg" aria-hidden="true"></div>
   <div class="hero-inner">
-    <div class="brand">
-      <a class="logo-plate" href="./" aria-label="RBY Invest"><img src="rby-logo.jpg" alt="RBY Invest" width="900" height="285"></a>
-    </div>
     <h1>MARKET DASHBOARD</h1>
     <p class="updated">Updated (Israel time): <b id="updated">…</b></p>
   </div>
@@ -284,7 +282,7 @@
   $('menuList').innerHTML = pageIds.map(id => {
     const m = MENU[id] || [id, ''];
     return `<li><button type="button" class="menu-item" role="menuitem" data-page="${id}"><b>${esc(m[0])}</b><span>${esc(m[1])}</span></button></li>`;
-  }).join('') + `<li><a class="menu-item" role="menuitem" href="reviews/bits-of-gold/"><b>Company Review ↗</b><span>Bits of Gold · strategic investment report (Hebrew)</span></a></li>`;
+  }).join('');
   function setMenu(open) {
     menuPanel.hidden = menuBackdrop.hidden = !open;
     menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
@@ -326,7 +324,7 @@
     if (i >= 0 && i < pageIds.length) {
       showPage(pageIds[i], n);
       const top = tabs.getBoundingClientRect().top + window.scrollY;
-      if (window.scrollY > top) window.scrollTo({ top, behavior: 'smooth' });
+      if (window.scrollY > top) window.scrollTo({ top: top - 58, behavior: 'smooth' });
     }
   }
 

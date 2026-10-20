@@ -192,7 +192,7 @@ export default function SourcesChapter() {
           </thead>
           <tbody>
             {SOURCES.map((s) => (
-              <tr key={s.id} id={`src-${s.id}`} className="scroll-mt-24">
+              <tr key={s.id} id={`src-${s.id}`} className="scroll-mt-36">
                 <Td header>{s.id.slice(1)}</Td>
                 <Td>
                   <span className="font-semibold text-heading">{s.title}</span>

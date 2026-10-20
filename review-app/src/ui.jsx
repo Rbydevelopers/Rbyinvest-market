@@ -102,7 +102,7 @@ export function Callout({ tone = 'navy', Icon = Info, title, children, className
 
 export function Section({ id, n, title, subtitle, children }) {
   return (
-    <section id={id} className="scroll-mt-20" aria-labelledby={`${id}-h`}>
+    <section id={id} className="scroll-mt-32" aria-labelledby={`${id}-h`}>
       <header className="mb-5 flex items-start gap-3 border-b border-line pb-4">
         <span
           aria-hidden="true"
