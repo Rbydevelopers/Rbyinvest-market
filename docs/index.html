@@ -23,7 +23,7 @@
   html, body { margin: 0; background: var(--bg); color: var(--text); }
   body {
     font-family: Inter, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
-    font-size: 15px;
+    font-size: 16.5px;
     line-height: 1.25;
     -webkit-text-size-adjust: 100%;
     font-variant-numeric: tabular-nums;
@@ -49,7 +49,7 @@
   .brand .word { font-size: 28px; font-weight: 700; letter-spacing: .1em; line-height: 1; }
   .brand .word small { display: block; margin-top: 5px; font-size: 11px; font-weight: 500; letter-spacing: .46em; color: #9fb6dc; }
   .hero h1 { margin: 16px 0 0; font-size: 13px; font-weight: 600; letter-spacing: .2em; color: #cfe0ff; }
-  .hero .updated { margin: 3px 0 0; font-size: 12px; color: #aebfdc; }
+  .hero .updated { margin: 3px 0 0; font-size: 13.5px; color: #aebfdc; }
   .hero .updated b { color: #fff; font-weight: 600; }
 
   .bar { position: sticky; top: 0; z-index: 10; background: var(--bg); display: flex; align-items: center; gap: 8px; padding: 6px 0; border-bottom: 1px solid var(--border); margin-bottom: 6px; }
@@ -62,14 +62,14 @@
   .menu-panel li + li { border-top: 1px solid var(--row-alt); }
   .menu-item { display: block; width: 100%; text-align: left; border: 0; background: #fff; font: inherit; padding: 11px 14px; cursor: pointer; color: var(--text); }
   a.menu-item { text-decoration: none; border-top: 1px solid var(--line, #e2e8f0); }
-  .menu-item b { display: block; font-size: 14px; font-weight: 600; color: var(--navy); }
-  .menu-item span { display: block; margin-top: 2px; font-size: 12px; color: var(--muted); }
+  .menu-item b { display: block; font-size: 16px; font-weight: 600; color: var(--navy); }
+  .menu-item span { display: block; margin-top: 2px; font-size: 13px; color: var(--muted); }
   .menu-item.active { background: var(--row-alt); box-shadow: inset 3px 0 0 var(--navy); }
   .menu-item:focus-visible, .menu-btn:focus-visible { outline: 2px solid var(--navy-soft); outline-offset: -2px; }
   .menu-backdrop { position: fixed; inset: 0; z-index: 8; background: rgba(5,15,38,.35); }
   @keyframes menuIn { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: none; } }
   @media (prefers-reduced-motion: reduce) { .menu-panel { animation: none; } }
-  nav.tabs button { flex: 1 0 auto; border: 1px solid var(--border); background: #fff; color: var(--navy); font: inherit; font-size: 12px; font-weight: 600; padding: 6px 8px; border-radius: 6px; white-space: nowrap; }
+  nav.tabs button { flex: 1 0 auto; border: 1px solid var(--border); background: #fff; color: var(--navy); font: inherit; font-size: 14px; font-weight: 600; padding: 7px 10px; border-radius: 6px; white-space: nowrap; }
   nav.tabs button.active { background: var(--navy); color: #fff; border-color: var(--navy); }
 
   section.page { display: none; }
@@ -83,17 +83,17 @@
   .dots { display: flex; justify-content: center; gap: 6px; margin: 14px 0 0; }
   .dots span { width: 6px; height: 6px; border-radius: 50%; background: var(--border); }
   .dots span.on { background: var(--navy); }
-  section.page > h2 { font-size: 17px; letter-spacing: .05em; color: var(--navy); margin: 10px 0 4px; font-weight: 700; }
-  h3 { font-size: 13px; letter-spacing: .06em; text-transform: uppercase; color: var(--navy-soft); margin: 10px 0 3px; font-weight: 700; }
+  section.page > h2 { font-size: 19px; letter-spacing: .05em; color: var(--navy); margin: 10px 0 4px; font-weight: 700; }
+  h3 { font-size: 14.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--navy-soft); margin: 10px 0 3px; font-weight: 700; }
 
   table { width: 100%; border-collapse: collapse; margin-bottom: 4px; table-layout: fixed; }
-  thead th { font-size: 11px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; padding: 4px 4px; border-bottom: 1px solid var(--border); text-align: right; }
+  thead th { font-size: 12.5px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; padding: 4px 4px; border-bottom: 1px solid var(--border); text-align: right; }
   thead th:first-child, tbody td:first-child { text-align: left; }
   tbody tr:nth-child(even) { background: var(--row-alt); }
   tbody td { padding: 6px 4px; text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 500; }
   tbody td:first-child { font-weight: 500; }
-  td.last { font-size: 13.5px; color: #374151; }
-  td.pct { font-weight: 700; font-size: 15px; }
+  td.last { font-size: 15px; color: #374151; }
+  td.pct { font-weight: 700; font-size: 16.5px; }
   .up { color: var(--green); }
   .down { color: var(--red); }
   .flat { color: var(--muted); }
@@ -101,26 +101,31 @@
   .na { color: var(--muted); }
 
   /* column widths */
-  table.perf col.c-name { width: 25%; }
-  table.perf col.c-last { width: 15%; }
-  table.perf col.c-pct  { width: 15%; }
+  table.perf col.c-name { width: 22%; }
+  table.perf col.c-last { width: 16%; }
+  table.perf col.c-pct  { width: 15.5%; }
   table.perf td, table.perf th { padding-left: 2px; padding-right: 2px; }
-  table.perf td:first-child { white-space: normal; font-size: 12.5px; line-height: 1.15; }
-  table.perf td.last { font-size: 12px; }
-  table.perf td.pct { font-size: 12.5px; letter-spacing: -.02em; }
+  table.perf td:first-child { white-space: normal; font-size: 13.5px; line-height: 1.15; }
+  table.perf td.last { font-size: 13px; letter-spacing: -.02em; }
+  table.perf td.pct { font-size: 13px; letter-spacing: -.04em; }
   table.two col.c-name { width: 60%; }
   table.three col.c-name { width: 44%; }
   table.three col.c-last { width: 30%; }
-  table.yields col.c-name { width: 36%; }
-  table.cal col.c-date { width: 13%; } table.cal col.c-time { width: 12%; } table.cal col.c-cty { width: 9%; }
-  table.cal col.c-ev { width: 36%; } table.cal col.c-prev { width: 15%; } table.cal col.c-fc { width: 15%; }
-  table.cal td, table.cal th { font-size: 12px; white-space: normal; padding: 5px 2px; text-align: left; }
+  @media (max-width: 400px) { table.perf td.pct { font-size: 12.5px; letter-spacing: -.05em; } }
+  table.yields col.c-name { width: 28%; }
+  table.yields td, table.yields th { padding-left: 2px; padding-right: 2px; }
+  table.yields td:not(:first-child) { font-size: 15px; letter-spacing: -.02em; }
+  table.yields td:first-child { white-space: normal; font-size: 15px; line-height: 1.15; }
+  table.cal col.c-date { width: 14%; } table.cal col.c-time { width: 14%; } table.cal col.c-cty { width: 9%; }
+  table.cal col.c-ev { width: 33%; } table.cal col.c-prev { width: 15%; } table.cal col.c-fc { width: 15%; }
+  table.cal td, table.cal th { font-size: 13.5px; white-space: normal; padding: 5px 2px; text-align: left; }
   table.cal td:nth-child(n+5), table.cal th:nth-child(n+5) { text-align: right; }
   table.cal td.ev { font-weight: 600; }
+  table.cal td:nth-child(-n+3) { white-space: nowrap; font-size: 13px; letter-spacing: -.02em; }
 
-  footer.legend { margin-top: 14px; font-size: 11px; color: var(--muted); }
+  footer.legend { margin-top: 14px; font-size: 12.5px; color: var(--muted); }
   .err { color: var(--red); padding: 12px; }
-  @media (min-width: 480px) { body { font-size: 16px; } td.pct { font-size: 16px; } table.perf td.pct { font-size: 15px; } table.perf td:first-child { font-size: 15px; } }
+  @media (min-width: 480px) { body { font-size: 17px; } td.pct { font-size: 16px; } table.perf td.pct { font-size: 15px; } table.perf td:first-child { font-size: 15px; } }
 </style>
 </head>
 <body>
