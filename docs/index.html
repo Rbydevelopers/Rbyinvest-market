@@ -44,7 +44,8 @@
   }
   .hero-inner { max-width: 520px; margin: 0 auto; padding: 20px 16px 22px; min-height: 176px; }
   .brand { display: flex; align-items: center; gap: 12px; }
-  .brand svg { width: 46px; height: 46px; flex: none; }
+  .logo-plate { display: block; background: #fff; border-radius: 14px; padding: 6px 14px; box-shadow: 0 4px 18px rgba(0,0,0,.35); }
+  .logo-plate img { display: block; width: 210px; max-width: 62vw; height: auto; }
   .brand .word { font-size: 28px; font-weight: 700; letter-spacing: .1em; line-height: 1; }
   .brand .word small { display: block; margin-top: 5px; font-size: 11px; font-weight: 500; letter-spacing: .46em; color: #9fb6dc; }
   .hero h1 { margin: 16px 0 0; font-size: 13px; font-weight: 600; letter-spacing: .2em; color: #cfe0ff; }
@@ -127,16 +128,7 @@
   <div class="hero-bg" aria-hidden="true"></div>
   <div class="hero-inner">
     <div class="brand">
-      <svg viewBox="0 0 48 48" role="img" aria-label="RBY Invest logo">
-        <defs><linearGradient id="rbyLogo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2563eb"/><stop offset="1" stop-color="#0b2a55"/></linearGradient></defs>
-        <rect width="48" height="48" rx="11" fill="url(#rbyLogo)"/>
-        <rect x="10" y="29" width="7" height="9" rx="1.5" fill="#fff"/>
-        <rect x="20.5" y="23" width="7" height="15" rx="1.5" fill="#fff"/>
-        <rect x="31" y="16" width="7" height="22" rx="1.5" fill="#fff"/>
-        <path d="M9 21L21 13L27 17L39 8" fill="none" stroke="#34e0a1" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M33 7.5H39.5V14" fill="none" stroke="#34e0a1" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-      <div class="word">RBY<small>INVEST</small></div>
+      <a class="logo-plate" href="./" aria-label="RBY Invest"><img src="rby-logo.jpg" alt="RBY Invest" width="900" height="285"></a>
     </div>
     <h1>MARKET DASHBOARD</h1>
     <p class="updated">Updated (Israel time): <b id="updated">…</b></p>
