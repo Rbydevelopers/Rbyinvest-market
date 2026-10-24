@@ -1,6 +1,6 @@
 {
- "updated_il": "24.10.2026 11:01",
- "updated_iso": "2026-10-24T11:01:47.754897+03:00",
+ "updated_il": "24.10.2026 15:36",
+ "updated_iso": "2026-10-24T15:36:46.971948+03:00",
  "central_bank_rates": [
   {
    "label": "Israel — BoI",
@@ -545,7 +545,7 @@
   "  JP yields (2026/10/22): {'1Y': 1.66, '3Y': 2.028, '5Y': 2.304, '10Y': 2.914}",
   "Indices: israel",
   "  search 'TA Banks 5': TA-BANKS.TA[TLV] TA Banks-5, HRL-F12.TA[TLV] Harel Index Funds Ltd. - Harel Sal (4A) TA-Banks 5, 204.TA[TLV] TA Banks 5-Equal Weight",
-  "  search 'TA Insurance': 0966.HK[HKG] China Taiping Insurance Holdings Company Limited, FTI.KW[KUW] First Takaful Insurance Company - KPSC, WETHAQ.KW[KUW] Wethaq Takaful Insurance Company K.S.C.P., CTIHY[PNK] China Taiping Insurance Holdings Company Limited, HIUC.MU[MUN] China Taiping Insurance Holdings Co Ltd",
+  "  search 'TA Insurance': 0966.HK[HKG] China Taiping Insurance Holdings Company Limited, FTI.KW[KUW] First Takaful Insurance Company - KPSC, CINSF[PNK] China Taiping Insurance Holdings Company Limited, WETHAQ.KW[KUW] Wethaq Takaful Insurance Company K.S.C.P., HIUC.MU[MUN] China Taiping Insurance Holdings Co Ltd",
   "Indices: us",
   "Indices: europe",
   "Indices: asia",
