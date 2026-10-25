@@ -1,13 +1,13 @@
 {
- "updated_il": "25.10.2026 01:24",
- "updated_iso": "2026-10-25T01:24:31.623893+03:00",
+ "updated_il": "25.10.2026 10:18",
+ "updated_iso": "2026-10-25T10:18:50.425896+02:00",
  "central_bank_rates": [
   {
    "label": "Israel — BoI",
    "value": 3.25,
    "status": "ok",
    "key": "israel",
-   "as_of": "2026-10-24"
+   "as_of": "2026-10-25"
   },
   {
    "label": "United States — Fed",
@@ -15,21 +15,21 @@
    "status": "ok",
    "key": "us",
    "display": "3.75–4.00%",
-   "as_of": "2026-10-24"
+   "as_of": "2026-10-25"
   },
   {
    "label": "Euro Area — ECB",
    "value": 2.5,
    "status": "ok",
    "key": "ecb",
-   "as_of": "2026-10-24"
+   "as_of": "2026-10-25"
   },
   {
    "label": "United Kingdom — BoE",
    "value": 3.75,
    "status": "ok",
    "key": "uk",
-   "as_of": "2026-10-24"
+   "as_of": "2026-10-25"
   },
   {
    "label": "Japan — BoJ",
@@ -45,15 +45,15 @@
    "status": "ok",
    "d1": 2.20704183467888,
    "key": "^VIX",
-   "as_of": "2026-10-24"
+   "as_of": "2026-10-25"
   },
   {
    "label": "Brent Oil",
-   "value": 116.72,
+   "value": 111.7,
    "status": "ok",
-   "d1": 3.136876477154482,
+   "d1": -1.2989319117144849,
    "key": "BZ=F",
-   "as_of": "2026-10-24"
+   "as_of": "2026-10-25"
   },
   {
    "label": "Gold (USD/oz)",
@@ -61,15 +61,15 @@
    "status": "ok",
    "d1": -1.2929760925690092,
    "key": "GC=F",
-   "as_of": "2026-10-24"
+   "as_of": "2026-10-25"
   },
   {
    "label": "Silver (USD/oz)",
-   "value": 53.71,
+   "value": 53.95,
    "status": "ok",
-   "d1": -1.922798562892003,
+   "d1": -1.4882014235945373,
    "key": "SI=F",
-   "as_of": "2026-10-24"
+   "as_of": "2026-10-25"
   }
  ],
  "fx": [
@@ -79,7 +79,7 @@
    "status": "ok",
    "d1": 0.37115938603455856,
    "key": "ILS=X",
-   "as_of": "2026-10-24"
+   "as_of": "2026-10-25"
   },
   {
    "label": "EUR/ILS",
@@ -87,7 +87,7 @@
    "status": "ok",
    "d1": 0.29900893311975985,
    "key": "EURILS=X",
-   "as_of": "2026-10-24"
+   "as_of": "2026-10-25"
   }
  ],
  "bond_yields": [
@@ -98,22 +98,22 @@
     "1Y": {
      "value": 4.44,
      "status": "ok",
-     "as_of": "2026-10-24"
+     "as_of": "2026-10-25"
     },
     "3Y": {
      "value": 4.75,
      "status": "ok",
-     "as_of": "2026-10-24"
+     "as_of": "2026-10-25"
     },
     "5Y": {
      "value": 4.82,
      "status": "ok",
-     "as_of": "2026-10-24"
+     "as_of": "2026-10-25"
     },
     "10Y": {
      "value": 5.0,
      "status": "ok",
-     "as_of": "2026-10-24"
+     "as_of": "2026-10-25"
     }
    }
   },
@@ -124,22 +124,22 @@
     "1Y": {
      "value": 3.18,
      "status": "ok",
-     "as_of": "2026-10-24"
+     "as_of": "2026-10-25"
     },
     "3Y": {
      "value": 3.72,
      "status": "ok",
-     "as_of": "2026-10-24"
+     "as_of": "2026-10-25"
     },
     "5Y": {
      "value": 3.86,
      "status": "ok",
-     "as_of": "2026-10-24"
+     "as_of": "2026-10-25"
     },
     "10Y": {
      "value": 4.21,
      "status": "ok",
-     "as_of": "2026-10-24"
+     "as_of": "2026-10-25"
     }
    }
   },
@@ -150,22 +150,22 @@
     "1Y": {
      "value": 2.9,
      "status": "ok",
-     "as_of": "2026-10-24"
+     "as_of": "2026-10-25"
     },
     "3Y": {
      "value": 3.05,
      "status": "ok",
-     "as_of": "2026-10-24"
+     "as_of": "2026-10-25"
     },
     "5Y": {
      "value": 3.12,
      "status": "ok",
-     "as_of": "2026-10-24"
+     "as_of": "2026-10-25"
     },
     "10Y": {
      "value": 3.39,
      "status": "ok",
-     "as_of": "2026-10-24"
+     "as_of": "2026-10-25"
     }
    }
   },
@@ -184,12 +184,12 @@
     "5Y": {
      "value": 4.95,
      "status": "ok",
-     "as_of": "2026-10-24"
+     "as_of": "2026-10-25"
     },
     "10Y": {
      "value": 5.33,
      "status": "ok",
-     "as_of": "2026-10-24"
+     "as_of": "2026-10-25"
     }
    }
   },
@@ -200,22 +200,22 @@
     "1Y": {
      "value": 1.66,
      "status": "ok",
-     "as_of": "2026-10-24"
+     "as_of": "2026-10-25"
     },
     "3Y": {
      "value": 2.03,
      "status": "ok",
-     "as_of": "2026-10-24"
+     "as_of": "2026-10-25"
     },
     "5Y": {
      "value": 2.3,
      "status": "ok",
-     "as_of": "2026-10-24"
+     "as_of": "2026-10-25"
     },
     "10Y": {
      "value": 2.91,
      "status": "ok",
-     "as_of": "2026-10-24"
+     "as_of": "2026-10-25"
     }
    }
   }
@@ -231,7 +231,7 @@
     "m1": -4.00918924066932,
     "ytd": 13.961809881634423,
     "key": "TA35.TA",
-    "as_of": "2026-10-24"
+    "as_of": "2026-10-25"
    },
    {
     "label": "TA-90",
@@ -242,7 +242,7 @@
     "m1": 0.7235818533318783,
     "ytd": -1.0514390215298874,
     "key": "TA90.TA",
-    "as_of": "2026-10-24"
+    "as_of": "2026-10-25"
    },
    {
     "label": "TA-125",
@@ -253,7 +253,7 @@
     "m1": -2.963760802390314,
     "ytd": 10.398257014365587,
     "key": "^TA125.TA",
-    "as_of": "2026-10-24"
+    "as_of": "2026-10-25"
    },
    {
     "label": "TA Banks 5",
@@ -279,7 +279,7 @@
     "m1": -1.0686386073101573,
     "ytd": 11.36776241006865,
     "key": "^GSPC",
-    "as_of": "2026-10-24"
+    "as_of": "2026-10-25"
    },
    {
     "label": "Nasdaq Composite",
@@ -290,7 +290,7 @@
     "m1": -3.640844210518379,
     "ytd": 11.67434278223707,
     "key": "^IXIC",
-    "as_of": "2026-10-24"
+    "as_of": "2026-10-25"
    },
    {
     "label": "Dow Jones",
@@ -301,7 +301,7 @@
     "m1": 1.3658485685146493,
     "ytd": 8.638341600698695,
     "key": "^DJI",
-    "as_of": "2026-10-24"
+    "as_of": "2026-10-25"
    },
    {
     "label": "Russell 2000",
@@ -312,7 +312,7 @@
     "m1": -2.2109027396307157,
     "ytd": 11.845312708570987,
     "key": "^RUT",
-    "as_of": "2026-10-24"
+    "as_of": "2026-10-25"
    }
   ],
   "europe": [
@@ -325,7 +325,7 @@
     "m1": -0.9011207553925038,
     "ytd": 2.8224934983320127,
     "key": "^GDAXI",
-    "as_of": "2026-10-24"
+    "as_of": "2026-10-25"
    },
    {
     "label": "CAC 40 — France",
@@ -336,7 +336,7 @@
     "m1": -4.192701408400589,
     "ytd": -4.4994192991134385,
     "key": "^FCHI",
-    "as_of": "2026-10-24"
+    "as_of": "2026-10-25"
    },
    {
     "label": "FTSE 100 — United Kingdom",
@@ -347,7 +347,7 @@
     "m1": -0.1391779243396396,
     "ytd": 7.642426748965603,
     "key": "^FTSE",
-    "as_of": "2026-10-24"
+    "as_of": "2026-10-25"
    }
   ],
   "asia": [
@@ -360,7 +360,7 @@
     "m1": -3.57709420168435,
     "ytd": 24.540737354587883,
     "key": "^N225",
-    "as_of": "2026-10-24"
+    "as_of": "2026-10-25"
    },
    {
     "label": "KOSPI — South Korea",
@@ -371,7 +371,7 @@
     "m1": -21.616119573093517,
     "ytd": 31.705648029921374,
     "key": "^KS11",
-    "as_of": "2026-10-24"
+    "as_of": "2026-10-25"
    },
    {
     "label": "Nifty 50 — India",
@@ -382,55 +382,114 @@
     "m1": -3.611583469959667,
     "ytd": -13.508050877705069,
     "key": "^NSEI",
-    "as_of": "2026-10-24"
+    "as_of": "2026-10-25"
    }
   ]
  },
  "calendar": [
   {
    "date": "2026-10-28",
+   "time": "14:30",
+   "country": "UK",
+   "event": "Annual Budget Release",
+   "previous": "—",
+   "forecast": "—"
+  },
+  {
+   "date": "2026-10-28",
    "time": "20:00",
    "country": "US",
-   "event": "FOMC rate decision",
+   "event": "Federal Funds Rate",
+   "previous": "4.00%",
+   "forecast": "4.00%"
+  },
+  {
+   "date": "2026-10-28",
+   "time": "20:00",
+   "country": "US",
+   "event": "FOMC Statement",
    "previous": "—",
-   "forecast": "—",
-   "indicative": false
+   "forecast": "—"
+  },
+  {
+   "date": "2026-10-28",
+   "time": "20:30",
+   "country": "US",
+   "event": "FOMC Press Conference",
+   "previous": "—",
+   "forecast": "—"
   },
   {
    "date": "2026-10-29",
    "time": "14:30",
    "country": "US",
-   "event": "GDP Q3 (advance)",
-   "previous": "—",
-   "forecast": "—",
-   "indicative": false
+   "event": "Advance GDP q/q",
+   "previous": "1.5%",
+   "forecast": "3.2%"
   },
   {
    "date": "2026-10-29",
    "time": "14:30",
    "country": "US",
-   "event": "PCE / Personal income (Sep)",
-   "previous": "—",
-   "forecast": "—",
-   "indicative": false
+   "event": "Core PCE Price Index m/m",
+   "previous": "0.2%",
+   "forecast": "0.3%"
   },
   {
    "date": "2026-10-29",
    "time": "15:15",
    "country": "EU",
-   "event": "ECB rate decision",
+   "event": "Main Refinancing Rate",
+   "previous": "2.65%",
+   "forecast": "2.65%"
+  },
+  {
+   "date": "2026-10-29",
+   "time": "15:15",
+   "country": "EU",
+   "event": "Monetary Policy Statement",
    "previous": "—",
-   "forecast": "—",
-   "indicative": false
+   "forecast": "—"
+  },
+  {
+   "date": "2026-10-29",
+   "time": "15:45",
+   "country": "EU",
+   "event": "ECB Press Conference",
+   "previous": "—",
+   "forecast": "—"
   },
   {
    "date": "2026-10-30",
-   "time": "—",
+   "time": "04:30",
    "country": "JP",
-   "event": "BoJ rate decision",
+   "event": "BOJ Policy Rate",
+   "previous": "<1.25%",
+   "forecast": "<1.25%"
+  },
+  {
+   "date": "2026-10-30",
+   "time": "04:30",
+   "country": "JP",
+   "event": "Monetary Policy Statement",
    "previous": "—",
-   "forecast": "—",
-   "indicative": false
+   "forecast": "—"
+  },
+  {
+   "date": "2026-10-30",
+   "time": "04:31",
+   "country": "JP",
+   "event": "BOJ Outlook Report",
+   "previous": "—",
+   "forecast": "—"
+  },
+  {
+   "date": "2026-10-30",
+   "time": "07:30",
+   "country": "JP",
+   "event": "BOJ Press Conference",
+   "previous": "—",
+   "forecast": "—"
   },
   {
    "date": "2026-11-02",
@@ -550,6 +609,6 @@
   "Indices: europe",
   "Indices: asia",
   "Calendar",
-  "  ForexFactory: 1 high-impact events"
+  "  ForexFactory: 13 high-impact events"
  ]
 }
