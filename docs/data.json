@@ -1,13 +1,13 @@
 {
- "updated_il": "29.10.2026 23:43",
- "updated_iso": "2026-10-29T23:43:52.617728+02:00",
+ "updated_il": "30.10.2026 11:52",
+ "updated_iso": "2026-10-30T11:52:24.948305+02:00",
  "central_bank_rates": [
   {
    "label": "Israel — BoI",
    "value": 3.25,
    "status": "ok",
    "key": "israel",
-   "as_of": "2026-10-29"
+   "as_of": "2026-10-30"
   },
   {
    "label": "United States — Fed",
@@ -15,21 +15,21 @@
    "status": "ok",
    "key": "us",
    "display": "3.75–4.00%",
-   "as_of": "2026-10-29"
+   "as_of": "2026-10-30"
   },
   {
    "label": "Euro Area — ECB",
    "value": 2.5,
    "status": "ok",
    "key": "ecb",
-   "as_of": "2026-10-29"
+   "as_of": "2026-10-30"
   },
   {
    "label": "United Kingdom — BoE",
    "value": 3.75,
    "status": "ok",
    "key": "uk",
-   "as_of": "2026-10-29"
+   "as_of": "2026-10-30"
   },
   {
    "label": "Japan — BoJ",
@@ -41,53 +41,53 @@
  "commodities": [
   {
    "label": "VIX",
-   "value": 17.2,
+   "value": 18.23,
    "status": "ok",
-   "d1": 1.7149669907993825,
+   "d1": 5.9883647302864995,
    "key": "^VIX",
-   "as_of": "2026-10-29"
+   "as_of": "2026-10-30"
   },
   {
    "label": "Brent Oil",
-   "value": 111.54,
+   "value": 112.83,
    "status": "ok",
-   "d1": -3.277834538068014,
+   "d1": -1.7844668100410188,
    "key": "BZ=F",
-   "as_of": "2026-10-29"
+   "as_of": "2026-10-30"
   },
   {
    "label": "Gold (USD/oz)",
-   "value": 4033.3,
+   "value": 3999.3,
    "status": "ok",
-   "d1": -0.45167460724248043,
+   "d1": -0.7962458275836859,
    "key": "GC=F",
-   "as_of": "2026-10-29"
+   "as_of": "2026-10-30"
   },
   {
    "label": "Silver (USD/oz)",
-   "value": 52.22,
+   "value": 50.86,
    "status": "ok",
-   "d1": -2.3140084456113263,
+   "d1": -2.550250490477768,
    "key": "SI=F",
-   "as_of": "2026-10-29"
+   "as_of": "2026-10-30"
   }
  ],
  "fx": [
   {
    "label": "USD/ILS",
-   "value": 3.1142,
+   "value": 3.1174,
    "status": "ok",
-   "d1": 3.029826893289811,
+   "d1": -0.16589125529294924,
    "key": "ILS=X",
-   "as_of": "2026-10-29"
+   "as_of": "2026-10-30"
   },
   {
    "label": "EUR/ILS",
-   "value": 3.4815,
+   "value": 3.4799,
    "status": "ok",
-   "d1": 3.343927125692314,
+   "d1": 0.045163641602896654,
    "key": "EURILS=X",
-   "as_of": "2026-10-29"
+   "as_of": "2026-10-30"
   }
  ],
  "bond_yields": [
@@ -98,22 +98,22 @@
     "1Y": {
      "value": 4.42,
      "status": "ok",
-     "as_of": "2026-10-29"
+     "as_of": "2026-10-30"
     },
     "3Y": {
      "value": 4.73,
      "status": "ok",
-     "as_of": "2026-10-29"
+     "as_of": "2026-10-30"
     },
     "5Y": {
      "value": 4.78,
      "status": "ok",
-     "as_of": "2026-10-29"
+     "as_of": "2026-10-30"
     },
     "10Y": {
      "value": 4.98,
      "status": "ok",
-     "as_of": "2026-10-29"
+     "as_of": "2026-10-30"
     }
    }
   },
@@ -124,22 +124,22 @@
     "1Y": {
      "value": 3.18,
      "status": "ok",
-     "as_of": "2026-10-29"
+     "as_of": "2026-10-30"
     },
     "3Y": {
      "value": 3.72,
      "status": "ok",
-     "as_of": "2026-10-29"
+     "as_of": "2026-10-30"
     },
     "5Y": {
      "value": 3.86,
      "status": "ok",
-     "as_of": "2026-10-29"
+     "as_of": "2026-10-30"
     },
     "10Y": {
      "value": 4.21,
      "status": "ok",
-     "as_of": "2026-10-29"
+     "as_of": "2026-10-30"
     }
    }
   },
@@ -150,22 +150,22 @@
     "1Y": {
      "value": 2.94,
      "status": "ok",
-     "as_of": "2026-10-29"
+     "as_of": "2026-10-30"
     },
     "3Y": {
      "value": 3.11,
      "status": "ok",
-     "as_of": "2026-10-29"
+     "as_of": "2026-10-30"
     },
     "5Y": {
      "value": 3.16,
      "status": "ok",
-     "as_of": "2026-10-29"
+     "as_of": "2026-10-30"
     },
     "10Y": {
      "value": 3.42,
      "status": "ok",
-     "as_of": "2026-10-29"
+     "as_of": "2026-10-30"
     }
    }
   },
@@ -182,14 +182,14 @@
      "status": "missing"
     },
     "5Y": {
-     "value": 4.94,
+     "value": 4.96,
      "status": "ok",
-     "as_of": "2026-10-29"
+     "as_of": "2026-10-30"
     },
     "10Y": {
-     "value": 5.3,
+     "value": 5.31,
      "status": "ok",
-     "as_of": "2026-10-29"
+     "as_of": "2026-10-30"
     }
    }
   },
@@ -198,24 +198,24 @@
    "label": "Japan",
    "tenors": {
     "1Y": {
-     "value": 1.67,
+     "value": 1.68,
      "status": "ok",
-     "as_of": "2026-10-29"
+     "as_of": "2026-10-30"
     },
     "3Y": {
      "value": 2.02,
      "status": "ok",
-     "as_of": "2026-10-29"
+     "as_of": "2026-10-30"
     },
     "5Y": {
-     "value": 2.28,
+     "value": 2.29,
      "status": "ok",
-     "as_of": "2026-10-29"
+     "as_of": "2026-10-30"
     },
     "10Y": {
-     "value": 2.87,
+     "value": 2.88,
      "status": "ok",
-     "as_of": "2026-10-29"
+     "as_of": "2026-10-30"
     }
    }
   }
@@ -224,36 +224,36 @@
   "israel": [
    {
     "label": "TA-35",
-    "value": 4144.4,
+    "value": 4066.39,
     "status": "ok",
-    "d1": 0.3399229008425042,
-    "w1": -0.5244547892289231,
-    "m1": -1.8365973968988536,
-    "ytd": 14.521929998545492,
+    "d1": -1.8822992858751109,
+    "w1": -1.4000526626236742,
+    "m1": -3.272853070896009,
+    "ytd": 12.366284528012471,
     "key": "TA35.TA",
-    "as_of": "2026-10-29"
+    "as_of": "2026-10-30"
    },
    {
     "label": "TA-90",
-    "value": 3619.98,
+    "value": 3583.4,
     "status": "ok",
-    "d1": -0.5917855586731524,
-    "w1": -4.132140245744731,
-    "m1": -1.3728897933967033,
-    "ytd": -5.082819467183841,
+    "d1": -1.010504984070748,
+    "w1": -5.043553171797377,
+    "m1": -2.919934310787442,
+    "ytd": -6.041962307207371,
     "key": "TA90.TA",
-    "as_of": "2026-10-29"
+    "as_of": "2026-10-30"
    },
    {
     "label": "TA-125",
-    "value": 4010.89,
+    "value": 3943.52,
     "status": "ok",
-    "d1": 0.09682738009249015,
-    "w1": -1.4017031046216766,
-    "m1": -1.7966521949385417,
-    "ytd": 9.738872782542153,
+    "d1": -1.6796739589271303,
+    "w1": -2.266919395698719,
+    "m1": -3.2412269509408898,
+    "ytd": 7.895617513593622,
     "key": "^TA125.TA",
-    "as_of": "2026-10-29"
+    "as_of": "2026-10-30"
    },
    {
     "label": "TA Banks 5",
@@ -279,18 +279,18 @@
     "m1": 0.6459565572747961,
     "ytd": 12.780514742805483,
     "key": "^GSPC",
-    "as_of": "2026-10-29"
+    "as_of": "2026-10-30"
    },
    {
     "label": "Nasdaq Composite",
     "value": 26184.72,
     "status": "ok",
-    "d1": -1.3752431948656718,
-    "w1": 0.6761743444391177,
-    "m1": -2.2868310843608852,
-    "ytd": 12.661283931905643,
+    "d1": -1.3752579077550342,
+    "w1": 0.6761593255182774,
+    "m1": -2.286845661259118,
+    "ytd": 12.661267125040299,
     "key": "^IXIC",
-    "as_of": "2026-10-29"
+    "as_of": "2026-10-30"
    },
    {
     "label": "Dow Jones",
@@ -301,151 +301,95 @@
     "m1": 1.9330832112390617,
     "ytd": 8.903405519512763,
     "key": "^DJI",
-    "as_of": "2026-10-29"
+    "as_of": "2026-10-30"
    },
    {
     "label": "Russell 2000",
     "value": 2859.22,
     "status": "ok",
-    "d1": 1.0141827045199836,
-    "w1": 2.700636223255426,
-    "m1": 1.82685519126633,
-    "ytd": 15.20226978360899,
+    "d1": 1.0143034590390787,
+    "w1": 2.700758993797203,
+    "m1": 1.8269769172715389,
+    "ytd": 15.202407498871473,
     "key": "^RUT",
-    "as_of": "2026-10-29"
+    "as_of": "2026-10-30"
    }
   ],
   "europe": [
    {
     "label": "DAX — Germany",
-    "value": 26039.68,
+    "value": 25930.88,
     "status": "ok",
-    "d1": 1.3058664067770342,
-    "w1": 2.6325723984352623,
-    "m1": 2.5216088467315156,
-    "ytd": 6.32602525382624,
+    "d1": -0.4178193796186669,
+    "w1": 2.975303274915353,
+    "m1": 2.90363072038915,
+    "ytd": 5.881774514737503,
     "key": "^GDAXI",
-    "as_of": "2026-10-29"
+    "as_of": "2026-10-30"
    },
    {
     "label": "CAC 40 — France",
-    "value": 7970.0,
+    "value": 7967.92,
     "status": "ok",
-    "d1": 1.0528776546829155,
-    "w1": 2.032197611370812,
-    "m1": -0.8197011179488012,
-    "ytd": -2.2025891158966804,
+    "d1": -0.026098847239652834,
+    "w1": 2.378316623497456,
+    "m1": 0.042816900855813245,
+    "ytd": -2.228113112767649,
     "key": "^FCHI",
-    "as_of": "2026-10-29"
+    "as_of": "2026-10-30"
    },
    {
     "label": "FTSE 100 — United Kingdom",
-    "value": 10722.07,
+    "value": 10734.7,
     "status": "ok",
-    "d1": 0.2577989854598117,
-    "w1": -0.02731643356643776,
-    "m1": 0.802599637292789,
-    "ytd": 7.961313518498092,
+    "d1": 0.11751976195486513,
+    "w1": 0.4143886390480578,
+    "m1": 1.2134659184659613,
+    "ytd": 8.088484736208956,
     "key": "^FTSE",
-    "as_of": "2026-10-29"
+    "as_of": "2026-10-30"
    }
   ],
   "asia": [
    {
     "label": "Nikkei 225 — Japan",
-    "value": 63954.19,
+    "value": 63290.11,
     "status": "ok",
-    "d1": 1.0839860433323967,
-    "w1": -1.0322409361715135,
-    "m1": -2.919695434301417,
-    "ytd": 27.04579151537292,
+    "d1": -2.1178017720722475,
+    "w1": 0.9521759905900762,
+    "m1": -5.18863883519598,
+    "ytd": 25.726584354182116,
     "key": "^N225",
-    "as_of": "2026-10-29"
+    "as_of": "2026-10-30"
    },
    {
     "label": "KOSPI — South Korea",
-    "value": 6012.44,
+    "value": 5730.74,
     "status": "ok",
-    "d1": 6.634933473741089,
-    "w1": 4.825595966571528,
-    "m1": -12.733430624737252,
-    "ytd": 42.67198648532782,
+    "d1": -3.484873105396502,
+    "w1": 3.2510032977878023,
+    "m1": -16.193233709689004,
+    "ytd": 35.9874029907469,
     "key": "^KS11",
-    "as_of": "2026-10-29"
+    "as_of": "2026-10-30"
    },
    {
     "label": "Nifty 50 — India",
-    "value": 22698.85,
+    "value": 23010.0,
     "status": "ok",
-    "d1": -0.2237404394553777,
-    "w1": -0.4931755548289174,
-    "m1": -0.3573287853513407,
-    "ytd": -13.12974577218201,
+    "d1": 0.31935649122041276,
+    "w1": 1.8141592920353888,
+    "m1": 1.7221177947567057,
+    "ytd": -11.938949145840427,
     "key": "^NSEI",
-    "as_of": "2026-10-29"
+    "as_of": "2026-10-30"
    }
   ]
  },
  "calendar": [
   {
-   "date": "2026-10-29",
-   "time": "14:30",
-   "country": "US",
-   "event": "Advance GDP q/q",
-   "previous": "1.5%",
-   "forecast": "3.2%"
-  },
-  {
-   "date": "2026-10-29",
-   "time": "14:30",
-   "country": "US",
-   "event": "Core PCE Price Index m/m",
-   "previous": "0.2%",
-   "forecast": "0.3%"
-  },
-  {
-   "date": "2026-10-29",
-   "time": "15:15",
-   "country": "EU",
-   "event": "Main Refinancing Rate",
-   "previous": "2.65%",
-   "forecast": "2.65%"
-  },
-  {
-   "date": "2026-10-29",
-   "time": "15:15",
-   "country": "EU",
-   "event": "Monetary Policy Statement",
-   "previous": "—",
-   "forecast": "—"
-  },
-  {
-   "date": "2026-10-29",
-   "time": "15:45",
-   "country": "EU",
-   "event": "ECB Press Conference",
-   "previous": "—",
-   "forecast": "—"
-  },
-  {
    "date": "2026-10-30",
-   "time": "04:30",
-   "country": "JP",
-   "event": "BOJ Policy Rate",
-   "previous": "<1.25%",
-   "forecast": "<1.25%"
-  },
-  {
-   "date": "2026-10-30",
-   "time": "04:30",
-   "country": "JP",
-   "event": "Monetary Policy Statement",
-   "previous": "—",
-   "forecast": "—"
-  },
-  {
-   "date": "2026-10-30",
-   "time": "04:31",
+   "time": "05:02",
    "country": "JP",
    "event": "BOJ Outlook Report",
    "previous": "—",
@@ -453,7 +397,23 @@
   },
   {
    "date": "2026-10-30",
-   "time": "07:30",
+   "time": "05:02",
+   "country": "JP",
+   "event": "BOJ Policy Rate",
+   "previous": "<1.25%",
+   "forecast": "<1.25%"
+  },
+  {
+   "date": "2026-10-30",
+   "time": "05:02",
+   "country": "JP",
+   "event": "Monetary Policy Statement",
+   "previous": "—",
+   "forecast": "—"
+  },
+  {
+   "date": "2026-10-30",
+   "time": "08:30",
    "country": "JP",
    "event": "BOJ Press Conference",
    "previous": "—",
@@ -586,11 +546,11 @@
   "  IL sheet 'nominal' shape=(467, 11)\n                                                                              0                    1              2                         3         4         5         6         7         8          9          10\n0                                                                            NaN                  NaN            NaN                       NaN       NaN       NaN       NaN       NaN       NaN        NaN        NaN\n1                                                                            NaN                  NaN            NaN                       NaN       NaN       NaN       NaN       NaN       NaN        NaN        NaN\n2  Nominal rate of return derived from the zero coupon yield curve estimation1,3                  NaN            NaN                       NaN       NaN       NaN       NaN       NaN       NaN        NaN        NaN\n3                                                     (monthy averages, percent)                  NaN            NaN                       NaN       NaN       NaN       NaN       NaN       NaN        NaN        NaN\n4                                                                            NaN                  NaN            NaN                       NaN       NaN       NaN       NaN       NaN       NaN        NaN        NaN\n5                                                                            NaN                  NaN            NaN                       NaN       NaN       NaN       NaN       NaN       NaN        NaN       \n...\n                                                                                                                                         0    1    2    3   4   5   6   7   8   9   10\n464  3 The nominal yields include a premium component as well as biases deriving from differences in taxation, liquidity, or market depth.   NaN  NaN  NaN NaN NaN NaN NaN NaN NaN NaN\n465                                                                                         ",
   "  IL yields (sheet nominal, row 2026-10-15 00:00:00): {'1Y': 3.1753684175493433, '3Y': 3.717652082286517, '5Y': 3.8582975713191296, '10Y': 4.21125921485441}",
   "  DE yields: {'1Y': 2.94, '3Y': 3.11, '5Y': 3.16, '10Y': 3.42}",
-  "  UK yields: {'1Y': None, '3Y': None, '5Y': 4.9444, '10Y': 5.3046}",
-  "  JP yields (2026/10/28): {'1Y': 1.674, '3Y': 2.015, '5Y': 2.281, '10Y': 2.867}",
+  "  UK yields: {'1Y': None, '3Y': None, '5Y': 4.9614, '10Y': 5.3087}",
+  "  JP yields (2026/10/29): {'1Y': 1.677, '3Y': 2.016, '5Y': 2.285, '10Y': 2.876}",
   "Indices: israel",
   "  search 'TA Banks 5': TA-BANKS.TA[TLV] TA Banks-5, HRL-F12.TA[TLV] Harel Index Funds Ltd. - Harel Sal (4A) TA-Banks 5, 204.TA[TLV] TA Banks 5-Equal Weight",
-  "  search 'TA Insurance': 0966.HK[HKG] China Taiping Insurance Holdings Company Limited, HIUC.F[FRA] China Taiping Insurance Holdings Company Limited, FTI.KW[KUW] First Takaful Insurance Company - KPSC, AKHI.QA[DOH] Al Khaleej Takaful Insurance Company Q.P.S.C., HIUC.MU[MUN] China Taiping Insurance Holdings Co Ltd",
+  "  search 'TA Insurance': 0966.HK[HKG] China Taiping Insurance Holdings Company Limited, HIUC.F[FRA] China Taiping Insurance Holdings Company Limited, AKHI.QA[DOH] Al Khaleej Takaful Insurance Company Q.P.S.C., FTI.KW[KUW] First Takaful Insurance Company - KPSC, HIUC.MU[MUN] China Taiping Insurance Holdings Co Ltd",
   "Indices: us",
   "Indices: europe",
   "Indices: asia",
