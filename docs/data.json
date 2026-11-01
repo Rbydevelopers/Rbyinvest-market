@@ -1,6 +1,6 @@
 {
- "updated_il": "01.11.2026 12:20",
- "updated_iso": "2026-11-01T12:20:40.697736+02:00",
+ "updated_il": "01.11.2026 19:04",
+ "updated_iso": "2026-11-01T19:04:53.333988+02:00",
  "central_bank_rates": [
   {
    "label": "Israel — BoI",
@@ -75,9 +75,9 @@
  "fx": [
   {
    "label": "USD/ILS",
-   "value": 3.1084,
+   "value": 3.1381,
    "status": "ok",
-   "d1": -0.4550690250248679,
+   "d1": 0.9557943209041131,
    "key": "ILS=X",
    "as_of": "2026-11-01"
   },
@@ -122,12 +122,12 @@
    "label": "Israel",
    "tenors": {
     "1Y": {
-     "value": 3.18,
+     "value": 3.11,
      "status": "ok",
      "as_of": "2026-11-01"
     },
     "3Y": {
-     "value": 3.72,
+     "value": 3.68,
      "status": "ok",
      "as_of": "2026-11-01"
     },
@@ -137,7 +137,7 @@
      "as_of": "2026-11-01"
     },
     "10Y": {
-     "value": 4.21,
+     "value": 4.24,
      "status": "ok",
      "as_of": "2026-11-01"
     }
@@ -564,14 +564,14 @@
   "FX",
   "Bond yields",
   "  US yields (10/30/2026): {'1Y': 4.36, '3Y': 4.65, '5Y': 4.71, '10Y': 4.94}",
-  "  IL sheet 'nominal' shape=(467, 11)\n                                                                              0                    1              2                         3         4         5         6         7         8          9          10\n0                                                                            NaN                  NaN            NaN                       NaN       NaN       NaN       NaN       NaN       NaN        NaN        NaN\n1                                                                            NaN                  NaN            NaN                       NaN       NaN       NaN       NaN       NaN       NaN        NaN        NaN\n2  Nominal rate of return derived from the zero coupon yield curve estimation1,3                  NaN            NaN                       NaN       NaN       NaN       NaN       NaN       NaN        NaN        NaN\n3                                                     (monthy averages, percent)                  NaN            NaN                       NaN       NaN       NaN       NaN       NaN       NaN        NaN        NaN\n4                                                                            NaN                  NaN            NaN                       NaN       NaN       NaN       NaN       NaN       NaN        NaN        NaN\n5                                                                            NaN                  NaN            NaN                       NaN       NaN       NaN       NaN       NaN       NaN        NaN       \n...\n                                                                                                                                         0    1    2    3   4   5   6   7   8   9   10\n464  3 The nominal yields include a premium component as well as biases deriving from differences in taxation, liquidity, or market depth.   NaN  NaN  NaN NaN NaN NaN NaN NaN NaN NaN\n465                                                                                         ",
-  "  IL yields (sheet nominal, row 2026-10-15 00:00:00): {'1Y': 3.1753684175493433, '3Y': 3.717652082286517, '5Y': 3.8582975713191296, '10Y': 4.21125921485441}",
+  "  IL sheet 'nominal' shape=(468, 11)\n                                                                              0                    1              2                         3         4         5         6         7         8          9          10\n0                                                                            NaN                  NaN            NaN                       NaN       NaN       NaN       NaN       NaN       NaN        NaN        NaN\n1                                                                            NaN                  NaN            NaN                       NaN       NaN       NaN       NaN       NaN       NaN        NaN        NaN\n2  Nominal rate of return derived from the zero coupon yield curve estimation1,3                  NaN            NaN                       NaN       NaN       NaN       NaN       NaN       NaN        NaN        NaN\n3                                                     (monthy averages, percent)                  NaN            NaN                       NaN       NaN       NaN       NaN       NaN       NaN        NaN        NaN\n4                                                                            NaN                  NaN            NaN                       NaN       NaN       NaN       NaN       NaN       NaN        NaN        NaN\n5                                                                            NaN                  NaN            NaN                       NaN       NaN       NaN       NaN       NaN       NaN        NaN       \n...\n                                                                                                                                         0    1    2    3   4   5   6   7   8   9   10\n465  3 The nominal yields include a premium component as well as biases deriving from differences in taxation, liquidity, or market depth.   NaN  NaN  NaN NaN NaN NaN NaN NaN NaN NaN\n466                                                                                         ",
+  "  IL yields (sheet nominal, row 2026-10-31 00:00:00): {'1Y': 3.106635627182854, '3Y': 3.679752141869976, '5Y': 3.8589973514870386, '10Y': 4.2378932972854955}",
   "  DE yields: {'1Y': 2.93, '3Y': 3.09, '5Y': 3.14, '10Y': 3.4}",
   "  UK yields: {'1Y': None, '3Y': None, '5Y': 4.9614, '10Y': 5.3087}",
   "  JP yields (2026/10/29): {'1Y': 1.677, '3Y': 2.016, '5Y': 2.285, '10Y': 2.876}",
   "Indices: israel",
   "  search 'TA Banks 5': TA-BANKS.TA[TLV] TA Banks-5, HRL-F12.TA[TLV] Harel Index Funds Ltd. - Harel Sal (4A) TA-Banks 5, 204.TA[TLV] TA Banks 5-Equal Weight",
-  "  search 'TA Insurance': 0966.HK[HKG] China Taiping Insurance Holdings Company Limited, AKHI.QA[DOH] Al Khaleej Takaful Insurance Company Q.P.S.C., CINSF[PNK] China Taiping Insurance Holdings Company Limited, HIUC.F[FRA] China Taiping Insurance Holdings Company Limited, WETHAQ.KW[KUW] Wethaq Takaful Insurance Company K.S.C.P.",
+  "  search 'TA Insurance': 0966.HK[HKG] China Taiping Insurance Holdings Company Limited, AKHI.QA[DOH] Al Khaleej Takaful Insurance Company Q.P.S.C., CINSF[PNK] China Taiping Insurance Holdings Company Limited, FTI.KW[KUW] First Takaful Insurance Company - KPSC, HIUC.F[FRA] China Taiping Insurance Holdings Company Limited",
   "Indices: us",
   "Indices: europe",
   "Indices: asia",
