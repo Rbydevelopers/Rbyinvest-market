@@ -1,0 +1,4 @@
+{
+  "_help": "List the tickers you want on the Alerts page. Use Yahoo Finance symbols: NVDA, AAPL, SPY; Tel Aviv shares end with .TA (e.g. TEVA.TA, LUMI.TA). Add a symbol inside the list, keep the commas and quotes. After saving, the page updates within a few minutes.",
+  "tickers": ["NVDA", "SPY", "LUMI.TA"]
+}
