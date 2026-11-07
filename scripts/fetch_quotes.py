@@ -10,6 +10,7 @@ Design (same spirit as fetch_data.py):
 """
 import json
 import os
+import time
 import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
 from datetime import date, datetime, timedelta, timezone
@@ -87,6 +88,47 @@ def fetch_news(query, limit=8):
     return items[:limit]
 
 
+def fetch_fin(symbol):
+    """Latest quarterly report figures from Yahoo (if Yahoo has them for this stock)."""
+    t = yf.Ticker(symbol)
+    q = t.quarterly_income_stmt
+    if q is None or q.empty:
+        return None
+    q = q.sort_index(axis=1, ascending=False)
+
+    def row(*names):
+        for n in names:
+            if n in q.index:
+                return q.loc[n]
+        return None
+
+    rev, ni, eps = row("Total Revenue", "Operating Revenue"), row("Net Income", "Net Income Common Stockholders"), row("Diluted EPS", "Basic EPS")
+
+    def val(r, i):
+        try:
+            v = float(r.iloc[i])
+            return None if v != v else v
+        except Exception:
+            return None
+
+    def yoy(r):
+        a, b = val(r, 0), val(r, 4)
+        return None if a is None or not b or b <= 0 else (a / b - 1) * 100
+
+    ccy = None
+    try:
+        ccy = (t.info or {}).get("financialCurrency")
+    except Exception:
+        pass
+    out = {
+        "period": q.columns[0].date().isoformat(), "ccy": ccy,
+        "revenue": val(rev, 0) if rev is not None else None, "rev_yoy": yoy(rev) if rev is not None else None,
+        "net_income": val(ni, 0) if ni is not None else None, "ni_yoy": yoy(ni) if ni is not None else None,
+        "eps": val(eps, 0) if eps is not None else None,
+    }
+    return out if any(out[k] is not None for k in ("revenue", "net_income", "eps")) else None
+
+
 def sym_of(t):
     return (t["symbol"] if isinstance(t, dict) else str(t)).strip().upper()
 
@@ -99,6 +141,7 @@ def main():
         "watchlist": [sym_of(t) for t in cfg.get("watchlist", []) if sym_of(t)],
     }
     names = {sym_of(t): t["name"] for k in ("alerts", "watchlist") for t in cfg.get(k, []) if isinstance(t, dict) and t.get("name")}
+    queries = {sym_of(t): t["query"] for k in ("alerts", "watchlist") for t in cfg.get(k, []) if isinstance(t, dict) and t.get("query")}
     symbols = list(dict.fromkeys(lists["alerts"] + lists["watchlist"]))
     try:
         with open(OUT, encoding="utf-8") as f:
@@ -118,6 +161,21 @@ def main():
             r = {**old, "status": "stale"} if old and old.get("last") is not None else {"last": None, "status": "missing"}
         if names.get(s):
             r["he_name"] = names[s]
+        if s in lists["watchlist"]:
+            old = prev.get(s, {})
+            try:
+                r["fin"] = fetch_fin(s) if yf is not None else None
+            except Exception as e:
+                print(f"  fin {s}: {e}")
+                r["fin"] = old.get("fin")
+            qtxt = queries.get(s) or (names.get(s) or r.get("name") or s)
+            try:
+                time.sleep(0.4)
+                r["news"] = fetch_news(qtxt + " מניה" if s.endswith(".TA") else qtxt + " stock", 4)
+            except Exception as e:
+                print(f"  news {s}: {e}")
+                r["news"] = old.get("news", [])
+            print(f"  {s}: fin={'yes' if r.get('fin') else 'no'} news={len(r.get('news') or [])}")
         quotes[s] = r
         print(f"  {s}: {r.get('status')} {r.get('last')}")
     try:
