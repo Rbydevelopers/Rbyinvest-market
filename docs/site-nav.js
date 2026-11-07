@@ -5,7 +5,7 @@
 (function () {
   var PAGES = [
     { label: 'Market Data',        sub: 'Rates, yields, indices & calendar',   href: '/market/',   match: /^\/market\// },
-    { label: 'Investments',        sub: 'Holdings · Reports · News',           href: '/invest/',    match: /^\/invest\// },
+    { label: 'Analysis',           sub: 'Company analyses & reports',          href: '/analysis/',  match: /^\/analysis\// },
     { label: 'Watch List',         sub: 'Targets & distance to target',        href: '/watchlist/', match: /^\/watchlist\// },
     { label: 'Alerts & Follow-up', sub: 'Targets hit · stale data · approvals', href: '/alerts/',    match: /^\/alerts\// }
     // { label: 'New page', sub: 'Short description', href: '/reviews/new-page/', match: /^\/reviews\/new-page\// },
