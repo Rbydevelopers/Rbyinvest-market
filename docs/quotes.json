@@ -31,7 +31,7 @@
     },
     {
      "title": "פז מקפיאה את רכישת הביטקוין ב-Yellow בעקבות אירוע הסייבר בביטס אוף גולד",
-     "source": "calcalist",
+     "source": "Calcalist",
      "date": "2026-08-17",
      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0xUzF2a00wbVNCR1dtR1hvXzNHN2JxU2RwdlE4VDhDSnVLQzVzM0pHTEdnMFN1eF91TVU0S2h5VkVkckVoRjRjRkkzY1h3cHZ3c01vcS1qRE5kWExsNEZDdGRuUlh4TWpCZnFz?oc=5"
     },
@@ -60,16 +60,16 @@
      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5OQ3lzbGlvYTc3RUxuZjZDUHN4VWU1WG11TldDajFHVktSTjdnUE5sX0VXSGZPdjBEQVN0aENXWHc0QXpBWUxGaDVHaVNqZEpoS3A5RlRNVmdQd0dOaVpEMVB1N3UwbEZxeVg3bGpXcFJJSl9fam1Z?oc=5"
     },
     {
-     "title": "מהפכה באפליקציית Yellow : כך תוכלו להמיר את הכסף הצבור לביטקוין",
-     "source": "ice (אייס)",
+     "title": "אפליקציית Yellow תאפשר להמיר נקודות לרכישת ביטקוין",
+     "source": "כלכליסט",
      "date": "2026-07-28",
-     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBGQWNoNHRNcHhfOHVMa3FfQ0w0U2xOeXg0dndPUEtLcEowRERGQUJSLVRpSGdpa2ZMVWxoR29NbVI5VjB2Yzl0Z1ZicGswUGtXQlVWZ3U0a3pfa21FLUE?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE40c2UyZ1ZRbmJOYjlKMzQyTlRPSWdETUp1cjRGNU1vSEN1UlVyYXo0TnlWc3ZpYWFDZzh4M2o1ZUhTMDFFemRqSFJ0bnFUZ1RrRDRackNoakoxbE9lRlRHMWpKQ08?oc=5"
     }
    ],
    "status": "ok"
   }
  },
- "updated_iso": "2026-11-07T18:19:13+00:00",
+ "updated_iso": "2026-11-07T20:48:16+00:00",
  "source": "Yahoo Finance (via yfinance)",
  "lists": {
   "alerts": [
@@ -145,7 +145,42 @@
    "m1": 1.4979195561719783,
    "ytd": 4.245014245014245,
    "status": "ok",
-   "he_name": "בנק לאומי"
+   "he_name": "בנק לאומי",
+   "fin": {
+    "period": "2026-06-30",
+    "ccy": "ILS",
+    "revenue": 6424000000.0,
+    "rev_yoy": 7.317073170731714,
+    "net_income": 2832000000.0,
+    "ni_yoy": 8.505747126436791,
+    "eps": 1.92
+   },
+   "news": [
+    {
+     "title": "מנכ\"ל לאומי נגד חיוב ריבית על עו\"ש: \"אי זמינות של כסף שווה כסף\"",
+     "source": "גלובס",
+     "date": "2026-10-18",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9oS2dUZmFlNDc2bHdwZVRGNXBubWI4elU5cGVpWjFCUl9PeFhnTFFuQWd6azE2dzI4cDlDOXB5UkFiMzNjUFFock8tS1RkbUFUWUdocnhKc1ZNVllQSUItNjNaYlBwZEox?oc=5"
+    },
+    {
+     "title": "מנכ\"ל בנק לאומי הגיע לרשת X וביקש מהגולשים פידבק. איך הם הגיבו?",
+     "source": "גלובס",
+     "date": "2026-10-09",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsd0FJd1N3R01OOGxQN2VabFlXSDlQdk12TWtmcTU1YVVmZnVyd3hlUmpNamQ4MVhSek1kMzI1dk8zeTZNOU5hMzBMMFdFZHhuU3l6dTZ5Sk5lNXdMM3hQNkpyZHJiZVhG?oc=5"
+    },
+    {
+     "title": "עזב את לאומי לטובת נאוי וירוויח יותר ממנכ\"ל הבנק",
+     "source": "גלובס",
+     "date": "2026-09-16",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1SbV9DMk5iT19ESGMzTGkzbXk2Xzgtd3EwQTZKRHYwbUtWYW5wREMxVXlaZ2JiTkRCWFRYaWJ5QjJTSXl2dDJmd25fa29rUkdoN3BXaVZDSFgyVFg5M09jaWZSUnNBLWJ2?oc=5"
+    },
+    {
+     "title": "אפסייד של 24%: הבנק שקיבל המלצה חמה",
+     "source": "גלובס",
+     "date": "2026-08-13",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBuNWdhejl0b1ZyM1BoNDdwVmJxRU5kN293SkY2dzIzbU1iZTVuQWhkTGxZZXBjN21uU3BIaG93T2M5R004SUNXb0tHT3U5QjRzMkpXb3MxTkFzVGNWcGRZSW1HQXROUlFS?oc=5"
+    }
+   ]
   },
   "GOOGL": {
    "name": "Alphabet Inc.",
@@ -179,7 +214,42 @@
    "m1": 0.3783783783783745,
    "ytd": 3.0950728660652294,
    "status": "ok",
-   "he_name": "בנק הפועלים"
+   "he_name": "בנק הפועלים",
+   "fin": {
+    "period": "2026-06-30",
+    "ccy": "ILS",
+    "revenue": 6603000000.0,
+    "rev_yoy": 2.4515128006206366,
+    "net_income": 2488000000.0,
+    "ni_yoy": -2.124311565696302,
+    "eps": 1.9
+   },
+   "news": [
+    {
+     "title": "בכיר בבנק הפועלים: \"אולי המשקיעים מניחים שגם המשבר הבא ייראה כמו הקודם\"",
+     "source": "גלובס",
+     "date": "2026-10-15",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE55bklaUlFDQzMtR19Gbk9OUkNHektranZfaWpQTTA4UTlUaTVfOER1TlJjLXNqV1UwMi1YeXp1SXdjTDh6al9kUkMzbGxCWGN6dUZfVE0zNzZIazBieU9QcVpJcnllQ19z?oc=5"
+    },
+    {
+     "title": "קמטק מכוונת למיליארד דולר הכנסות - בבנק הפועלים חושבים שזה יקרה כבר ב-2028",
+     "source": "ביזפורטל",
+     "date": "2026-10-15",
+     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUb185MEUwcjExdFVSRmdVU1M3R1k3QkJsaXh4MGl6c01tak0yenBuX3c4a2N3RTNDeTNHOXE5cjByQkhOSGpNUHoxV29WUVJzUHJRTDBwRjJIMVItNVl4ckRvSnFjcEt6Z09lbFVVUGk?oc=5"
+    },
+    {
+     "title": "\"יש פוטנציאל לייסוף חד בשקל אחרי הבחירות, אם השוק יפרש את התוצאות כך\"",
+     "source": "TheMarker",
+     "date": "2026-10-05",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWVRKOVpTSEdFT3p3YlpTNlhQUHprWmJ0RGVhTkhhZnNlbE94Z2w4VkpjWGU2ZjJDZnFTa3pHNzZHMGY2bHFPRUtMR0dqWXVrbFFSSjk1bDFTeUtMNzNJVjZmXzYzUXdJbDY0MHVyWTh2TGlpYVlGemdlSV96d0hSMG4zUUJsT0hkeWdNZzQwdXE2NHJ2WmNpV3ZibUhnVUVpTmln?oc=5"
+    },
+    {
+     "title": "דוחות בנק הפועלים ל-Q2: גידול של 6.6% באשראי מתחילת השנה וחלוקת 1.24 מיליארד שקל לבעלי המניות",
+     "source": "פאנדר",
+     "date": "2026-08-11",
+     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5BTFlQbFdRRHhlQnpHX0R2VWtWTGxqMXF6TUhzcmRJaG5JSzFJd2dCQ1Vpb2lpS3VrNUxRYUx6ZDE0ODFGWHpOQWNwNXNJUWFt?oc=5"
+    }
+   ]
   },
   "DSCT.TA": {
    "name": "ISRAEL DISCOUNT BK",
@@ -191,7 +261,42 @@
    "m1": -0.9201543484713581,
    "ytd": -1.3010053222945017,
    "status": "ok",
-   "he_name": "בנק דיסקונט"
+   "he_name": "בנק דיסקונט",
+   "fin": {
+    "period": "2026-06-30",
+    "ccy": "ILS",
+    "revenue": 3466000000.0,
+    "rev_yoy": -0.6876790830945612,
+    "net_income": 1203000000.0,
+    "ni_yoy": 7.892376681614355,
+    "eps": 0.98
+   },
+   "news": [
+    {
+     "title": "נעילה חיובית בתל אביב; מניות הביטוח זינקו, הביטחוניות איבדו גובה",
+     "source": "גלובס",
+     "date": "2026-09-03",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wM1laX1VMczVLODR4TTZfNW1hWGlLVzZqMkpBNW1SR1JKdldFeW9VZ3N0R3FGVGJIWFByMnk1d1NTR1V3a0w4eS1qVmRNZ3l6ZEpWdzNfbUdBTXpkOVpFajNlQmpNUGpx?oc=5"
+    },
+    {
+     "title": "דיסקונט: דמרי נפלטת מת\"א 35; אלפא תאו ותדהר יצטרפו לת\"א 125",
+     "source": "גלובס",
+     "date": "2026-08-24",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4zZ1B5VmIxY045UmVkZ1lkaFd3b295cFN5UjYtUkV5Sk5uSnVWZW5tZVBzQkhFdndiQk9kM1dXYmxGbW5Fbkdia0RKYmd6bDhuVnVCdGxXRTU2MEZvT3FHSnF0NmZSdFNT?oc=5"
+    },
+    {
+     "title": "בנק דיסקונט: מודל הסקטורים בישראל ממליץ כעת על אחזקה ב-3 סקטורים",
+     "source": "פאנדר",
+     "date": "2026-07-15",
+     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBKbnB6bVZUeHpreWJVUXpsdi13emRQZVVkZFM3Z1RkZ3Z6dVNxMjFPRE13OVFNYzA3dExac0FkQ3lWVXlGbVVzQUdKb1V3XzFf?oc=5"
+    },
+    {
+     "title": "התייעלות בדיסקונט: מקפיא המענקים והעלאות השכר - ועשוי לפטר עובדים",
+     "source": "calcalist",
+     "date": "2026-04-26",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4wVjFmY0N6NlUyV25TRGdXTWZMbVdiOWdkOWU3YTU5WVN6NGR5V25kUVNQc3lEWk9DZHg0Y1RuM0E4dmFncVBIbUNqcnU5aGxZZlBVT19hYTluc0RIVF9kNnpVQ0FFLXh2?oc=5"
+    }
+   ]
   },
   "MZTF.TA": {
    "name": "MIZRAHI TEFAHOT BK",
@@ -203,7 +308,42 @@
    "m1": 0.6726457399103047,
    "ytd": 0.9442446043165464,
    "status": "ok",
-   "he_name": "מזרחי טפחות"
+   "he_name": "מזרחי טפחות",
+   "fin": {
+    "period": "2026-06-30",
+    "ccy": "ILS",
+    "revenue": 3802000000.0,
+    "rev_yoy": 0.2901609074122957,
+    "net_income": 1428000000.0,
+    "ni_yoy": -1.720578114246385,
+    "eps": 5.43
+   },
+   "news": [
+    {
+     "title": "הוא רק בן 14.5 וכבר הכפיל את ההשקעה \"ברוב המניות בתיק\"",
+     "source": "גלובס",
+     "date": "2026-10-25",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ScGFLZmpUblF4UXI1WHBPekl0bm8wZm9vOGp5TC0xNnRUYTY2UGJyZjRMWmFOcHJKUjN5RFNwOGtDeEpXdV9TUFduSXdRREpHOGlzRmJGUWJKNlg3cllWRkNLWjd3bm1K?oc=5"
+    },
+    {
+     "title": "דירוג מניות הבנקים ביולי: זו המניה שזינקה ביותר מ-15% - אייס",
+     "source": "ice (אייס)",
+     "date": "2026-08-02",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBaOTNUbjlJdk5NSGFuelN6MWl4c1loVEhJWndfTTBYRUhHSmxxbkY3MHVOd2QxUkUtS3VGT2YzbXRaWXI1MElDWXpIVXZJSmtkMVNrSWZTQ1gxTTYyNTc4?oc=5"
+    },
+    {
+     "title": "תל אביב סוגרת שבוע מסחר אדום. מניות השבבים והטכנולוגיה נחתכו במיוחד",
+     "source": "גלובס",
+     "date": "2026-06-26",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9pNmpEa1Z0S184ZWtzakxCeGFIODNyRXd0ZG1UaXVvQ3NVRjlfWkRkUF8wMmxuVE9vT3RydEdhWUJlUU96VkpaWDdna3BTMzJ4aXkwRDJ0LTREb0NwQ0ZmX2psZUdSV1pC?oc=5"
+    },
+    {
+     "title": "מניות הבנקים נופלות? בעלי השליטה בבנק הזה הזדרזו לקנות מניות ב-100 מיליון שקל",
+     "source": "גלובס",
+     "date": "2026-06-04",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1sdTQzRG1TRzA0anZhekhOSUpTRk9RcFJXUElyOXFNMjRjcWFQWWhmdUVta3FtODd5VlFuNEFXU1k1Vlh4QkZPSHZQX0VFUWp5cC01a3FDSnNlYTJEQnhpV2dvM1ptY0tX?oc=5"
+    }
+   ]
   },
   "FIBI.TA": {
    "name": "FIRST INTER BK ISR",
@@ -215,7 +355,42 @@
    "m1": 4.649042844120332,
    "ytd": -8.34331337325349,
    "status": "ok",
-   "he_name": "הבינלאומי הראשון"
+   "he_name": "הבינלאומי הראשון",
+   "fin": {
+    "period": "2026-06-30",
+    "ccy": "ILS",
+    "revenue": 1763000000.0,
+    "rev_yoy": -4.236827810972299,
+    "net_income": 583000000.0,
+    "ni_yoy": -8.47723704866562,
+    "eps": 5.82
+   },
+   "news": [
+    {
+     "title": "\"אין ממצאים למעילה\": מניית בנק ירושלים ירדה על רקע שמועות ברשתות החברתיות",
+     "source": "גלובס",
+     "date": "2026-08-13",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Ha3Y2d2pLamNrczNvTTJXTEFBa2pRLW85VFBfWmY4TUh6SDVKVVVWU1UxeFliM0ZUakZLc0NXSGIteEtQOTNEMXJ4bzZhSnI1clAzYkxzS0dlU09acDBlRDVUcUpFbVFp?oc=5"
+    },
+    {
+     "title": "583 מיליון שקל ברבעון: הבינלאומי מחלק כמעט את כל הרווח כדיווידנד",
+     "source": "TheMarker",
+     "date": "2026-08-12",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSEJFYWRNdEUtcXlWRUdEdzZhRFVLeU54a2c4MlBnd1l6TmYzX041OVdmdDdyNzdwSjRQclowX2M4bXNfODZON3djN0ttaUpRR0hFZjhIX0FvelVzSDRaU01zNldCRnFFT2Z3bEdMd0hFYUJLLWt3OW9CdnVJQ19uOU8zV0xmUXBaMEtYLU1NSGZPTUJ2dmwxRHhmblNvWEJidUlZ?oc=5"
+    },
+    {
+     "title": "הבינלאומי: תוקנה התקלה באפליקציה ששיבשה את המסחר במניות",
+     "source": "כלכליסט",
+     "date": "2026-06-01",
+     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9tTGZKdklQY0ZFLVJVeEdEUHF0LVZ6dlpGWjFUWkdWYTVXNElURWlkX3VyN3RTZGxoLVBXUV95NUJRRWFYU0FaZWRjdV9hc3dBNzg4bnpRQ2xSN1czX19fWUpaOA?oc=5"
+    },
+    {
+     "title": "הבינלאומי רשם ירידה בהכנסות וברווח, התשואה להון על 13.2%; יחלק 240 מליון שקל דיבידנד",
+     "source": "ביזפורטל",
+     "date": "2026-05-18",
+     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBOSTRGaDRTNlJCUVJPQmpMeEszZU1qeTZrSlBCbFNUSWpQNVNWWVdtWE5iV0pILXV3QUZ2aV9oMFVSNDBVUzFtVnNNZ1pPNFcycTBRVGJFNXE5MF9uN3NKTk40M2tBQWNkTmU2MG1udjQ?oc=5"
+    }
+   ]
   },
   "JBNK.TA": {
    "name": "BANK OF JERUSALEM",
@@ -227,7 +402,42 @@
    "m1": -10.996386164171401,
    "ytd": -25.561312607944732,
    "status": "ok",
-   "he_name": "בנק ירושלים"
+   "he_name": "בנק ירושלים",
+   "fin": {
+    "period": "2026-06-30",
+    "ccy": "ILS",
+    "revenue": 248000000.0,
+    "rev_yoy": -7.6005961251862875,
+    "net_income": 45100000.0,
+    "ni_yoy": -30.72196620583717,
+    "eps": 0.64
+   },
+   "news": [
+    {
+     "title": "130 מיליון שקלים פחות: מניית בנק ירושלים לא התאוששה מפרשת מלי וליאל יהלומי",
+     "source": "וואלה",
+     "date": "2026-10-26",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBuM2hvT3IzWm9SUHNTMkRHS1RLc0VzQ1hfcVBETnlmTGxjTzU4N2FMYzlNcTIzeFNtS2hHYzBlaTJ0YmpaUk5tU1JkY1R0bnpZMXc?oc=5"
+    },
+    {
+     "title": "בנק ירושלים בדוח כספי ואף מילה על מלי יהלומי",
+     "source": "ביזפורטל",
+     "date": "2026-08-17",
+     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1OdS1KOWw1UEFKZTBkTFV1QS1nMHRlWUg2LTJHcXVaQ19DbHRlQ2dIb213Q2VJdE9PSlAzM2x6aHJuMzRGanotdDZoTEF5RmlRdWM0NzR6eFJHc3BrRUNLbk4yMVowQ3YyT1EyQ3dDMGc?oc=5"
+    },
+    {
+     "title": "אחרי דרמת מלי יהלומי: בנק ירושלים חושף את הדוחות הרבעוניים",
+     "source": "ice (אייס)",
+     "date": "2026-08-17",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBXbDJtZk1tQUpIbVlqY2x4N013M1QzVl9FaXQ3cFNDSDVZclNIbEtPekxTNmxhWjVvZEh0NU9TaWZka3NlVG5RenRPU0hJMFZ0LXIwcUs2azFBRGNUTDhN?oc=5"
+    },
+    {
+     "title": "השמועות שהפילו את המניה: סערת מלי וליאל - והחקירה שצריכה להיפתח",
+     "source": "TheMarker",
+     "date": "2026-08-16",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSnRmNV8xaG0xRE83Njgwd2NIZVFiU3hicVRhYjVRWEtoUENBNTFtUmxzVkpDSEk4S0VJNjNxUWQzSVU4dTZGZ05lbmVnQ1Y5aGhwVmRNYXUyODNDM2JubGVoa3p5N0VNX1NCQ1F1ajBrZWdRclhuZUhBbVdySENRcUV2SUpZdWg5V0RkUjBCN25ocUV2b2ZXZ2NzS1lKenJ5SU80?oc=5"
+    }
+   ]
   },
   "HARL.TA": {
    "name": "HAREL INS INVS",
@@ -239,7 +449,42 @@
    "m1": -4.567699836867867,
    "ytd": 41.190667739340306,
    "status": "ok",
-   "he_name": "הראל השקעות"
+   "he_name": "הראל השקעות",
+   "fin": {
+    "period": "2026-06-30",
+    "ccy": "ILS",
+    "revenue": 10661000000.0,
+    "rev_yoy": 19.223887273540583,
+    "net_income": 1068000000.0,
+    "ni_yoy": 28.057553956834536,
+    "eps": 5.1
+   },
+   "news": [
+    {
+     "title": "קרנות 30-70 הגדולות בפוקוס: הכשרה של ילין לפידות מול ה75-25 של הראל - סקירת בורסות וקרנות יומית",
+     "source": "פאנדר",
+     "date": "2026-10-23",
+     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE02N19lMTk3NkdwZkpYelZIcEpMSXg5UktJaDNZZHJTenlFcGN6MEREeGswWUozOUt1bWI4V1lmcV9FVmtBbkVrNXhwVEZzTE50?oc=5"
+    },
+    {
+     "title": "מנורה מבטחים דיווחה על הסכמות במסגרת הליך ייצוגי, הראל והפניקס ברכישה עצמית - דיווחי חברות ת״א 35:",
+     "source": "פאנדר",
+     "date": "2026-10-19",
+     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA2LV93TEtxOGZtejVfNHdCRXptRHV2T1J6M000QmxKRTkwUzF5Qi1pUmdjcWpWbzBrX3VsU2plc25xOE1YamlnQjJUS2d6MkhH?oc=5"
+    },
+    {
+     "title": "הראל מחלקת 10,000 שקל לכל עובד - אחרי רבעון של יותר ממיליארד שקל רווח",
+     "source": "ביזפורטל",
+     "date": "2026-09-08",
+     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ieHJ3ZlBPcWZSc2wyMGtUVVRQNFFBczhHSWVqdlpVVXk1ZjdSMERWbXFqRUdBZDVuaTl5NE9nc3ZzM3E1aE5sa28tNjhWM0lDbUc0SUhSaHp4SHFFRXFIWndOOE5XdU1tcjdoS0l6Vng?oc=5"
+    },
+    {
+     "title": "אחרי מכירת הענק: משפחת המבורגר רכשה מניות הראל בבורסה",
+     "source": "כלכליסט",
+     "date": "2026-06-07",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9xZTZmaVpLQndUZWhmZDdnNlY0ZEE4R2RUOHpUc2t0VE1rSHVzQ1RBcnRsOEs0NFRCaS1sTnVYeW50MGxiZ2NwNTN6TTRyOE5JcXZ1d2U5U3dnTHUyRmY0V291NHg?oc=5"
+    }
+   ]
   },
   "PHOE.TA": {
    "name": "PHOENIX FINANC LTD",
@@ -251,7 +496,42 @@
    "m1": -3.3432835820895512,
    "ytd": 22.837632776934758,
    "status": "ok",
-   "he_name": "הפניקס"
+   "he_name": "הפניקס",
+   "fin": {
+    "period": "2026-06-30",
+    "ccy": "ILS",
+    "revenue": 10545164000.0,
+    "rev_yoy": 11.544442867179662,
+    "net_income": 904143000.0,
+    "ni_yoy": -5.521914090787017,
+    "eps": 3.55
+   },
+   "news": [
+    {
+     "title": "הפניקס מנסה לממש את מניות השליטה באלרון, אחרי שאריאלי לא עמדה בתנאים",
+     "source": "כלכליסט",
+     "date": "2026-08-30",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE45ckZLZzdGeFhWUnprbWU3WjcxWnd6dUNYWEQxOHlqa3B5U3ZqUDRQV1ZIY01EdWpNUFJQdzhqN2JCUC1oQmN6cVBVN2VxX2ZoYlFoLXZjU3BPdGZmcS1PWGRCZ3k?oc=5"
+    },
+    {
+     "title": "אייל בן סימון, מנכ\"ל הפניקס: \"הפניקס ממשיכה בביצועים חזקים וצמיחה אסטרטגית בקצב גבוה מהצפוי\" - תחלק דיבידנד ענק",
+     "source": "פאנדר",
+     "date": "2026-08-25",
+     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE13LWZxM2JycGpqMUZvYlFQb0EySXFmWC1La21BQzZtTmJOdnczR1F4Q1lMRVVoZW02S3U0VDlUOXo0dEI2cVR4Unh2c09GRnpp?oc=5"
+    },
+    {
+     "title": "חגיגת רווחים סעודית-קטארית: מאחורי מימוש הענק בהפניקס",
+     "source": "גלובס",
+     "date": "2026-07-28",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlejQzMTFMS2UyVDIzajJRYzlZbllRYnpHdkM2ZXh1d2duMjlLYVhBNEpFZ2gwYmp4NmhlY2t5N2luMG5fYm94OUNES2tWWFVueEl0SFhfVWN2NExkTTkxNUlDZXZwOTc3?oc=5"
+    },
+    {
+     "title": "סכין נופלת או הזדמנות? בית ההשקעות שמציע הימור על התחום שהכי נפגע מ־AI",
+     "source": "כלכליסט",
+     "date": "2026-07-28",
+     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1DdHdUN19iRFI5T0tjcDBURmluVU0tb3dHOGt5ZnpYTWRsMldvRGdTaXFwZWlFaHhRZ25Ydnl6RjR0RmxBR0UyTEVHemktQnV3dnNZVl9kUHlMek42cm9renowdw?oc=5"
+    }
+   ]
   },
   "MGDL.TA": {
    "name": "MIGDAL INS & FINAN",
@@ -263,7 +543,42 @@
    "m1": -10.902255639097746,
    "ytd": 7.309184993531703,
    "status": "ok",
-   "he_name": "מגדל ביטוח"
+   "he_name": "מגדל ביטוח",
+   "fin": {
+    "period": "2026-06-30",
+    "ccy": "ILS",
+    "revenue": 13962000000.0,
+    "rev_yoy": -1.5790215705625221,
+    "net_income": 574000000.0,
+    "ni_yoy": 0.5253940455341555,
+    "eps": 0.54
+   },
+   "news": [
+    {
+     "title": "נעילה ירוקה: מניות הביטוח זינקו - איילון עלתה 4.1%, מנורה 3.7%; ת\"א 35 עלה 1.6%",
+     "source": "ביזפורטל",
+     "date": "2026-10-16",
+     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9sSzVMSjAteWF1bmpydmtuNmQtZ19Rb3NETUhKcy02R29OR1hBZmVDWmJoczI5WW1qZFUtNk5PbGZrX3VzcHRrQzVYSUNQMU8wbHJfLUZSVFl1TmtGTVhNZm9rVE1Fc3pZUU41NktON0g?oc=5"
+    },
+    {
+     "title": "חברת הביטוח מגדל רכשה מניות נקסט ויז’ן מפידליטי",
+     "source": "ספונסר",
+     "date": "2026-10-06",
+     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBQcjhQMmtOZGlObW5kRTVGY3NiV19rRm9OdW9kay1UMUQtRkY3VjhmTWpnYVRZRENLRU9HejU1QjJzOWZLUHQ2S296X3lhd2d1c3pnSFQ5X0lQeFFrSkZiZWNYVUxkdw?oc=5"
+    },
+    {
+     "title": "מנהל ההשקעות שאופטימי לגבי ישראל ומסמן שני סקטורים",
+     "source": "גלובס",
+     "date": "2026-09-01",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1aUGgtendNQ3hNMkJSYmlGWTVOSVZzMmpMXzRGN1NtZTFmYl9sTXpvRHpYaE8zX1VMM2ZMZXVvWEFjWmwtbVdudFJLN0hIekRXVDFxeUU5U2k3LUd2ak1RT0NQcFpnOG55?oc=5"
+    },
+    {
+     "title": "325 מיליון שקל תמורת 14% מהמניות",
+     "source": "YNET",
+     "date": "2026-07-02",
+     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nWnV2LVVaR1JLYjJSRUFKMGFmRmhoZFJvSWduVlFsMWxYQ0ZQSmlkWDc4b28zekJ1OGVjM3RLMV9YT2FCWGRhdy10UnZmTU9RTjUzWEU0b0lsZklrYVE?oc=5"
+    }
+   ]
   },
   "CLIS.TA": {
    "name": "CLAL INSURANCE ENT",
@@ -275,7 +590,42 @@
    "m1": -6.5185185185185235,
    "ytd": 22.702965483714156,
    "status": "ok",
-   "he_name": "כלל ביטוח"
+   "he_name": "כלל ביטוח",
+   "fin": {
+    "period": "2026-06-30",
+    "ccy": "ILS",
+    "revenue": 9546000000.0,
+    "rev_yoy": -1.2005795901469662,
+    "net_income": 617000000.0,
+    "ni_yoy": 14.471243042671622,
+    "eps": 7.42
+   },
+   "news": [
+    {
+     "title": "עסקה גדולה בפיננסים: כלל ביטוח במו\"מ להשקעה בווליו בייס לפי שווי של 600 מיליון שקל - שוק ההון - TheMarker",
+     "source": "TheMarker",
+     "date": "2026-09-23",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbmdWTTVrXzNaelo2aVFudkZET3JDNm5oRnR1aVlOZHdUZ2c4QmlDTzY5cGNqdkhOU0dtek5YeFhEZ1RZRC1Ld01zN3VCX2YtX2xhZjl2aS1UY3J0MnAyV1F3d0hqMVpDZ21ERUdCY05HWXVzMUJ6R1pjNTZScWpoOEVmcVZFOTRNcTZXMDQ3Ui1hRUxkNTA4?oc=5"
+    },
+    {
+     "title": "קבוצת כלל ביטוח בוחנת השקעה בקבוצת ווליו בייס לפי שווי של 600 מיליון שקל",
+     "source": "ביזפורטל",
+     "date": "2026-09-23",
+     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5PTmZaQ3VURDZSREk2dzF5R2xMV1BmWFRjOC1nQ2J5S0ZOZUo0cWgydkRlOE53Slp0Zk1feGtqVXJ3cW90NGxZM2ZNT0o2ZDBNc0g0STN3Z1BKLUJQbnZwWElSbWlod1hNUUVFMDQ3VGs?oc=5"
+    },
+    {
+     "title": "הנתון בדוחות של כלל שהקפיץ את כל מניות הביטוח בבורסה",
+     "source": "גלובס",
+     "date": "2026-08-19",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFByMEM1VFpIdTZFcXJPLTJnTTg2QklkSHpLdjY4TnowN3hIbFdYTDQ5dHZxWVk1aF9kUnV3OVhUZDNub1BfYXBrbkRGYlZzZUw5SE5TQXVyNzJYLS1icVNtMUxRbzByRHhI?oc=5"
+    },
+    {
+     "title": "כלל ביטוח לא עוצרת: תשואה להון של 22.5% ורכישה עצמית ראשונה",
+     "source": "ice (אייס)",
+     "date": "2026-08-19",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9xTnEzeWtHMDFzNWtEQ1hoMThSODhOeVFsQ1ktSm9kLUEzcDBkaXBlWkRjOEhQbGlKck1hTWpObDY3RGstNU9aNHZ2SGVaNmN5ZGpVbGRvaE03elVVS0Iw?oc=5"
+    }
+   ]
   },
   "MMHD.TA": {
    "name": "MENORA MIVTACHIM",
@@ -287,7 +637,42 @@
    "m1": -3.0881755383990295,
    "ytd": 19.42914371557336,
    "status": "ok",
-   "he_name": "מנורה מבטחים"
+   "he_name": "מנורה מבטחים",
+   "fin": {
+    "period": "2026-06-30",
+    "ccy": "ILS",
+    "revenue": 3145070000.0,
+    "rev_yoy": 3.737330391590632,
+    "net_income": 789509000.0,
+    "ni_yoy": 7.319384011429153,
+    "eps": 12.47
+   },
+   "news": [
+    {
+     "title": "מנורה מבטחים דיווחה על הסכמות במסגרת הליך ייצוגי, הראל והפניקס ברכישה עצמית - דיווחי חברות ת״א 35:",
+     "source": "פאנדר",
+     "date": "2026-10-19",
+     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA2LV93TEtxOGZtejVfNHdCRXptRHV2T1J6M000QmxKRTkwUzF5Qi1pUmdjcWpWbzBrX3VsU2plc25xOE1YamlnQjJUS2d6MkhH?oc=5"
+    },
+    {
+     "title": "בנק ההשקעות היוקרתי קבע: המניה הישראלית הזו בדרך לזנק 36%",
+     "source": "ice (אייס)",
+     "date": "2026-07-10",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE53Zm5XTGFQOEM3WG1tam1VMXpUQzhiTlplNVhpbEhJc3M0N1ZWQThvd09PSnYtWHZiNjBsQ3NYQlRHV0NRZDZfVS1NbjJuVFJqbWxta1JGZ2l3X0dKeUVV?oc=5"
+    },
+    {
+     "title": "בעקבות הקפאת החשבונות: מניית מנורה צוללת בפתיחת המסחר בת\"א",
+     "source": "וואלה",
+     "date": "2026-07-07",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBxckRZNUpvWTY4VE5IMXB0a0hnbVZlSHdHdmxUcnFNVWU3cFNqV0tPSjNuNXdKb0ZiTmpuWnBfOFQ2SzRuWVBNZDFwenRZZ0lWdkE?oc=5"
+    },
+    {
+     "title": "הסכסוך בדוראד: מתגבשת פשרה בין הפניקס ללוזון",
+     "source": "כלכליסט",
+     "date": "2026-06-01",
+     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAzYlVYazV4d1ctY1VjUDRvY2Q1M193cEJxMk9tZUZDaVJyWVVnSG5VbFlQeHM0ckZjU1lJODBISlRJOWhTS3hpSE5kMzFhLVZON1lQcjh5eVg1TXJONVR2enBzbw?oc=5"
+    }
+   ]
   },
   "AMAL.TA": {
    "name": "AMAL HOLDINGS AD L",
@@ -299,7 +684,42 @@
    "m1": -4.0358744394618835,
    "ytd": 7416.306959669098,
    "status": "ok",
-   "he_name": "עמל החזקות"
+   "he_name": "עמל החזקות",
+   "fin": {
+    "period": "2026-06-30",
+    "ccy": "ILS",
+    "revenue": 576933000.0,
+    "rev_yoy": null,
+    "net_income": 33867000.0,
+    "ni_yoy": null,
+    "eps": 2.4
+   },
+   "news": [
+    {
+     "title": "מנכלית עמל ומעבר: \"התוצאות ברבעון פחות טובות ממה שייחלנו\"",
+     "source": "גלובס",
+     "date": "2026-08-26",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBtUEFVdlJRUmVjMlR2ejFBb3A0VnRnRlgtdEUxUkFEWjBwQmFkRDQ2X0JtbUFMQURyMXlyMzFlTGcwY2FMb1djdHpLX3FDSjhmMnVERDY2ZGQ1dFFhdVU5NGlzV0FLVzJJ?oc=5"
+    },
+    {
+     "title": "ירידה ברווח, עלייה בהוצאות הנהלה וכלליות - אבל עמל ממשיכה לחלק דיבידנדים",
+     "source": "calcalist",
+     "date": "2026-08-26",
+     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1kRUxOMFZBWUJCQW5vNVIwN25UUkNxTEhyMEdhbjUydkFTYjQ2YVlMNFVfNFFrMHRZU1NpWjNiSDJqQko1TWljVDRhWXAtWGxsaU16eEExLS1WV2Y3dFRPMTJBMA?oc=5"
+    },
+    {
+     "title": "חברת הסיעוד המשפחתית שעשתה אקזיט של 180 מיליון שקל",
+     "source": "גלובס",
+     "date": "2026-07-02",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5uNExzMHAzTUZYQXVIY0VpZ2dKT0lZX0ZtNE5OR3p1OFJlempiVmRmVjh2UFdiSnRIaHVUQ1g2LXlTZFlSQUtYZEJMZGJlVlBTUmlHcW9PdlE4UEpvcmtVd3V4akg3WUNq?oc=5"
+    },
+    {
+     "title": "הנשים המשפיעות 2026: דליה קורקין",
+     "source": "גלובס",
+     "date": "2026-03-31",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5GMWRYLS1hZXhxdk1iRkVXWV8ySlowS1BqdnB2N1ZSR3dHNmQxdVpRaEZpdm5xOTdDLWx6ZFk3a2lUeEtlelpKd1YzQmNndzV4NVg2aXNfSXZyM0p5djh6MUVQRmFWZkEzeEtn?oc=5"
+    }
+   ]
   },
   "MTRD.TA": {
    "name": "MEITAV TRADE INV",
@@ -311,7 +731,42 @@
    "m1": -8.900255754475705,
    "ytd": 8289.072248714674,
    "status": "ok",
-   "he_name": "מיטב טרייד"
+   "he_name": "מיטב טרייד",
+   "fin": {
+    "period": "2026-06-30",
+    "ccy": "ILS",
+    "revenue": 76562000.0,
+    "rev_yoy": 16.135001896094046,
+    "net_income": 17378000.0,
+    "ni_yoy": 9.585067473830232,
+    "eps": 0.34
+   },
+   "news": [
+    {
+     "title": "מניית מיטב צנחה אחרי פרצת אבטחה: מידע אישי של כ-3,000 לקוחות נחשף",
+     "source": "מעריב",
+     "date": "2026-09-29",
+     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE50azk3UGJSdDhQSHcxejFZbGRpQnpITGF5NU4zUTdFZ19rR2pBbVZwc3o2dElmV1B3YU1WZm94NUJKdDRxaVowWU50Ni1QSVlMcnNlLS1XbllmNUVETkJVYXJ6RmJNQQ?oc=5"
+    },
+    {
+     "title": "נעילה חיובית בת\"א; פאלו אלטו ואלקטרה נדל\"ן זינקו, אלביט ירדה",
+     "source": "גלובס",
+     "date": "2026-09-29",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1MQVc2VF9iRlNaQUxMa3ItYm5CQmNYeDZKX25JOG9XYm5yNG9yZ1dhQktGTEl0Y1dBV3VqLXdqUjc2REljQ2Nyc1dueV95MDBuM1VQVDVPNkxjTjJyTWpKN2l5Q2Q5bHJl?oc=5"
+    },
+    {
+     "title": "דמי הניהול במיטב התייקרו ב-40% ב-4 שנים, ושיעורי הרווחיות זינקו לשיא",
+     "source": "TheMarker",
+     "date": "2026-08-17",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeUYtaEdoOEc4aXdENzlkTDRsQ1hSc2p5ZnR1NTJoa1JHZFFhNWJxY3V6VUNDMUN2Ri1UT0xMalM4dmR4MEY4VEk3MEF3YUFBRG5IanFjcmg0UWhURzVzUHBmc0VZMWhReWZwNWNnZ25LWDBZVTU2dmtqTlMtdnFZOEk1bVRiY3VQSURXUWpCQkhmQk5MWjd0UXpEanEyYWpZZFdB?oc=5"
+    },
+    {
+     "title": "המכשולים שמחכים לאחים ברקת בדרך לאקזיט במיטב",
+     "source": "Calcalist",
+     "date": "2026-06-07",
+     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HbHBCMGo4c2pnR0xDNUEzbE5tYlJrdHZwZWdKVlFxbmJRWDF0Z2Fub3lhTURjNUVUMDg1QjdaMFdxc3Z6NUFmWnZkTnZwMUI2UVBTck5XZmdvYmhMU2s1OXBwa1YtTlk?oc=5"
+    }
+   ]
   }
  }
 }
