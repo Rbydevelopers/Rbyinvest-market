@@ -4,9 +4,10 @@
    <script src="/site-nav.js" defer></script> in the new page's <head>. */
 (function () {
   var PAGES = [
-    { label: 'Market Data',    sub: 'Rates, yields, indices & calendar', href: '/',                      match: /^\/(index\.html)?$/ },
-    { label: 'Investments',    sub: 'Analysis · Watchlist · Reports',    href: '/invest/',               match: /^\/invest\// },
-    { label: 'Company Review', sub: 'Bits of Gold · investment report',  href: '/reviews/bits-of-gold/', match: /^\/reviews\/bits-of-gold\// }
+    { label: 'Market Data',        sub: 'Rates, yields, indices & calendar',   href: '/market/',   match: /^\/market\// },
+    { label: 'Investments',        sub: 'Holdings · Reports · News',           href: '/invest/',    match: /^\/invest\// },
+    { label: 'Watch List',         sub: 'Targets & distance to target',        href: '/watchlist/', match: /^\/watchlist\// },
+    { label: 'Alerts & Follow-up', sub: 'Targets hit · stale data · approvals', href: '/alerts/',    match: /^\/alerts\// }
     // { label: 'New page', sub: 'Short description', href: '/reviews/new-page/', match: /^\/reviews\/new-page\// },
   ];
 
