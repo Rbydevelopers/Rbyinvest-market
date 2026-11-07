@@ -1,6 +1,117 @@
 {
- "updated_iso": "2026-11-07T17:56:45+00:00",
+ "news": {
+  "שב״א (Shva)": {
+   "items": [
+    {
+     "title": "המדריך הגדול לכרטיסי אשראי: מה זה, איך זה עובד ומה זה באמת עולה",
+     "source": "ביזפורטל",
+     "date": "2026-08-15",
+     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE51WHhUVGZza0RqNkYyZ0tZUVpCX0ctNE1QZ0Eta2pPQ002UWVORFdadUJ2U0YtNEItb3ZGcmVjMFJuMHVXeG9hak5hQUNMQXhjUzU4a0U1TGZnaWhMeUJLckt4RURHcUJtcE83NFZRc3hoV2lZWDlwSjFR?oc=5"
+    }
+   ],
+   "status": "ok"
+  },
+  "מס״ב (Masav)": {
+   "items": [],
+   "status": "ok"
+  },
+  "Bits of Gold": {
+   "items": [
+    {
+     "title": "רעידת אדמה בפז Yellow : ההחלטה שהתקבלה בעקבות אירוע חירום",
+     "source": "ice (אייס)",
+     "date": "2026-08-18",
+     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9qZjZjS2xwNk93aDh6VnR3RVB3UnpJeVI0VndwWTFQem1iQXlxZm5pMWE2UFVrR29WWnBDWk85RkxpaUlhNG4wOTVYWnh4X3hlYUtoTlAwQXV3emRFSEE?oc=5"
+    },
+    {
+     "title": "המידע של 250 אלף לקוחות בסיכון: מה דלף מביטס אוף גולד וכיצד על הלקוחות לפעול",
+     "source": "כלכליסט",
+     "date": "2026-08-17",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ybk9hYUVBeng3SC1sbTIzR2ZfN09fLU5faU9GaUR3dUdmczJfQ3RhNFdfZWNiX3E4d0RHWTRzU0gzYXIwTWtUd0VpelZqQ2lqNGZnVXMyV2dTQ21tUzd6blp0c2U?oc=5"
+    },
+    {
+     "title": "פז מקפיאה את רכישת הביטקוין ב-Yellow בעקבות אירוע הסייבר בביטס אוף גולד",
+     "source": "calcalist",
+     "date": "2026-08-17",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0xUzF2a00wbVNCR1dtR1hvXzNHN2JxU2RwdlE4VDhDSnVLQzVzM0pHTEdnMFN1eF91TVU0S2h5VkVkckVoRjRjRkkzY1h3cHZ3c01vcS1qRE5kWExsNEZDdGRuUlh4TWpCZnFz?oc=5"
+    },
+    {
+     "title": "פז מקפיאה את המרת הנקודות לביטקוין באפליקציית Yellow",
+     "source": "Crypto Jungle",
+     "date": "2026-08-17",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOckhQdGppbmJka3ZvQVZsdVpjSFF3TXBPX3ZPSDJWZHNWclFwQnp0ZE4zcm1BMEtxR1ByNmFKaEFHeUxZVXJLcWdhVzk3ZDhMNG1tQ0t3QVd3NExIZUR4aWFmT3hNWVgwOXRpekdfRFIzZDQyTEN4VEtNc3JWdUt0dmJhWllaaWxrSXc?oc=5"
+    },
+    {
+     "title": "האזהרה ל-200 אלף הלקוחות: \"ייתכן שנחשף מידע אישי\"",
+     "source": "mako",
+     "date": "2026-08-16",
+     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1tSlU3NVNuWGxTNkRfMDBqOGRaSFBHSEVuM0FCS1FaSnpsUi1WbDd5NTN0VkxTUjYyQk1waVlwQVJDc05obTh6NzZDeWxGVWF2NTRiMzl5ODZnaTlXYlAtaEt1OUJkVzZzYUt3TEczUlZ2VU0?oc=5"
+    },
+    {
+     "title": "אירוע סייבר בחברת הקריפטו ביטס אוף גולד: ייתכן שדלפו פרטים אישיים של לקוחות",
+     "source": "Calcalist",
+     "date": "2026-08-16",
+     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1fenVha2N0UkpkNU43SDhsRGY4ZHJOTzkzOUJiYnVwZExyM0RVUjZ6VHVudU1IX2VYOWtXSjJ2cUVrTms2TUpTNkFONHVWMUZDQ3dzRkxJZWxYUDgtTXU0ejgtTQ?oc=5"
+    },
+    {
+     "title": "דליפת מידע בביטס אוף גולד: מטבעות הקריפטו בטוחים, אך ייתכן שמידע על כ-200,000 לקוחות נחשף",
+     "source": "Crypto Jungle",
+     "date": "2026-08-16",
+     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5OQ3lzbGlvYTc3RUxuZjZDUHN4VWU1WG11TldDajFHVktSTjdnUE5sX0VXSGZPdjBEQVN0aENXWHc0QXpBWUxGaDVHaVNqZEpoS3A5RlRNVmdQd0dOaVpEMVB1N3UwbEZxeVg3bGpXcFJJSl9fam1Z?oc=5"
+    },
+    {
+     "title": "מהפכה באפליקציית Yellow : כך תוכלו להמיר את הכסף הצבור לביטקוין",
+     "source": "ice (אייס)",
+     "date": "2026-07-28",
+     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBGQWNoNHRNcHhfOHVMa3FfQ0w0U2xOeXg0dndPUEtLcEowRERGQUJSLVRpSGdpa2ZMVWxoR29NbVI5VjB2Yzl0Z1ZicGswUGtXQlVWZ3U0a3pfa21FLUE?oc=5"
+    }
+   ],
+   "status": "ok"
+  }
+ },
+ "updated_iso": "2026-11-07T18:19:13+00:00",
  "source": "Yahoo Finance (via yfinance)",
+ "lists": {
+  "alerts": [
+   "NVDA",
+   "SPY",
+   "LUMI.TA",
+   "GOOGL",
+   "SNDK"
+  ],
+  "watchlist": [
+   "LUMI.TA",
+   "POLI.TA",
+   "DSCT.TA",
+   "MZTF.TA",
+   "FIBI.TA",
+   "JBNK.TA",
+   "HARL.TA",
+   "PHOE.TA",
+   "MGDL.TA",
+   "CLIS.TA",
+   "MMHD.TA",
+   "AMAL.TA",
+   "MTRD.TA"
+  ]
+ },
+ "unlisted": [
+  {
+   "name": "שב״א (Shva)",
+   "query": "שב\"א סליקת כרטיסי אשראי OR \"Shva\" Israel payments",
+   "note": "לא נמצא סימול נסחר. לפי דיווח מ־2019, החברה הייתה בבעלות בנקים ומשקיעים מוסדיים."
+  },
+  {
+   "name": "מס״ב (Masav)",
+   "query": "מס\"ב מרכז סליקה בנקאי OR \"Masav\" Israel clearing",
+   "note": "לא נמצא סימול נסחר. אין לי אישור שהחברה נסחרת בבורסה."
+  },
+  {
+   "name": "Bits of Gold",
+   "query": "\"Bits of Gold\" OR \"ביטס אוף גולד\"",
+   "note": "לא נמצא סימול נסחר. נראית כחברה פרטית, ולכן אין לה שער שוק."
+  }
+ ],
  "quotes": {
   "NVDA": {
    "name": "NVIDIA Corporation",
@@ -33,7 +144,174 @@
    "w1": 1.6247743368976497,
    "m1": 1.4979195561719783,
    "ytd": 4.245014245014245,
+   "status": "ok",
+   "he_name": "בנק לאומי"
+  },
+  "GOOGL": {
+   "name": "Alphabet Inc.",
+   "ccy": "USD",
+   "last": 284.78,
+   "date": "2026-11-06",
+   "d1": 0.782104044235088,
+   "w1": 1.7652953495044699,
+   "m1": -18.75035698165567,
+   "ytd": -9.015974830895567,
    "status": "ok"
+  },
+  "SNDK": {
+   "name": "Sandisk Corporation",
+   "ccy": "USD",
+   "last": 835.06,
+   "date": "2026-11-06",
+   "d1": 3.5502157834949255,
+   "w1": -27.4422414887595,
+   "m1": -50.658821340124874,
+   "ytd": 251.78194472227693,
+   "status": "ok"
+  },
+  "POLI.TA": {
+   "name": "BANK HAPOALIM B.M.",
+   "ccy": "ILA",
+   "last": 7428.0,
+   "date": "2026-11-06",
+   "d1": 4.531381930762746,
+   "w1": 2.0329670329670257,
+   "m1": 0.3783783783783745,
+   "ytd": 3.0950728660652294,
+   "status": "ok",
+   "he_name": "בנק הפועלים"
+  },
+  "DSCT.TA": {
+   "name": "ISRAEL DISCOUNT BK",
+   "ccy": "ILA",
+   "last": 3338.0,
+   "date": "2026-11-06",
+   "d1": 5.599493831066127,
+   "w1": 1.6133942161339343,
+   "m1": -0.9201543484713581,
+   "ytd": -1.3010053222945017,
+   "status": "ok",
+   "he_name": "בנק דיסקונט"
+  },
+  "MZTF.TA": {
+   "name": "MIZRAHI TEFAHOT BK",
+   "ccy": "ILA",
+   "last": 22450.0,
+   "date": "2026-11-06",
+   "d1": 4.273107292150491,
+   "w1": 1.8140589569161092,
+   "m1": 0.6726457399103047,
+   "ytd": 0.9442446043165464,
+   "status": "ok",
+   "he_name": "מזרחי טפחות"
+  },
+  "FIBI.TA": {
+   "name": "FIRST INTER BK ISR",
+   "ccy": "ILA",
+   "last": 22960.0,
+   "date": "2026-11-06",
+   "d1": 4.032623470774799,
+   "w1": 2.2717149220490063,
+   "m1": 4.649042844120332,
+   "ytd": -8.34331337325349,
+   "status": "ok",
+   "he_name": "הבינלאומי הראשון"
+  },
+  "JBNK.TA": {
+   "name": "BANK OF JERUSALEM",
+   "ccy": "ILA",
+   "last": 1724.0,
+   "date": "2026-11-06",
+   "d1": 4.043452021726002,
+   "w1": 2.9253731343283684,
+   "m1": -10.996386164171401,
+   "ytd": -25.561312607944732,
+   "status": "ok",
+   "he_name": "בנק ירושלים"
+  },
+  "HARL.TA": {
+   "name": "HAREL INS INVS",
+   "ccy": "ILA",
+   "last": 17550.0,
+   "date": "2026-11-06",
+   "d1": 4.402141582391428,
+   "w1": -2.8239202657807327,
+   "m1": -4.567699836867867,
+   "ytd": 41.190667739340306,
+   "status": "ok",
+   "he_name": "הראל השקעות"
+  },
+  "PHOE.TA": {
+   "name": "PHOENIX FINANC LTD",
+   "ccy": "ILA",
+   "last": 16190.0,
+   "date": "2026-11-06",
+   "d1": 3.982016698779711,
+   "w1": -4.764705882352938,
+   "m1": -3.3432835820895512,
+   "ytd": 22.837632776934758,
+   "status": "ok",
+   "he_name": "הפניקס"
+  },
+  "MGDL.TA": {
+   "name": "MIGDAL INS & FINAN",
+   "ccy": "ILA",
+   "last": 1659.0,
+   "date": "2026-11-06",
+   "d1": 4.2740414833438045,
+   "w1": -8.241150442477874,
+   "m1": -10.902255639097746,
+   "ytd": 7.309184993531703,
+   "status": "ok",
+   "he_name": "מגדל ביטוח"
+  },
+  "CLIS.TA": {
+   "name": "CLAL INSURANCE ENT",
+   "ccy": "ILA",
+   "last": 25240.0,
+   "date": "2026-11-06",
+   "d1": 3.9967037494849533,
+   "w1": -6.171003717472123,
+   "m1": -6.5185185185185235,
+   "ytd": 22.702965483714156,
+   "status": "ok",
+   "he_name": "כלל ביטוח"
+  },
+  "MMHD.TA": {
+   "name": "MENORA MIVTACHIM",
+   "ccy": "ILA",
+   "last": 47700.0,
+   "date": "2026-11-06",
+   "d1": 3.560573165436387,
+   "w1": -3.421745292569345,
+   "m1": -3.0881755383990295,
+   "ytd": 19.42914371557336,
+   "status": "ok",
+   "he_name": "מנורה מבטחים"
+  },
+  "AMAL.TA": {
+   "name": "AMAL HOLDINGS AD L",
+   "ccy": "ILA",
+   "last": 1498.0,
+   "date": "2026-11-06",
+   "d1": 0.0,
+   "w1": -6.257822277847314,
+   "m1": -4.0358744394618835,
+   "ytd": 7416.306959669098,
+   "status": "ok",
+   "he_name": "עמל החזקות"
+  },
+  "MTRD.TA": {
+   "name": "MEITAV TRADE INV",
+   "ccy": "ILA",
+   "last": 1781.0,
+   "date": "2026-11-06",
+   "d1": 3.426248548199773,
+   "w1": -5.467091295116777,
+   "m1": -8.900255754475705,
+   "ytd": 8289.072248714674,
+   "status": "ok",
+   "he_name": "מיטב טרייד"
   }
  }
 }
