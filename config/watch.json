@@ -1,4 +1,81 @@
 {
-  "_help": "List the tickers you want on the Alerts page. Use Yahoo Finance symbols: NVDA, AAPL, SPY; Tel Aviv shares end with .TA (e.g. TEVA.TA, LUMI.TA). Add a symbol inside the list, keep the commas and quotes. After saving, the page updates within a few minutes.",
-  "tickers": ["NVDA", "SPY", "LUMI.TA"]
+  "_help": "alerts = tickers shown on the Alerts page. watchlist = tickers shown on the Watch List page (Tel Aviv shares end with .TA, the rest are shown as 'abroad'). unlisted = companies with no market price that I could not find trading. A ticker can be a plain text like \"NVDA\" or {\"symbol\": \"LUMI.TA\", \"name\": \"Hebrew name\"}. Keep the commas and quotes. For unlisted companies, 'query' is the news search text (Google News).",
+  "alerts": [
+    "NVDA",
+    "SPY",
+    "LUMI.TA",
+    "GOOGL",
+    "SNDK"
+  ],
+  "watchlist": [
+    {
+      "symbol": "LUMI.TA",
+      "name": "בנק לאומי"
+    },
+    {
+      "symbol": "POLI.TA",
+      "name": "בנק הפועלים"
+    },
+    {
+      "symbol": "DSCT.TA",
+      "name": "בנק דיסקונט"
+    },
+    {
+      "symbol": "MZTF.TA",
+      "name": "מזרחי טפחות"
+    },
+    {
+      "symbol": "FIBI.TA",
+      "name": "הבינלאומי הראשון"
+    },
+    {
+      "symbol": "JBNK.TA",
+      "name": "בנק ירושלים"
+    },
+    {
+      "symbol": "HARL.TA",
+      "name": "הראל השקעות"
+    },
+    {
+      "symbol": "PHOE.TA",
+      "name": "הפניקס"
+    },
+    {
+      "symbol": "MGDL.TA",
+      "name": "מגדל ביטוח"
+    },
+    {
+      "symbol": "CLIS.TA",
+      "name": "כלל ביטוח"
+    },
+    {
+      "symbol": "MMHD.TA",
+      "name": "מנורה מבטחים"
+    },
+    {
+      "symbol": "AMAL.TA",
+      "name": "עמל החזקות"
+    },
+    {
+      "symbol": "MTRD.TA",
+      "name": "מיטב טרייד"
+    }
+  ],
+  "unlisted": [
+    {
+      "name": "שב״א (Shva)",
+      "query": "שב\"א סליקת כרטיסי אשראי OR \"Shva\" Israel payments",
+      "note": "לא נמצא סימול נסחר. לפי דיווח מ־2019, החברה הייתה בבעלות בנקים ומשקיעים מוסדיים."
+    },
+    {
+      "name": "מס״ב (Masav)",
+      "query": "מס\"ב מרכז סליקה בנקאי OR \"Masav\" Israel clearing",
+      "note": "לא נמצא סימול נסחר. אין לי אישור שהחברה נסחרת בבורסה."
+    },
+    {
+      "name": "Bits of Gold",
+      "query": "\"Bits of Gold\" OR \"ביטס אוף גולד\"",
+      "note": "לא נמצא סימול נסחר. נראית כחברה פרטית, ולכן אין לה שער שוק."
+    }
+  ]
 }
