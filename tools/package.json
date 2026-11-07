@@ -1,0 +1,5 @@
+{
+  "name": "rby-tools",
+  "private": true,
+  "dependencies": { "staticrypt": "^3.5.4" }
+}

@@ -1,2 +1,7 @@
 __pycache__/
 .DS_Store
+
+# Password-protected site: plaintext pages stay on this computer only
+site-src/
+review-app/
+tools/node_modules/
