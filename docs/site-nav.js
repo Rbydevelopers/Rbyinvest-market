@@ -4,8 +4,8 @@
    <script src="/site-nav.js" defer></script> in the new page's <head>. */
 (function () {
   var PAGES = [
-    { label: 'Home',           sub: 'RBY Invest',                         href: '/',                      match: /^\/(index\.html)?$/ },
-    { label: 'Market Data',    sub: 'Rates, yields, indices & calendar', href: '/market/',               match: /^\/market\// },
+    { label: 'Market Data',    sub: 'Rates, yields, indices & calendar', href: '/',                      match: /^\/(index\.html)?$/ },
+    { label: 'Investments',    sub: 'Analysis · Watchlist · Reports',    href: '/invest/',               match: /^\/invest\// },
     { label: 'Company Review', sub: 'Bits of Gold · investment report',  href: '/reviews/bits-of-gold/', match: /^\/reviews\/bits-of-gold\// }
     // { label: 'New page', sub: 'Short description', href: '/reviews/new-page/', match: /^\/reviews\/new-page\// },
   ];
