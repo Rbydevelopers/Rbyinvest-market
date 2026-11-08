@@ -69,7 +69,7 @@
    "status": "ok"
   }
  },
- "updated_iso": "2026-11-08T17:00:43+00:00",
+ "updated_iso": "2026-11-08T21:02:42+00:00",
  "source": "Yahoo Finance (via yfinance)",
  "lists": {
   "alerts": [
@@ -385,10 +385,10 @@
      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9tTGZKdklQY0ZFLVJVeEdEUHF0LVZ6dlpGWjFUWkdWYTVXNElURWlkX3VyN3RTZGxoLVBXUV95NUJRRWFYU0FaZWRjdV9hc3dBNzg4bnpRQ2xSN1czX19fWUpaOA?oc=5"
     },
     {
-     "title": "הבינלאומי רשם ירידה בהכנסות וברווח, התשואה להון על 13.2%; יחלק 240 מליון שקל דיבידנד",
-     "source": "ביזפורטל",
+     "title": "אחרי הדו\"חות, בית ההשקעות IBI מוריד את מחיר היעד של הבנק הבינלאומי - שוק ההון - TheMarker",
+     "source": "TheMarker",
      "date": "2026-05-18",
-     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBOSTRGaDRTNlJCUVJPQmpMeEszZU1qeTZrSlBCbFNUSWpQNVNWWVdtWE5iV0pILXV3QUZ2aV9oMFVSNDBVUzFtVnNNZ1pPNFcycTBRVGJFNXE5MF9uN3NKTk40M2tBQWNkTmU2MG1udjQ?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQODRZR0NQNUdfSC1Nbmd6OFBxWFFaTTRYRUJjSVl6ekpDZHBxSnlJdHQyTWUwdnRvZWNCOHRsR1VKRUlNanBVbjdPUS1Tbm1PeWRhLUlOeXlRQm96bFZqOWFrZ05LNlRHZFVaQnZNajQzaWJWTlpNa1dTLUpzX1NEdm1iZDFGcU5iZVBzM24yYXMyN1hSVkRIWnRTanc4Tk9pSjRFRmdn?oc=5"
     }
    ]
   },
@@ -602,6 +602,12 @@
    },
    "news": [
     {
+     "title": "כלל עסקי ביטוח - חדשות מניה",
+     "source": "ביזפורטל",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9LZEo0VDM1Qjd2Ung3VlF3UXhTa3cwcE5BY0ZVWWVGejZFdnpxdkZ4dWZXUTJJRjhWSGdOeWFLZEo2UC0wVjUtZDZTOUdHU3NUYkdSZXFpWFZnUjIyMElEX0FZOUFod0UxNVg0?oc=5"
+    },
+    {
      "title": "קבוצת כלל ביטוח בוחנת השקעה בקבוצת ווליו בייס לפי שווי של 600 מיליון שקל",
      "source": "ביזפורטל",
      "date": "2026-09-23",
@@ -618,12 +624,6 @@
      "source": "ice (אייס)",
      "date": "2026-08-19",
      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9xTnEzeWtHMDFzNWtEQ1hoMThSODhOeVFsQ1ktSm9kLUEzcDBkaXBlWkRjOEhQbGlKck1hTWpObDY3RGstNU9aNHZ2SGVaNmN5ZGpVbGRvaE03elVVS0Iw?oc=5"
-    },
-    {
-     "title": "נעילה מעורבת בתל אביב; מניות השבבים גררו מטה את ת\"א 35",
-     "source": "גלובס",
-     "date": "2026-08-19",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBmUzZxQmY0NUpteUN4NlJkWGNfZmdkaEpXMmtjMzNhSlh1eHlaUkFmVENvMDcySGdTbldyZU1jOTV1Z3BNdFp0QnBxOXV0YWhHTVZrdEE3TkJCbVFmVUY4RUgtTldoN0NE?oc=5"
     }
    ]
   },
