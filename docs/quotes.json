@@ -69,7 +69,7 @@
    "status": "ok"
   }
  },
- "updated_iso": "2026-11-08T10:08:59+00:00",
+ "updated_iso": "2026-11-08T17:00:43+00:00",
  "source": "Yahoo Finance (via yfinance)",
  "lists": {
   "alerts": [
@@ -602,12 +602,6 @@
    },
    "news": [
     {
-     "title": "עסקה גדולה בפיננסים: כלל ביטוח במו\"מ להשקעה בווליו בייס לפי שווי של 600 מיליון שקל - שוק ההון - TheMarker",
-     "source": "TheMarker",
-     "date": "2026-09-23",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbmdWTTVrXzNaelo2aVFudkZET3JDNm5oRnR1aVlOZHdUZ2c4QmlDTzY5cGNqdkhOU0dtek5YeFhEZ1RZRC1Ld01zN3VCX2YtX2xhZjl2aS1UY3J0MnAyV1F3d0hqMVpDZ21ERUdCY05HWXVzMUJ6R1pjNTZScWpoOEVmcVZFOTRNcTZXMDQ3Ui1hRUxkNTA4?oc=5"
-    },
-    {
      "title": "קבוצת כלל ביטוח בוחנת השקעה בקבוצת ווליו בייס לפי שווי של 600 מיליון שקל",
      "source": "ביזפורטל",
      "date": "2026-09-23",
@@ -624,6 +618,12 @@
      "source": "ice (אייס)",
      "date": "2026-08-19",
      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9xTnEzeWtHMDFzNWtEQ1hoMThSODhOeVFsQ1ktSm9kLUEzcDBkaXBlWkRjOEhQbGlKck1hTWpObDY3RGstNU9aNHZ2SGVaNmN5ZGpVbGRvaE03elVVS0Iw?oc=5"
+    },
+    {
+     "title": "נעילה מעורבת בתל אביב; מניות השבבים גררו מטה את ת\"א 35",
+     "source": "גלובס",
+     "date": "2026-08-19",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBmUzZxQmY0NUpteUN4NlJkWGNfZmdkaEpXMmtjMzNhSlh1eHlaUkFmVENvMDcySGdTbldyZU1jOTV1Z3BNdFp0QnBxOXV0YWhHTVZrdEE3TkJCbVFmVUY4RUgtTldoN0NE?oc=5"
     }
    ]
   },
@@ -649,6 +649,12 @@
    },
    "news": [
     {
+     "title": "מנורה מב החז - חדשות מניה",
+     "source": "ביזפורטל",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBxRE55QXNaelFnNlhsOWV0QnJnZW9qMDk1VkF1LWJadVJOeGJDbm1zSEpoSDlXaUZxWGtXZ2txSWgxc0FkVEszZ2lGbV9od3c4alYzbTJmYUMxdGlnNzloZmNmZ1pBdk1DemRj?oc=5"
+    },
+    {
      "title": "מנורה מבטחים דיווחה על הסכמות במסגרת הליך ייצוגי, הראל והפניקס ברכישה עצמית - דיווחי חברות ת״א 35:",
      "source": "פאנדר",
      "date": "2026-10-19",
@@ -665,12 +671,6 @@
      "source": "וואלה",
      "date": "2026-07-07",
      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBxckRZNUpvWTY4VE5IMXB0a0hnbVZlSHdHdmxUcnFNVWU3cFNqV0tPSjNuNXdKb0ZiTmpuWnBfOFQ2SzRuWVBNZDFwenRZZ0lWdkE?oc=5"
-    },
-    {
-     "title": "הסכסוך בדוראד: מתגבשת פשרה בין הפניקס ללוזון",
-     "source": "כלכליסט",
-     "date": "2026-06-01",
-     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAzYlVYazV4d1ctY1VjUDRvY2Q1M193cEJxMk9tZUZDaVJyWVVnSG5VbFlQeHM0ckZjU1lJODBISlRJOWhTS3hpSE5kMzFhLVZON1lQcjh5eVg1TXJONVR2enBzbw?oc=5"
     }
    ]
   },

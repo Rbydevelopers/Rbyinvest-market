@@ -1,6 +1,6 @@
 {
- "updated_il": "08.11.2026 12:08",
- "updated_iso": "2026-11-08T12:08:33.707287+02:00",
+ "updated_il": "08.11.2026 19:00",
+ "updated_iso": "2026-11-08T19:00:14.053451+02:00",
  "central_bank_rates": [
   {
    "label": "Israel — BoI",
@@ -75,9 +75,9 @@
  "fx": [
   {
    "label": "USD/ILS",
-   "value": 3.2005,
+   "value": 3.1897,
    "status": "ok",
-   "d1": 1.5016592646428295,
+   "d1": -0.3386983856869308,
    "key": "ILS=X",
    "as_of": "2026-11-08"
   },
@@ -504,7 +504,7 @@
   "  JP yields (2026/11/5): {'1Y': 1.658, '3Y': 1.953, '5Y': 2.21, '10Y': 2.806}",
   "Indices: israel",
   "  search 'TA Banks 5': TA-BANKS.TA[TLV] TA Banks-5, HRL-F12.TA[TLV] Harel Index Funds Ltd. - Harel Sal (4A) TA-Banks 5, 204.TA[TLV] TA Banks 5-Equal Weight",
-  "  search 'TA Insurance': 0966.HK[HKG] China Taiping Insurance Holdings Company Limited, WETHAQ.KW[KUW] Wethaq Takaful Insurance Company K.S.C.P., FTI.KW[KUW] First Takaful Insurance Company - KPSC, HIUC.MU[MUN] China Taiping Insurance Holdings Co Ltd, HIUC.F[FRA] China Taiping Insurance Holdings Company Limited",
+  "  search 'TA Insurance': 0966.HK[HKG] China Taiping Insurance Holdings Company Limited, WETHAQ.KW[KUW] Wethaq Takaful Insurance Company K.S.C.P., AKHI.QA[DOH] Al Khaleej Takaful Insurance Company Q.P.S.C., FTI.KW[KUW] First Takaful Insurance Company - KPSC, HIUC.MU[MUN] China Taiping Insurance Holdings Co Ltd",
   "Indices: us",
   "Indices: europe",
   "Indices: asia",
