@@ -69,7 +69,7 @@
    "status": "ok"
   }
  },
- "updated_iso": "2026-11-12T18:48:42+00:00",
+ "updated_iso": "2026-11-13T00:07:13+00:00",
  "source": "Yahoo Finance (via yfinance)",
  "lists": {
   "alerts": [
@@ -116,34 +116,34 @@
   "NVDA": {
    "name": "NVIDIA Corporation",
    "ccy": "USD",
-   "last": 164.77,
+   "last": 166.19,
    "date": "2026-11-12",
-   "d1": -5.1574234015006155,
-   "w1": -9.267621842182782,
-   "m1": -27.89690128133896,
-   "ytd": -11.651472239967331,
+   "d1": -4.340064163679481,
+   "w1": -8.485684550762274,
+   "m1": -27.275512281515436,
+   "ytd": -10.890079119889407,
    "status": "ok"
   },
   "SPY": {
    "name": "State Street SPDR S&P 500 ETF T",
    "ccy": "USD",
-   "last": 759.28,
+   "last": 757.12,
    "date": "2026-11-12",
-   "d1": -0.06975010376563118,
-   "w1": 3.5852700268588,
-   "m1": -2.4074215284700995,
-   "ytd": 11.344446317085133,
+   "d1": -0.3540361998459751,
+   "w1": 3.2905859641456425,
+   "m1": -2.6850573111174447,
+   "ytd": 11.027688598610697,
    "status": "ok"
   },
   "LUMI.TA": {
    "name": "BK LEUMI LE ISRAEL",
    "ccy": "ILA",
-   "last": 7480.0,
-   "date": "2026-11-12",
-   "d1": 1.4787681454348167,
-   "w1": 6.47686832740213,
-   "m1": 2.9735682819383324,
-   "ytd": 6.552706552706544,
+   "last": 7371.0,
+   "date": "2026-11-11",
+   "d1": -2.344992050874406,
+   "w1": 1.8938346696157016,
+   "m1": 3.191936161276776,
+   "ytd": 5.000000000000004,
    "status": "ok",
    "he_name": "בנק לאומי",
    "fin": {
@@ -157,10 +157,16 @@
    },
    "news": [
     {
-     "title": "הטור של שאול אמסטרדמסקי: צריך לעזוב את פייסבוק",
-     "source": "Calcalist",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1GZlJBaWQ1Y0laZC00R1Awb3ZyV0VoS09pTXh6Qm9JYVdjcVFWenJJLUo2S2cxX2E5cThtRDh4X3hVSVcyM1JhVUtvOU92dnNRV0M2cEpUWm5pdmFzOEtVdjh5dlM?oc=5"
+     "title": "המשרות והתנאים: רבולוט בבליץ גיוסים בישראל לקראת הקמת הבנק החדש",
+     "source": "גלובס",
+     "date": "2026-11-12",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9QYkVlNWFfS3M1NkR0TzAtRUg0SUZhbjdpOTF2aldMcmVmelowOWpMakU0M1U4VUxVWkQ1dTd1YTBJSEhQMXY5eDdPVktwY0wyN3ByOG9KTjBsUWI4TU9nYzNLc2hmQVlr?oc=5"
+    },
+    {
+     "title": "מהם הכוחות שמשפיעים על התחזקות הדולר?",
+     "source": "גלובס",
+     "date": "2026-11-12",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBwSVVSTVlNNVNKdXlzRl9ld1FWMTZhdTNLTXVGQ2pjd29laHhzckFwNXpaaTd2WFNQQ3hqNXpzOGFqX0M5YVJwbWZHNnVjVTE4RERYckdjSUlWZjBjZnpDd3p0VHZzMFRm?oc=5"
     },
     {
      "title": "מנכ\"ל לאומי נגד חיוב ריבית על עו\"ש: \"אי זמינות של כסף שווה כסף\"",
@@ -173,46 +179,40 @@
      "source": "גלובס",
      "date": "2026-10-09",
      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsd0FJd1N3R01OOGxQN2VabFlXSDlQdk12TWtmcTU1YVVmZnVyd3hlUmpNamQ4MVhSek1kMzI1dk8zeTZNOU5hMzBMMFdFZHhuU3l6dTZ5Sk5lNXdMM3hQNkpyZHJiZVhG?oc=5"
-    },
-    {
-     "title": "עזב את לאומי לטובת נאוי וירוויח יותר ממנכ\"ל הבנק",
-     "source": "גלובס",
-     "date": "2026-09-16",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1SbV9DMk5iT19ESGMzTGkzbXk2Xzgtd3EwQTZKRHYwbUtWYW5wREMxVXlaZ2JiTkRCWFRYaWJ5QjJTSXl2dDJmd25fa29rUkdoN3BXaVZDSFgyVFg5M09jaWZSUnNBLWJ2?oc=5"
     }
    ]
   },
   "GOOGL": {
    "name": "Alphabet Inc.",
    "ccy": "USD",
-   "last": 301.14,
+   "last": 298.7,
    "date": "2026-11-12",
-   "d1": 2.6205493683813197,
-   "w1": 6.571825332796788,
-   "m1": -14.879299087707453,
-   "ytd": -3.7891327001797093,
+   "d1": 1.7890610944313323,
+   "w1": 5.708321642326686,
+   "m1": -15.56899394039144,
+   "ytd": -4.568686195836658,
    "status": "ok"
   },
   "SNDK": {
    "name": "Sandisk Corporation",
    "ccy": "USD",
-   "last": 935.2,
+   "last": 937.46,
    "date": "2026-11-12",
-   "d1": -4.345957320650973,
-   "w1": 15.967910506897653,
-   "m1": -36.91013202646706,
-   "ytd": 293.9674753434738,
+   "d1": -4.114799207140408,
+   "w1": 16.248159231046188,
+   "m1": -36.757668686143006,
+   "ytd": 294.91953942601555,
    "status": "ok"
   },
   "POLI.TA": {
    "name": "BANK HAPOALIM B.M.",
    "ccy": "ILA",
-   "last": 7489.0,
-   "date": "2026-11-12",
-   "d1": 0.8619528619528527,
-   "w1": 5.389811426963131,
-   "m1": -0.2663470502064169,
-   "ytd": 3.941707147814011,
+   "last": 7425.0,
+   "date": "2026-11-11",
+   "d1": -2.9284873839717562,
+   "w1": 1.879802414928644,
+   "m1": 1.4482852848749728,
+   "ytd": 3.053435114503822,
    "status": "ok",
    "he_name": "בנק הפועלים",
    "fin": {
@@ -254,12 +254,12 @@
   "DSCT.TA": {
    "name": "ISRAEL DISCOUNT BK",
    "ccy": "ILA",
-   "last": 3331.0,
-   "date": "2026-11-12",
-   "d1": 0.8782556026650568,
-   "w1": 5.378044922492875,
-   "m1": -1.537097250960684,
-   "ytd": -1.507983441750449,
+   "last": 3302.0,
+   "date": "2026-11-11",
+   "d1": -3.393797542422472,
+   "w1": 1.2572830420116476,
+   "m1": -0.6020469596628497,
+   "ytd": -2.3654642223536415,
    "status": "ok",
    "he_name": "בנק דיסקונט",
    "fin": {
@@ -273,40 +273,40 @@
    },
    "news": [
     {
-     "title": "מזרחי טפחות בדרך למסחר בארה\"ב: מה זה ADR ומי עוד שם",
-     "source": "ביזפורטל",
-     "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE82U3hfWlNxSHpHeHBOX29RbU40bXdDQkI4a01adTU1d0pscGFYME5DbDBjb0JEdkhNWkpxNEo0djFZRnpLbGVHMjR4WlZiYV9wOGlnMFpIMlFiRkhVcElJNGJDSldIUTM0Q3dDcTVmRTk?oc=5"
-    },
-    {
-     "title": "ת\"א ננעלה בירידות; אלטשולר שחם זינקה ב-15%, אנרג'יאן ב-9%",
-     "source": "גלובס",
-     "date": "2026-09-09",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBPcUZ1V0hHTnI2bDAyeVRWc3FHQ0lkb2JrR0hNdlhQZWoxbkFrUThZV1ZnUGdkdXY3a0hiakVPcGdtWkM5Ul9YUU91eGpLX3ZUMW5UV0U4aURUQWJhb2hRcWtzM0xwVldj?oc=5"
-    },
-    {
-     "title": "עסקת מכירת כאל בדרך לקריסה. דיסקונט בפנייה חריגה לבנק ישראל",
-     "source": "גלובס",
-     "date": "2026-09-08",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE04VGc5QzQ2cmVFZHdNYzEzVnVBSV9Ccl83dFVYdW12VUIxM3pHQjVvZDUtT0cyYjVfX25PVlpRTGYtY1pPMnlIU3JqWnl4NUJiM1AtZnd3TW5sTGNSMDJVQ0l6STV5THdN?oc=5"
-    },
-    {
      "title": "דיסקונט: דמרי נפלטת מת\"א 35; אלפא תאו ותדהר יצטרפו לת\"א 125",
      "source": "גלובס",
      "date": "2026-08-24",
      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4zZ1B5VmIxY045UmVkZ1lkaFd3b295cFN5UjYtUkV5Sk5uSnVWZW5tZVBzQkhFdndiQk9kM1dXYmxGbW5Fbkdia0RKYmd6bDhuVnVCdGxXRTU2MEZvT3FHSnF0NmZSdFNT?oc=5"
+    },
+    {
+     "title": "בנק דיסקונט: מודל הסקטורים בישראל ממליץ כעת על אחזקה ב-3 סקטורים",
+     "source": "פאנדר",
+     "date": "2026-07-15",
+     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBKbnB6bVZUeHpreWJVUXpsdi13emRQZVVkZFM3Z1RkZ3Z6dVNxMjFPRE13OVFNYzA3dExac0FkQ3lWVXlGbVVzQUdKb1V3XzFf?oc=5"
+    },
+    {
+     "title": "\"לא מוצדק\": האם השוק הפיל את מניות הבנקים בטעות?",
+     "source": "גלובס",
+     "date": "2026-05-14",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE50cnZqNnM5QzNkaHF0QnF3ZkVCczZ4SUVTOGNXV0RXUTI2azlGblc2b3B0LUpyRER4bklhc3ZTMzFPbUJyUTUtYklSajgwZDBNQ24wZk1sV3Y5WW1WRVlPdEhVaFU4UF9y?oc=5"
+    },
+    {
+     "title": "התייעלות בדיסקונט: מקפיא המענקים והעלאות השכר - ועשוי לפטר עובדים",
+     "source": "Calcalist",
+     "date": "2026-04-26",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4wVjFmY0N6NlUyV25TRGdXTWZMbVdiOWdkOWU3YTU5WVN6NGR5V25kUVNQc3lEWk9DZHg0Y1RuM0E4dmFncVBIbUNqcnU5aGxZZlBVT19hYTluc0RIVF9kNnpVQ0FFLXh2?oc=5"
     }
    ]
   },
   "MZTF.TA": {
    "name": "MIZRAHI TEFAHOT BK",
    "ccy": "ILA",
-   "last": 22170.0,
-   "date": "2026-11-12",
-   "d1": 0.45310376076121983,
-   "w1": 2.9725963771481734,
-   "m1": -2.6777875329236145,
-   "ytd": -0.3147482014388525,
+   "last": 22070.0,
+   "date": "2026-11-11",
+   "d1": -4.085180356366802,
+   "w1": -0.7643884892086339,
+   "m1": -0.18091361374943382,
+   "ytd": -0.7643884892086339,
    "status": "ok",
    "he_name": "מזרחי טפחות",
    "fin": {
@@ -348,12 +348,12 @@
   "FIBI.TA": {
    "name": "FIRST INTER BK ISR",
    "ccy": "ILA",
-   "last": 22020.0,
-   "date": "2026-11-12",
-   "d1": -1.4765100671140896,
-   "w1": -0.22655188038060992,
-   "m1": -2.652519893899208,
-   "ytd": -12.09580838323353,
+   "last": 22350.0,
+   "date": "2026-11-11",
+   "d1": -6.013456686290997,
+   "w1": -1.758241758241763,
+   "m1": 1.9616788321167977,
+   "ytd": -10.77844311377245,
    "status": "ok",
    "he_name": "הבינלאומי הראשון",
    "fin": {
@@ -395,12 +395,12 @@
   "JBNK.TA": {
    "name": "BANK OF JERUSALEM",
    "ccy": "ILA",
-   "last": 1733.0,
-   "date": "2026-11-12",
-   "d1": 2.4231678486997588,
-   "w1": 4.586602293301145,
-   "m1": -8.789473684210524,
-   "ytd": -25.1727115716753,
+   "last": 1692.0,
+   "date": "2026-11-11",
+   "d1": -0.1769911504424737,
+   "w1": 2.421307506053272,
+   "m1": -10.900473933649291,
+   "ytd": -26.943005181347147,
    "status": "ok",
    "he_name": "בנק ירושלים",
    "fin": {
@@ -442,12 +442,12 @@
   "HARL.TA": {
    "name": "HAREL INS INVS",
    "ccy": "ILA",
-   "last": 18030.0,
-   "date": "2026-11-12",
-   "d1": -3.116603976356802,
-   "w1": 7.257584770969672,
-   "m1": -4.6536224219989375,
-   "ytd": 45.052292839903465,
+   "last": 18610.0,
+   "date": "2026-11-11",
+   "d1": -1.1683483802442884,
+   "w1": 5.558706749858189,
+   "m1": 1.69398907103826,
+   "ytd": 49.718423169750615,
    "status": "ok",
    "he_name": "הראל השקעות",
    "fin": {
@@ -489,12 +489,12 @@
   "PHOE.TA": {
    "name": "PHOENIX FINANC LTD",
    "ccy": "ILA",
-   "last": 17070.0,
-   "date": "2026-11-12",
-   "d1": -1.443418013856812,
-   "w1": 9.633911368015413,
-   "m1": -2.956225127913592,
-   "ytd": 29.514415781487102,
+   "last": 17320.0,
+   "date": "2026-11-11",
+   "d1": -0.6310958118187049,
+   "w1": 5.160898603521558,
+   "m1": 1.8224573780129427,
+   "ytd": 31.41122913505312,
    "status": "ok",
    "he_name": "הפניקס",
    "fin": {
@@ -536,12 +536,12 @@
   "MGDL.TA": {
    "name": "MIGDAL INS & FINAN",
    "ccy": "ILA",
-   "last": 1737.0,
-   "date": "2026-11-12",
-   "d1": -2.6345291479820676,
-   "w1": 9.176618478944064,
-   "m1": -9.625390218522368,
-   "ytd": 12.354463130659777,
+   "last": 1784.0,
+   "date": "2026-11-11",
+   "d1": -0.6681514476614692,
+   "w1": 5.064782096584208,
+   "m1": -4.29184549356223,
+   "ytd": 15.394566623544637,
    "status": "ok",
    "he_name": "מגדל ביטוח",
    "fin": {
@@ -583,12 +583,12 @@
   "CLIS.TA": {
    "name": "CLAL INSURANCE ENT",
    "ccy": "ILA",
-   "last": 26350.0,
-   "date": "2026-11-12",
-   "d1": -2.0810107766629504,
-   "w1": 8.570251339101764,
-   "m1": -5.555555555555558,
-   "ytd": 28.099173553719005,
+   "last": 26910.0,
+   "date": "2026-11-11",
+   "d1": -1.1388684790595183,
+   "w1": 4.830541488118434,
+   "m1": -0.9933774834437137,
+   "ytd": 30.821584832280013,
    "status": "ok",
    "he_name": "כלל ביטוח",
    "fin": {
@@ -630,12 +630,12 @@
   "MMHD.TA": {
    "name": "MENORA MIVTACHIM",
    "ccy": "ILA",
-   "last": 49450.0,
-   "date": "2026-11-12",
-   "d1": -3.6625754919150544,
-   "w1": 7.359965262700818,
-   "m1": -4.277971351142085,
-   "ytd": 23.81071607411116,
+   "last": 51330.0,
+   "date": "2026-11-11",
+   "d1": 0.0,
+   "w1": 6.9820758649437265,
+   "m1": 3.1758793969849153,
+   "ytd": 28.517776664997506,
    "status": "ok",
    "he_name": "מנורה מבטחים",
    "fin": {
@@ -649,16 +649,16 @@
    },
    "news": [
     {
-     "title": "כך תדעו איך הפנסיה שלכם תושפע מנפילת אנבידיה",
-     "source": "גלובס",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11dnhXZzVBYy1EV20tbnRCaFE5M1QtUkxFWXNLY0FXeFRISF9EYXVob1RNZEl0UzJqQXViT2FEM1JfRVBKMVlReDhRWHExQWJOZU9YcHMzX0l4SWFMblV0emZhb0Fqd3Za?oc=5"
-    },
-    {
      "title": "מנורה מבטחים דיווחה על הסכמות במסגרת הליך ייצוגי, הראל והפניקס ברכישה עצמית - דיווחי חברות ת״א 35:",
      "source": "פאנדר",
      "date": "2026-10-19",
      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA2LV93TEtxOGZtejVfNHdCRXptRHV2T1J6M000QmxKRTkwUzF5Qi1pUmdjcWpWbzBrX3VsU2plc25xOE1YamlnQjJUS2d6MkhH?oc=5"
+    },
+    {
+     "title": "נעילה חיובית בת\"א; מדד הבנייה קפץ במעל 3%, מניות השבבים טיפסו",
+     "source": "גלובס",
+     "date": "2026-08-27",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE92dTVWeHhGU3lIcDRsZERFdV9NcE1wZXFnTzMxNmZVUjRTRmpTMjM3eV9JNmZoRXZTVFBObTU5WVBGOGI3bXhTY2tmSGVjTVhXdXdBdTNCbFFqUnZQaFZBMmNmekpxME9i?oc=5"
     },
     {
      "title": "בנק ההשקעות העולמי על מניית הביטוח הישראלית: \"תעלה ב-17%\"",
@@ -667,22 +667,22 @@
      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBUVzFVTUxvWWFJZnMzQW9TMkx3X0NacDhIUmJnaVNkTk02d3E3dTRqZERuWU5DdHFNeGxqbUo1UzV1X1kwMXNYMjBQdEpnZ0dtV194WnVtd2M2aVpUWmFF?oc=5"
     },
     {
-     "title": "נעילה חיובית בת\"א; מדד הבנייה קפץ במעל 3%, מניות השבבים טיפסו",
-     "source": "גלובס",
-     "date": "2026-08-27",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE92dTVWeHhGU3lIcDRsZERFdV9NcE1wZXFnTzMxNmZVUjRTRmpTMjM3eV9JNmZoRXZTVFBObTU5WVBGOGI3bXhTY2tmSGVjTVhXdXdBdTNCbFFqUnZQaFZBMmNmekpxME9i?oc=5"
+     "title": "המניה של קרן פימי מזנקת ב-10%: זה הגוף שקנה מניות ב-100 מיליון שקל",
+     "source": "ice (אייס)",
+     "date": "2026-07-16",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5FMW5qc3ZwRWU4MjdUbTFpUWZLV3BSbHkzWF9pOWpGR05CVHlLU251Z3RiTXQ0RHVPd0dpUFo4ZTRRcjIwa0VKbXhuZVctTUlZd2wtUVVXSFlFU2NlR2cw?oc=5"
     }
    ]
   },
   "AMAL.TA": {
    "name": "AMAL HOLDINGS AD L",
    "ccy": "ILA",
-   "last": 1545.0,
-   "date": "2026-11-12",
-   "d1": -2.5236593059936863,
-   "w1": 3.1375166889185513,
-   "m1": -2.9522613065326664,
-   "ytd": 7652.132344919065,
+   "last": 1585.0,
+   "date": "2026-11-11",
+   "d1": 0.5072923272035457,
+   "w1": 7.022282241728561,
+   "m1": 0.5710659898477077,
+   "ytd": 7852.83480045095,
    "status": "ok",
    "he_name": "עמל החזקות",
    "fin": {
@@ -724,12 +724,12 @@
   "MTRD.TA": {
    "name": "MEITAV TRADE INV",
    "ccy": "ILA",
-   "last": 1759.0,
-   "date": "2026-11-12",
-   "d1": -2.060133630289529,
-   "w1": 2.1486643437862885,
-   "m1": -15.106177606177607,
-   "ytd": 8185.445303475076,
+   "last": 1796.0,
+   "date": "2026-11-11",
+   "d1": -1.0468319559228667,
+   "w1": 2.687249857061169,
+   "m1": -11.308641975308642,
+   "ytd": 8359.726984105308,
    "status": "ok",
    "he_name": "מיטב טרייד",
    "fin": {
