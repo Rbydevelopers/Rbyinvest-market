@@ -69,7 +69,7 @@
    "status": "ok"
   }
  },
- "updated_iso": "2026-11-13T10:50:07+00:00",
+ "updated_iso": "2026-11-13T18:28:51+00:00",
  "source": "Yahoo Finance (via yfinance)",
  "lists": {
   "alerts": [
@@ -116,34 +116,34 @@
   "NVDA": {
    "name": "NVIDIA Corporation",
    "ccy": "USD",
-   "last": 166.19,
-   "date": "2026-11-12",
-   "d1": -4.340064163679481,
-   "w1": -8.485684550762274,
-   "m1": -27.275512281515436,
-   "ytd": -10.890079119889407,
+   "last": 161.41,
+   "date": "2026-11-13",
+   "d1": -2.8762252296025803,
+   "w1": -13.51800032685726,
+   "m1": -27.06281001525396,
+   "ytd": -13.453081146322054,
    "status": "ok"
   },
   "SPY": {
    "name": "State Street SPDR S&P 500 ETF T",
    "ccy": "USD",
-   "last": 757.12,
-   "date": "2026-11-12",
-   "d1": -0.3540361998459751,
-   "w1": 3.2905859641456425,
-   "m1": -2.6850573111174447,
-   "ytd": 11.027688598610697,
+   "last": 752.39,
+   "date": "2026-11-13",
+   "d1": -0.6247332654340854,
+   "w1": 2.3256180734259724,
+   "m1": -2.2362216064777174,
+   "ytd": 10.33406169409259,
    "status": "ok"
   },
   "LUMI.TA": {
    "name": "BK LEUMI LE ISRAEL",
    "ccy": "ILA",
-   "last": 7424.0,
+   "last": 7370.0,
    "date": "2026-11-13",
-   "d1": -0.7486631016042744,
-   "w1": 1.448483192129002,
-   "m1": 1.7404412772372257,
-   "ytd": 5.754985754985764,
+   "d1": -1.4705882352941124,
+   "w1": 0.7105766602896857,
+   "m1": 1.0004111278607564,
+   "ytd": 4.985754985754975,
    "status": "ok",
    "he_name": "בנק לאומי",
    "fin": {
@@ -185,34 +185,34 @@
   "GOOGL": {
    "name": "Alphabet Inc.",
    "ccy": "USD",
-   "last": 298.7,
-   "date": "2026-11-12",
-   "d1": 1.7890610944313323,
-   "w1": 5.708321642326686,
-   "m1": -15.56899394039144,
-   "ytd": -4.568686195836658,
+   "last": 295.59,
+   "date": "2026-11-13",
+   "d1": -1.0411837100913979,
+   "w1": 3.7959117932897524,
+   "m1": -14.972389862307478,
+   "ytd": -5.562301489491817,
    "status": "ok"
   },
   "SNDK": {
    "name": "Sandisk Corporation",
    "ccy": "USD",
-   "last": 937.46,
-   "date": "2026-11-12",
-   "d1": -4.114799207140408,
-   "w1": 16.248159231046188,
-   "m1": -36.757668686143006,
-   "ytd": 294.91953942601555,
+   "last": 866.27,
+   "date": "2026-11-13",
+   "d1": -7.593924089861903,
+   "w1": 3.7374586333799753,
+   "m1": -38.270836673216394,
+   "ytd": 264.92964938597163,
    "status": "ok"
   },
   "POLI.TA": {
    "name": "BANK HAPOALIM B.M.",
    "ccy": "ILA",
-   "last": 7456.0,
+   "last": 7400.0,
    "date": "2026-11-13",
-   "d1": -0.4406462812124423,
-   "w1": 0.3769520732364029,
-   "m1": -1.349563376554641,
-   "ytd": 3.48369188063844,
+   "d1": -1.1884096675123468,
+   "w1": -0.3769520732364029,
+   "m1": -2.0905001323101358,
+   "ytd": 2.706453851492019,
    "status": "ok",
    "he_name": "בנק הפועלים",
    "fin": {
@@ -254,12 +254,12 @@
   "DSCT.TA": {
    "name": "ISRAEL DISCOUNT BK",
    "ccy": "ILA",
-   "last": 3287.0,
+   "last": 3270.0,
    "date": "2026-11-13",
-   "d1": -1.3209246472530745,
-   "w1": -1.527860994607555,
-   "m1": -3.550469483568075,
-   "ytd": -2.8089887640449396,
+   "d1": -1.8312818973281297,
+   "w1": -2.037147992810062,
+   "m1": -4.049295774647888,
+   "ytd": -3.3116499112950892,
    "status": "ok",
    "he_name": "בנק דיסקונט",
    "fin": {
@@ -273,6 +273,12 @@
    },
    "news": [
     {
+     "title": "נעילה חיובית בתל אביב; מניות הביטוח זינקו, הביטחוניות איבדו גובה",
+     "source": "גלובס",
+     "date": "2026-09-03",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wM1laX1VMczVLODR4TTZfNW1hWGlLVzZqMkpBNW1SR1JKdldFeW9VZ3N0R3FGVGJIWFByMnk1d1NTR1V3a0w4eS1qVmRNZ3l6ZEpWdzNfbUdBTXpkOVpFajNlQmpNUGpx?oc=5"
+    },
+    {
      "title": "דיסקונט: דמרי נפלטת מת\"א 35; אלפא תאו ותדהר יצטרפו לת\"א 125",
      "source": "גלובס",
      "date": "2026-08-24",
@@ -285,28 +291,22 @@
      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBKbnB6bVZUeHpreWJVUXpsdi13emRQZVVkZFM3Z1RkZ3Z6dVNxMjFPRE13OVFNYzA3dExac0FkQ3lWVXlGbVVzQUdKb1V3XzFf?oc=5"
     },
     {
-     "title": "התייעלות בדיסקונט: מקפיא המענקים והעלאות השכר - ועשוי לפטר עובדים",
-     "source": "Calcalist",
-     "date": "2026-04-26",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4wVjFmY0N6NlUyV25TRGdXTWZMbVdiOWdkOWU3YTU5WVN6NGR5V25kUVNQc3lEWk9DZHg0Y1RuM0E4dmFncVBIbUNqcnU5aGxZZlBVT19hYTluc0RIVF9kNnpVQ0FFLXh2?oc=5"
-    },
-    {
-     "title": "המלצה למניות הבנקים - תשואה שנתית צפויה של מעל 22%",
-     "source": "ביזפורטל",
-     "date": "2026-04-20",
-     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CTEtpM3g0MVhRakFlZEtOczdzRDdPeDBscnR2dmYxQ1MzVjQxUEY4Y21LMDdHTC1aaE5OM2lhc2c2eXFIQnVDLTlscWRXMFZKLVpTallYNFlVYUxBM09yb1p4ckxfNFJhM0UzUkFUREo?oc=5"
+     "title": "ב-30 מיליון שקל: בית ההשקעות שמגדיל אחזקה בבנק הענק",
+     "source": "ice (אייס)",
+     "date": "2026-06-04",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1kLTlZVlIzano1d2R3elB0YnZSSUEwWmtoRVpPcHJMVzFKbTVLbDA0RUhBVllIbGNyS1Nic192TmxtOGtRa0J2VTFLU0FxSTNQRnlaN2E2cTVvYjBUOWJ3?oc=5"
     }
    ]
   },
   "MZTF.TA": {
    "name": "MIZRAHI TEFAHOT BK",
    "ccy": "ILA",
-   "last": 21990.0,
+   "last": 21820.0,
    "date": "2026-11-13",
-   "d1": -0.8119079837618393,
-   "w1": -2.048997772828509,
-   "m1": -4.057591623036649,
-   "ytd": -1.124100719424459,
+   "d1": -1.5787099684257955,
+   "w1": -2.8062360801781705,
+   "m1": -4.799301919720767,
+   "ytd": -1.8884892086330929,
    "status": "ok",
    "he_name": "מזרחי טפחות",
    "fin": {
@@ -348,12 +348,12 @@
   "FIBI.TA": {
    "name": "FIRST INTER BK ISR",
    "ccy": "ILA",
-   "last": 21900.0,
+   "last": 22000.0,
    "date": "2026-11-13",
-   "d1": -0.544959128065392,
-   "w1": -4.616724738675959,
-   "m1": -5.522001725625536,
-   "ytd": -12.574850299401197,
+   "d1": -0.09082652134423386,
+   "w1": -4.181184668989546,
+   "m1": -5.090595340811044,
+   "ytd": -12.17564870259481,
    "status": "ok",
    "he_name": "הבינלאומי הראשון",
    "fin": {
@@ -367,40 +367,40 @@
    },
    "news": [
     {
+     "title": "סמדר ברבר-צדיק - 16 שנה בראש הבינלאומי בלי טייקונים",
+     "source": "ביזפורטל",
+     "date": "2026-09-18",
+     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1JOTVfOVhsQk1xaEozbGFaQ283ZnplU1oyWG4zT2lrNTBhQ3ViaVNxRVA3eTZINmloY3dhRVJ5LWt0cjU4Z3d1aEcwdGkxTzRiUDByOEJvSmRsQmcxeDZWQUVyc3UtMG8?oc=5"
+    },
+    {
      "title": "בנק ההשקעות העולמי על מניית הביטוח הישראלית: \"תעלה ב-17%\"",
      "source": "ice (אייס)",
      "date": "2026-08-27",
      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBUVzFVTUxvWWFJZnMzQW9TMkx3X0NacDhIUmJnaVNkTk02d3E3dTRqZERuWU5DdHFNeGxqbUo1UzV1X1kwMXNYMjBQdEpnZ0dtV194WnVtd2M2aVpUWmFF?oc=5"
     },
     {
+     "title": "\"אין ממצאים למעילה\": מניית בנק ירושלים ירדה על רקע שמועות ברשתות החברתיות",
+     "source": "גלובס",
+     "date": "2026-08-13",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Ha3Y2d2pLamNrczNvTTJXTEFBa2pRLW85VFBfWmY4TUh6SDVKVVVWU1UxeFliM0ZUakZLc0NXSGIteEtQOTNEMXJ4bzZhSnI1clAzYkxzS0dlU09acDBlRDVUcUpFbVFp?oc=5"
+    },
+    {
      "title": "הבינלאומי: תוקנה התקלה באפליקציה ששיבשה את המסחר במניות",
      "source": "Calcalist",
      "date": "2026-06-01",
      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9tTGZKdklQY0ZFLVJVeEdEUHF0LVZ6dlpGWjFUWkdWYTVXNElURWlkX3VyN3RTZGxoLVBXUV95NUJRRWFYU0FaZWRjdV9hc3dBNzg4bnpRQ2xSN1czX19fWUpaOA?oc=5"
-    },
-    {
-     "title": "אחרי הדו\"חות, בית ההשקעות IBI מוריד את מחיר היעד של הבנק הבינלאומי - שוק ההון - TheMarker",
-     "source": "TheMarker",
-     "date": "2026-05-18",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQODRZR0NQNUdfSC1Nbmd6OFBxWFFaTTRYRUJjSVl6ekpDZHBxSnlJdHQyTWUwdnRvZWNCOHRsR1VKRUlNanBVbjdPUS1Tbm1PeWRhLUlOeXlRQm96bFZqOWFrZ05LNlRHZFVaQnZNajQzaWJWTlpNa1dTLUpzX1NEdm1iZDFGcU5iZVBzM24yYXMyN1hSVkRIWnRTanc4Tk9pSjRFRmdn?oc=5"
-    },
-    {
-     "title": "מה קרה למניות הבנקים? המשקיעים הפסידו מעל 30 מיליארד ש' בשבוע",
-     "source": "גלובס",
-     "date": "2026-05-18",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5FZ3ZqQ2o5Wk5Tdzg1c1doZHJtSTM0VXJXQnZqMlZVTlprTGlnbnJ3UnBmWFJpOF9sUllFdjVRNDlFVFNyYmJheHp4X29faVBNeEdOTC05YkIyMXJOWFhiWHNkLVF6aXI2?oc=5"
     }
    ]
   },
   "JBNK.TA": {
    "name": "BANK OF JERUSALEM",
    "ccy": "ILA",
-   "last": 1740.0,
+   "last": 1738.0,
    "date": "2026-11-13",
-   "d1": 0.4039238315060478,
-   "w1": 0.9280742459396807,
-   "m1": -8.565423016290064,
-   "ytd": -24.870466321243523,
+   "d1": 0.2885170225043199,
+   "w1": 0.8120649651972123,
+   "m1": -8.670520231213874,
+   "ytd": -24.956822107081177,
    "status": "ok",
    "he_name": "בנק ירושלים",
    "fin": {
@@ -442,12 +442,12 @@
   "HARL.TA": {
    "name": "HAREL INS INVS",
    "ccy": "ILA",
-   "last": 17850.0,
+   "last": 17800.0,
    "date": "2026-11-13",
-   "d1": -0.9983361064891838,
-   "w1": 1.7094017094017033,
-   "m1": -5.5055584965590265,
-   "ytd": 43.604183427192275,
+   "d1": -1.2756516916250682,
+   "w1": 1.4245014245014342,
+   "m1": -5.770248808893596,
+   "ytd": 43.20193081255028,
    "status": "ok",
    "he_name": "הראל השקעות",
    "fin": {
@@ -489,12 +489,12 @@
   "PHOE.TA": {
    "name": "PHOENIX FINANC LTD",
    "ccy": "ILA",
-   "last": 16750.0,
+   "last": 16810.0,
    "date": "2026-11-13",
-   "d1": -1.8746338605741042,
-   "w1": 3.4589252625077282,
-   "m1": -4.883588869960254,
-   "ytd": 27.086494688922613,
+   "d1": -1.5231400117164617,
+   "w1": 3.829524397776396,
+   "m1": -4.542873367404887,
+   "ytd": 27.541729893778456,
    "status": "ok",
    "he_name": "הפניקס",
    "fin": {
@@ -536,12 +536,12 @@
   "MGDL.TA": {
    "name": "MIGDAL INS & FINAN",
    "ccy": "ILA",
-   "last": 1703.0,
+   "last": 1689.0,
    "date": "2026-11-13",
-   "d1": -1.9573978123200941,
-   "w1": 2.65220012055456,
-   "m1": -11.989664082687334,
-   "ytd": 10.15523932729625,
+   "d1": -2.763385146804831,
+   "w1": 1.8083182640144635,
+   "m1": -12.713178294573646,
+   "ytd": 9.24967658473479,
    "status": "ok",
    "he_name": "מגדל ביטוח",
    "fin": {
@@ -573,22 +573,22 @@
      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1aUGgtendNQ3hNMkJSYmlGWTVOSVZzMmpMXzRGN1NtZTFmYl9sTXpvRHpYaE8zX1VMM2ZMZXVvWEFjWmwtbVdudFJLN0hIekRXVDFxeUU5U2k3LUd2ak1RT0NQcFpnOG55?oc=5"
     },
     {
-     "title": "מגדל משקיעה 350 מיליון דולר בדאטה סנטרס - שוק ההון - TheMarker",
-     "source": "TheMarker",
-     "date": "2026-07-07",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSDRfeDFTMVpmcVkyX0ZnVkRVbEwxZXFkemk5SmpuVEp1bDNPMVVBN1N2Q0d5N2lBVnFlcm9fYVNQQWUtdWxsM0wzVzN6MFhHdWUwMjNfbFFKcHhlR0Y4T2x5c3dvS05QLTYxcGtaTzFZQVkzVWIzXzRndFRwMWJQbEVvRWR0ZTB5ZmxoaVJKbFZtb2UzUXhXNEJLRGxWUUhTZzZZ?oc=5"
+     "title": "325 מיליון שקל תמורת 14% מהמניות",
+     "source": "YNET",
+     "date": "2026-07-02",
+     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nWnV2LVVaR1JLYjJSRUFKMGFmRmhoZFJvSWduVlFsMWxYQ0ZQSmlkWDc4b28zekJ1OGVjM3RLMV9YT2FCWGRhdy10UnZmTU9RTjUzWEU0b0lsZklrYVE?oc=5"
     }
    ]
   },
   "CLIS.TA": {
    "name": "CLAL INSURANCE ENT",
    "ccy": "ILA",
-   "last": 25790.0,
+   "last": 25990.0,
    "date": "2026-11-13",
-   "d1": -2.125237191650853,
-   "w1": 2.1790808240887527,
-   "m1": -7.29690869877786,
-   "ytd": 25.376762275157994,
+   "d1": -1.366223908918407,
+   "w1": 2.9714738510301153,
+   "m1": -6.5780014378145175,
+   "ytd": 26.34905201750122,
    "status": "ok",
    "he_name": "כלל ביטוח",
    "fin": {
@@ -601,12 +601,6 @@
     "eps": 7.42
    },
    "news": [
-    {
-     "title": "עסקה גדולה בפיננסים: כלל ביטוח במו\"מ להשקעה בווליו בייס לפי שווי של 600 מיליון שקל - שוק ההון - TheMarker",
-     "source": "TheMarker",
-     "date": "2026-09-23",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbmdWTTVrXzNaelo2aVFudkZET3JDNm5oRnR1aVlOZHdUZ2c4QmlDTzY5cGNqdkhOU0dtek5YeFhEZ1RZRC1Ld01zN3VCX2YtX2xhZjl2aS1UY3J0MnAyV1F3d0hqMVpDZ21ERUdCY05HWXVzMUJ6R1pjNTZScWpoOEVmcVZFOTRNcTZXMDQ3Ui1hRUxkNTA4?oc=5"
-    },
     {
      "title": "קבוצת כלל ביטוח בוחנת השקעה בקבוצת ווליו בייס לפי שווי של 600 מיליון שקל",
      "source": "ביזפורטל",
@@ -624,18 +618,24 @@
      "source": "גלובס",
      "date": "2026-08-19",
      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBmUzZxQmY0NUpteUN4NlJkWGNfZmdkaEpXMmtjMzNhSlh1eHlaUkFmVENvMDcySGdTbldyZU1jOTV1Z3BNdFp0QnBxOXV0YWhHTVZrdEE3TkJCbVFmVUY4RUgtTldoN0NE?oc=5"
+    },
+    {
+     "title": "כלל ביטוח לא עוצרת: תשואה להון של 22.5% ורכישה עצמית ראשונה",
+     "source": "ice (אייס)",
+     "date": "2026-08-19",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9xTnEzeWtHMDFzNWtEQ1hoMThSODhOeVFsQ1ktSm9kLUEzcDBkaXBlWkRjOEhQbGlKck1hTWpObDY3RGstNU9aNHZ2SGVaNmN5ZGpVbGRvaE03elVVS0Iw?oc=5"
     }
    ]
   },
   "MMHD.TA": {
    "name": "MENORA MIVTACHIM",
    "ccy": "ILA",
-   "last": 48140.0,
+   "last": 48000.0,
    "date": "2026-11-13",
-   "d1": -2.649140546006068,
-   "w1": 0.9224318658280994,
-   "m1": -7.280431432973811,
-   "ytd": 20.530796194291433,
+   "d1": -2.932254802831147,
+   "w1": 0.6289308176100628,
+   "m1": -7.550077041602465,
+   "ytd": 20.180270405608415,
    "status": "ok",
    "he_name": "מנורה מבטחים",
    "fin": {
@@ -677,12 +677,12 @@
   "AMAL.TA": {
    "name": "AMAL HOLDINGS AD L",
    "ccy": "ILA",
-   "last": 1504.0,
+   "last": 1498.0,
    "date": "2026-11-13",
-   "d1": -2.6537216828478982,
-   "w1": 0.4005340453938633,
-   "m1": -3.3419023136246784,
-   "ytd": 7446.412327998883,
+   "d1": -3.0420711974110004,
+   "w1": 0.0,
+   "m1": -3.7275064267352165,
+   "ytd": 7416.306959669098,
    "status": "ok",
    "he_name": "עמל החזקות",
    "fin": {
@@ -695,12 +695,6 @@
     "eps": 2.4
    },
    "news": [
-    {
-     "title": "דליה קורקין, מנכ\"לית עמל ומעבר: \"15% מהאוכלוסייה שלנו עברה את גיל מאה\"",
-     "source": "גלובס",
-     "date": "2026-11-01",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9zNnRGSFVLSnZHX1pqRE82a3MwdFAwdEx5MElESUpVSlZNVmxiYy11eG5ZSWo5NjFEX2VHX3FzLTE3VHNQQ0JGbTZKbURwTlhBYU9pYk9wb1VIWTc4c24xY2c3OGxOS0k2?oc=5"
-    },
     {
      "title": "עמל ומעבר: \"התוצאות ברבעון פחות טובות ממה שייחלנו\", לדברי המנכ\"לית",
      "source": "גלובס",
@@ -718,18 +712,24 @@
      "source": "גלובס",
      "date": "2026-07-02",
      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5uNExzMHAzTUZYQXVIY0VpZ2dKT0lZX0ZtNE5OR3p1OFJlempiVmRmVjh2UFdiSnRIaHVUQ1g2LXlTZFlSQUtYZEJMZGJlVlBTUmlHcW9PdlE4UEpvcmtVd3V4akg3WUNq?oc=5"
+    },
+    {
+     "title": "עמל ומעבר החלה להיסחר בשווי של 2.6 מיליארד שקל – ומזנקת ב-4% - שוק ההון - TheMarker",
+     "source": "TheMarker",
+     "date": "2025-11-26",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdlQzM1M0ZWhmVmVyMnNuRjQwczRNZjMyZGhQT0VxaEVMbWVRdko3TWRnWmtucTEwR1BFd19MV1Z5WUdKX20tQTRRSmVnc0J6Q05NSWliMm9LWmFJclBtU3RKY2QtSkFqR0FmeVBXMktmSHBKSnhCakhCYWRTVVdfU2Q3NGZNbXRDM0gyVzBwVWFvOFc0QnpxVVhLclhHZVg1V29J?oc=5"
     }
    ]
   },
   "MTRD.TA": {
    "name": "MEITAV TRADE INV",
    "ccy": "ILA",
-   "last": 1731.0,
+   "last": 1718.0,
    "date": "2026-11-13",
-   "d1": -1.5918135304150094,
-   "w1": -2.807411566535656,
-   "m1": -17.92318634423897,
-   "ytd": 8053.5564640792245,
+   "d1": -2.33086981239341,
+   "w1": -3.537338573834925,
+   "m1": -18.53959222380275,
+   "ytd": 7992.322360074008,
    "status": "ok",
    "he_name": "מיטב טרייד",
    "fin": {
