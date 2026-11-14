@@ -69,7 +69,7 @@
    "status": "ok"
   }
  },
- "updated_iso": "2026-11-14T10:05:41+00:00",
+ "updated_iso": "2026-11-14T16:33:45+00:00",
  "source": "Yahoo Finance (via yfinance)",
  "lists": {
   "alerts": [
@@ -157,6 +157,12 @@
    },
    "news": [
     {
+     "title": "ברק קפיטל חצתה את רף ה-2.5% בפועלים: מחזיקה מניות ב-2.5 מיליארד שקל",
+     "source": "TheMarker",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObnZyZWMzN211UXp3dHc2SFFLdGNOM1JtNFNGRzN3aU1Wc1VYUjJVNlktVk9CQWtHWFF2eGFKM19ybkExN1RMbEhSdDdCcVFSSDFScGVGTEcxdElCYTM2UzA3R00zdFRleFQ3b05hUHhGbjVKa2UxandYcmprcElZaTg5ak5uVDFYTFVoWmxZMFNTTktlTFBaa3lxYnJsbjZHWDZj?oc=5"
+    },
+    {
      "title": "ארנסט יפת - 16 שנה בראש לאומי, ויסות המניות והפנסיה שהסעירה את המדינה",
      "source": "ביזפורטל",
      "date": "2026-09-20",
@@ -173,12 +179,6 @@
      "source": "Calcalist",
      "date": "2026-08-12",
      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ZZXdzRnRQSnlqUXZ6NVhBQWxOZWhJVkVJZWZRMUtBZ1huOUpTMi1XTWsxSnM2TjR6Z3gxMnlmbWR1NVhpY0t6ZFhsZmVNZ3ctbnRXVGZaOGt3N0tNeldsWF9jbw?oc=5"
-    },
-    {
-     "title": "מה זו מניה? בעלות אמיתית בחברה - מהדיבידנד ועד זכות ההצבעה",
-     "source": "ביזפורטל",
-     "date": "2026-08-11",
-     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9sQXQwSWM1RU93alZLbk54YXZjdmVSWjdqeDBib1R1akZZNFpxdVZyZ1RBZmlqWEE5VmZBRl9BbHlERXlMS1hUYkViWEx0NmNXaldlMlVoOURtUG90VG9EamU4NGlRdms?oc=5"
     }
    ]
   },
@@ -232,22 +232,22 @@
      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBkNHk2aV9vQm9ocGo1RkJoN0N3T29UeHc0REZjbzFSNzEtUHk0eGlVaS0xMk4yb0N2ZmxJQWgwZVpILVlOdzg2amFIQ3NLRDNwcmZ0Z1dhWl9zYjNUeGJhQU9odWlKMUJV?oc=5"
     },
     {
+     "title": "ברק קפיטל חצתה את רף ה-2.5% בפועלים: מחזיקה מניות ב-2.5 מיליארד שקל",
+     "source": "TheMarker",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObnZyZWMzN211UXp3dHc2SFFLdGNOM1JtNFNGRzN3aU1Wc1VYUjJVNlktVk9CQWtHWFF2eGFKM19ybkExN1RMbEhSdDdCcVFSSDFScGVGTEcxdElCYTM2UzA3R00zdFRleFQ3b05hUHhGbjVKa2UxandYcmprcElZaTg5ak5uVDFYTFVoWmxZMFNTTktlTFBaa3lxYnJsbjZHWDZj?oc=5"
+    },
+    {
+     "title": "לא עוצרת: ברק קפיטל רוכשת מניות בנק הפועלים בעשרות מיליוני שקלים",
+     "source": "ice (אייס)",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE51R3FkWEd6ZWhqM2F6QXJvaGxYcV9kVFVLcWxjYU13RGlCYzNUTmQ4Wjh1bVA2cHdSNUZYVFlYbXhWaF9kUHA1LW9Ua296TW13am5PdGtqQ2tpSHhnT3BF?oc=5"
+    },
+    {
      "title": "קמטק מכוונת למיליארד דולר הכנסות - בבנק הפועלים חושבים שזה יקרה כבר ב-2028",
      "source": "ביזפורטל",
      "date": "2026-10-15",
      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUb185MEUwcjExdFVSRmdVU1M3R1k3QkJsaXh4MGl6c01tak0yenBuX3c4a2N3RTNDeTNHOXE5cjByQkhOSGpNUHoxV29WUVJzUHJRTDBwRjJIMVItNVl4ckRvSnFjcEt6Z09lbFVVUGk?oc=5"
-    },
-    {
-     "title": "בכיר בבנק הפועלים: \"אולי המשקיעים מניחים שגם המשבר הבא ייראה כמו הקודם\"",
-     "source": "גלובס",
-     "date": "2026-10-15",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE55bklaUlFDQzMtR19Gbk9OUkNHektranZfaWpQTTA4UTlUaTVfOER1TlJjLXNqV1UwMi1YeXp1SXdjTDh6al9kUkMzbGxCWGN6dUZfVE0zNzZIazBieU9QcVpJcnllQ19z?oc=5"
-    },
-    {
-     "title": "\"יש פוטנציאל לייסוף חד בשקל אחרי הבחירות, אם השוק יפרש את התוצאות כך\"",
-     "source": "TheMarker",
-     "date": "2026-10-05",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWVRKOVpTSEdFT3p3YlpTNlhQUHprWmJ0RGVhTkhhZnNlbE94Z2w4VkpjWGU2ZjJDZnFTa3pHNzZHMGY2bHFPRUtMR0dqWXVrbFFSSjk1bDFTeUtMNzNJVjZmXzYzUXdJbDY0MHVyWTh2TGlpYVlGemdlSV96d0hSMG4zUUJsT0hkeWdNZzQwdXE2NHJ2WmNpV3ZibUhnVUVpTmln?oc=5"
     }
    ]
   },
@@ -385,10 +385,10 @@
      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Ha3Y2d2pLamNrczNvTTJXTEFBa2pRLW85VFBfWmY4TUh6SDVKVVVWU1UxeFliM0ZUakZLc0NXSGIteEtQOTNEMXJ4bzZhSnI1clAzYkxzS0dlU09acDBlRDVUcUpFbVFp?oc=5"
     },
     {
-     "title": "583 מיליון שקל ברבעון: הבינלאומי מחלק כמעט את כל הרווח כדיווידנד",
-     "source": "TheMarker",
-     "date": "2026-08-12",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSEJFYWRNdEUtcXlWRUdEdzZhRFVLeU54a2c4MlBnd1l6TmYzX041OVdmdDdyNzdwSjRQclowX2M4bXNfODZON3djN0ttaUpRR0hFZjhIX0FvelVzSDRaU01zNldCRnFFT2Z3bEdMd0hFYUJLLWt3OW9CdnVJQ19uOU8zV0xmUXBaMEtYLU1NSGZPTUJ2dmwxRHhmblNvWEJidUlZ?oc=5"
+     "title": "הבינלאומי: תוקנה התקלה באפליקציה ששיבשה את המסחר במניות",
+     "source": "Calcalist",
+     "date": "2026-06-01",
+     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9tTGZKdklQY0ZFLVJVeEdEUHF0LVZ6dlpGWjFUWkdWYTVXNElURWlkX3VyN3RTZGxoLVBXUV95NUJRRWFYU0FaZWRjdV9hc3dBNzg4bnpRQ2xSN1czX19fWUpaOA?oc=5"
     }
    ]
   },
@@ -555,6 +555,12 @@
    },
    "news": [
     {
+     "title": "הישראלים שהרוויחו באנתרופיק: כמה השקיעו מגדל וכלל וכמה זה שווה",
+     "source": "ביזפורטל",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1vdzFmWExYTFNUbFZtSXJzNFVCVXdCSUszd0RVMUJSVWx6cVRLT3pCMVpjMmVIbXQ5ZzA0OEwwSzB2Q1loRTlxN1RqMy1GRlA5U0pIZk85Y01WLUVBcVVQYzRxX1RkZHBSUGI3Qjc0ems?oc=5"
+    },
+    {
      "title": "נעילה ירוקה: מניות הביטוח זינקו - איילון עלתה 4.1%, מנורה 3.7%; ת\"א 35 עלה 1.6%",
      "source": "ביזפורטל",
      "date": "2026-10-16",
@@ -571,12 +577,6 @@
      "source": "גלובס",
      "date": "2026-09-01",
      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1aUGgtendNQ3hNMkJSYmlGWTVOSVZzMmpMXzRGN1NtZTFmYl9sTXpvRHpYaE8zX1VMM2ZMZXVvWEFjWmwtbVdudFJLN0hIekRXVDFxeUU5U2k3LUd2ak1RT0NQcFpnOG55?oc=5"
-    },
-    {
-     "title": "325 מיליון שקל תמורת 14% מהמניות",
-     "source": "YNET",
-     "date": "2026-07-02",
-     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nWnV2LVVaR1JLYjJSRUFKMGFmRmhoZFJvSWduVlFsMWxYQ0ZQSmlkWDc4b28zekJ1OGVjM3RLMV9YT2FCWGRhdy10UnZmTU9RTjUzWEU0b0lsZklrYVE?oc=5"
     }
    ]
   },
@@ -602,6 +602,12 @@
    },
    "news": [
     {
+     "title": "600 מיליון שקל: מה הוביל לקפיצה בשווי בנק ההשקעות ווליו בייס",
+     "source": "גלובס",
+     "date": "2026-09-24",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1nXzVhVG9fNkpERjJUX0Q5LUE3d0luREQ4dkh6N29hRWFIdkI4ZVRCeTZaZ1ktZF9tYm5IWnhDeUJzQmhES3UzeFlFdUdYMHFnN1JBenV0RGstSVkzNWRhanp0LWtQeTdZ?oc=5"
+    },
+    {
      "title": "קבוצת כלל ביטוח בוחנת השקעה בקבוצת ווליו בייס לפי שווי של 600 מיליון שקל",
      "source": "ביזפורטל",
      "date": "2026-09-23",
@@ -618,12 +624,6 @@
      "source": "גלובס",
      "date": "2026-08-19",
      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBmUzZxQmY0NUpteUN4NlJkWGNfZmdkaEpXMmtjMzNhSlh1eHlaUkFmVENvMDcySGdTbldyZU1jOTV1Z3BNdFp0QnBxOXV0YWhHTVZrdEE3TkJCbVFmVUY4RUgtTldoN0NE?oc=5"
-    },
-    {
-     "title": "כלל ביטוח לא עוצרת: תשואה להון של 22.5% ורכישה עצמית ראשונה",
-     "source": "ice (אייס)",
-     "date": "2026-08-19",
-     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9xTnEzeWtHMDFzNWtEQ1hoMThSODhOeVFsQ1ktSm9kLUEzcDBkaXBlWkRjOEhQbGlKck1hTWpObDY3RGstNU9aNHZ2SGVaNmN5ZGpVbGRvaE03elVVS0Iw?oc=5"
     }
    ]
   },
@@ -743,12 +743,6 @@
    },
    "news": [
     {
-     "title": "סקייליין חתמה על הסכם עשיית שוק עם מיטב טרייד לתקופה של שנתיים מאת Investing.com",
-     "source": "Investing.com",
-     "date": "2026-11-11",
-     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE10aF9aQmVCalR4bmc0WTBabzhVR2JsMTVFS2xnWHBYMlhCTHZ0NHlZb1dJOEpUTWN0ZW1RUVRINHcyaW5IVjRDc2VlRlBuelM3dzJ0ZXQ4Wm9FY3pna2tRdGlySXF2VnhQcVNsMUhtOXg1QU0?oc=5"
-    },
-    {
      "title": "מניית מיטב צנחה אחרי פרצת אבטחה: מידע אישי של כ-3,000 לקוחות נחשף",
      "source": "מעריב",
      "date": "2026-09-29",
@@ -765,6 +759,12 @@
      "source": "TheMarker",
      "date": "2026-08-17",
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeUYtaEdoOEc4aXdENzlkTDRsQ1hSc2p5ZnR1NTJoa1JHZFFhNWJxY3V6VUNDMUN2Ri1UT0xMalM4dmR4MEY4VEk3MEF3YUFBRG5IanFjcmg0UWhURzVzUHBmc0VZMWhReWZwNWNnZ25LWDBZVTU2dmtqTlMtdnFZOEk1bVRiY3VQSURXUWpCQkhmQk5MWjd0UXpEanEyYWpZZFdB?oc=5"
+    },
+    {
+     "title": "המכשולים שמחכים לאחים ברקת בדרך לאקזיט במיטב",
+     "source": "Calcalist",
+     "date": "2026-06-07",
+     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HbHBCMGo4c2pnR0xDNUEzbE5tYlJrdHZwZWdKVlFxbmJRWDF0Z2Fub3lhTURjNUVUMDg1QjdaMFdxc3Z6NUFmWnZkTnZwMUI2UVBTck5XZmdvYmhMU2s1OXBwa1YtTlk?oc=5"
     }
    ]
   }
