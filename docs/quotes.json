@@ -69,7 +69,7 @@
    "status": "ok"
   }
  },
- "updated_iso": "2026-11-15T10:40:32+00:00",
+ "updated_iso": "2026-11-15T17:39:45+00:00",
  "source": "Yahoo Finance (via yfinance)",
  "lists": {
   "alerts": [
@@ -479,10 +479,10 @@
      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9teldRaDR0VnctUmNjQUFWalYwQVYyMG5SMTRtRW9LbmFCeXNrNm85bkpHUm1uaDNBWmVDOFZKd0hRRlFNX3RNVW5XSUF5SElLQmVFMjFpaHI0V1MxRlhzWnJ6VGctdUFY?oc=5"
     },
     {
-     "title": "הראל השקעות: רווח כולל של 1.024 מיליארד ₪ ברבעון השני ודיבידנד של 400 מיליון ₪ מאת Investing.com",
-     "source": "Investing.com",
-     "date": "2026-08-26",
-     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBTa2hVN2xJY0FFMm9ocjB3XzVoVmhPTnVocUZ4T1hqWjFGVGZvYXY3QjNnX0d1RDQtNjJCa1U0bFBNZWxLTzU1VWc4NV95VnBiU3JUR3lnQUVYV3o3dGJOb0ZhZndaX2l5YWdrUnpnaWhlQQ?oc=5"
+     "title": "אחרי מכירת הענק: משפחת המבורגר רכשה מניות הראל בבורסה",
+     "source": "Calcalist",
+     "date": "2026-06-07",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9xZTZmaVpLQndUZWhmZDdnNlY0ZEE4R2RUOHpUc2t0VE1rSHVzQ1RBcnRsOEs0NFRCaS1sTnVYeW50MGxiZ2NwNTN6TTRyOE5JcXZ1d2U5U3dnTHUyRmY0V291NHg?oc=5"
     }
    ]
   },
@@ -526,10 +526,10 @@
      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE13LWZxM2JycGpqMUZvYlFQb0EySXFmWC1La21BQzZtTmJOdnczR1F4Q1lMRVVoZW02S3U0VDlUOXo0dEI2cVR4Unh2c09GRnpp?oc=5"
     },
     {
-     "title": "חגיגת רווחים סעודית-קטארית: מאחורי מימוש הענק בהפניקס",
-     "source": "גלובס",
+     "title": "יותר ממיליארד שקלים: הרווח המהיר של קושנר בחברת הפניקס",
+     "source": "mako",
      "date": "2026-07-28",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlejQzMTFMS2UyVDIzajJRYzlZbllRYnpHdkM2ZXh1d2duMjlLYVhBNEpFZ2gwYmp4NmhlY2t5N2luMG5fYm94OUNES2tWWFVueEl0SFhfVWN2NExkTTkxNUlDZXZwOTc3?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE53LWdzY2pBN3JfSmR6azRJX3ctQWY3d1NnN1NkOFlTTlJ5SGhjTV81SHVGSmZrUk5LUnQ4QmZwejltQm04XzhpS3prTUN4eGFScmhpSHktdnl3SnhLQnhqdkZWY1JzVkNQVFBWUVcyMS1ERDFTZDkyekNid18?oc=5"
     }
    ]
   },
@@ -555,12 +555,6 @@
    },
    "news": [
     {
-     "title": "הישראלים שהרוויחו באנתרופיק: כמה השקיעו מגדל וכלל וכמה זה שווה",
-     "source": "ביזפורטל",
-     "date": "2026-10-27",
-     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1vdzFmWExYTFNUbFZtSXJzNFVCVXdCSUszd0RVMUJSVWx6cVRLT3pCMVpjMmVIbXQ5ZzA0OEwwSzB2Q1loRTlxN1RqMy1GRlA5U0pIZk85Y01WLUVBcVVQYzRxX1RkZHBSUGI3Qjc0ems?oc=5"
-    },
-    {
      "title": "נעילה ירוקה: מניות הביטוח זינקו - איילון עלתה 4.1%, מנורה 3.7%; ת\"א 35 עלה 1.6%",
      "source": "ביזפורטל",
      "date": "2026-10-16",
@@ -577,6 +571,12 @@
      "source": "גלובס",
      "date": "2026-09-01",
      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1aUGgtendNQ3hNMkJSYmlGWTVOSVZzMmpMXzRGN1NtZTFmYl9sTXpvRHpYaE8zX1VMM2ZMZXVvWEFjWmwtbVdudFJLN0hIekRXVDFxeUU5U2k3LUd2ak1RT0NQcFpnOG55?oc=5"
+    },
+    {
+     "title": "325 מיליון שקל תמורת 14% מהמניות",
+     "source": "YNET",
+     "date": "2026-07-02",
+     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nWnV2LVVaR1JLYjJSRUFKMGFmRmhoZFJvSWduVlFsMWxYQ0ZQSmlkWDc4b28zekJ1OGVjM3RLMV9YT2FCWGRhdy10UnZmTU9RTjUzWEU0b0lsZklrYVE?oc=5"
     }
    ]
   },
@@ -602,6 +602,12 @@
    },
    "news": [
     {
+     "title": "כלל עסקי ביטוח - חדשות מניה",
+     "source": "ביזפורטל",
+     "date": "2026-11-13",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9LZEo0VDM1Qjd2Ung3VlF3UXhTa3cwcE5BY0ZVWWVGejZFdnpxdkZ4dWZXUTJJRjhWSGdOeWFLZEo2UC0wVjUtZDZTOUdHU3NUYkdSZXFpWFZnUjIyMElEX0FZOUFod0UxNVg0?oc=5"
+    },
+    {
      "title": "600 מיליון שקל: מה הוביל לקפיצה בשווי בנק ההשקעות ווליו בייס",
      "source": "גלובס",
      "date": "2026-09-24",
@@ -618,12 +624,6 @@
      "source": "גלובס",
      "date": "2026-09-23",
      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9JSTBfaVFTR2pJWWhrMUtRd0xnOXpmQVVja2cyY3BaRUt5Y0NnRHRkX1NmOHdsSGl4U09tLTdEQ3E0TmVXS3hDYWVyYkdDaG1LSFZKa3ZGZ0NKZXotVTZKRVRqNzlfa2VB?oc=5"
-    },
-    {
-     "title": "הנתון בדוחות של כלל שהקפיץ את כל מניות הביטוח בבורסה",
-     "source": "גלובס",
-     "date": "2026-08-19",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFByMEM1VFpIdTZFcXJPLTJnTTg2QklkSHpLdjY4TnowN3hIbFdYTDQ5dHZxWVk1aF9kUnV3OVhUZDNub1BfYXBrbkRGYlZzZUw5SE5TQXVyNzJYLS1icVNtMUxRbzByRHhI?oc=5"
     }
    ]
   },
@@ -661,16 +661,16 @@
      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA2LV93TEtxOGZtejVfNHdCRXptRHV2T1J6M000QmxKRTkwUzF5Qi1pUmdjcWpWbzBrX3VsU2plc25xOE1YamlnQjJUS2d6MkhH?oc=5"
     },
     {
+     "title": "נעילה ירוקה: מניות הביטוח זינקו - איילון עלתה 4.1%, מנורה 3.7%; ת\"א 35 עלה 1.6%",
+     "source": "ביזפורטל",
+     "date": "2026-10-16",
+     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9sSzVMSjAteWF1bmpydmtuNmQtZ19Rb3NETUhKcy02R29OR1hBZmVDWmJoczI5WW1qZFUtNk5PbGZrX3VzcHRrQzVYSUNQMU8wbHJfLUZSVFl1TmtGTVhNZm9rVE1Fc3pZUU41NktON0g?oc=5"
+    },
+    {
      "title": "בנק ההשקעות העולמי על מניית הביטוח הישראלית: \"תעלה ב-17%\"",
      "source": "ice (אייס)",
      "date": "2026-08-27",
      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBUVzFVTUxvWWFJZnMzQW9TMkx3X0NacDhIUmJnaVNkTk02d3E3dTRqZERuWU5DdHFNeGxqbUo1UzV1X1kwMXNYMjBQdEpnZ0dtV194WnVtd2M2aVpUWmFF?oc=5"
-    },
-    {
-     "title": "המניה של קרן פימי מזנקת ב-10%: זה הגוף שקנה מניות ב-100 מיליון שקל",
-     "source": "ice (אייס)",
-     "date": "2026-07-16",
-     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5FMW5qc3ZwRWU4MjdUbTFpUWZLV3BSbHkzWF9pOWpGR05CVHlLU251Z3RiTXQ0RHVPd0dpUFo4ZTRRcjIwa0VKbXhuZVctTUlZd2wtUVVXSFlFU2NlR2cw?oc=5"
     }
    ]
   },
