@@ -18,6 +18,12 @@
   "Bits of Gold": {
    "items": [
     {
+     "title": "רעידת אדמה בפז Yellow : ההחלטה שהתקבלה בעקבות אירוע חירום",
+     "source": "ice (אייס)",
+     "date": "2026-08-18",
+     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9qZjZjS2xwNk93aDh6VnR3RVB3UnpJeVI0VndwWTFQem1iQXlxZm5pMWE2UFVrR29WWnBDWk85RkxpaUlhNG4wOTVYWnh4X3hlYUtoTlAwQXV3emRFSEE?oc=5"
+    },
+    {
      "title": "המידע של 250 אלף לקוחות בסיכון: מה דלף מביטס אוף גולד וכיצד על הלקוחות לפעול",
      "source": "Calcalist",
      "date": "2026-08-17",
@@ -43,7 +49,7 @@
     },
     {
      "title": "דליפת מידע בביטס אוף גולד: מטבעות הקריפטו בטוחים, אך ייתכן שמידע על כ-200,000 לקוחות נחשף",
-     "source": "Crypto Jungle",
+     "source": "קריפטו ג'ונגל",
      "date": "2026-08-16",
      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5OQ3lzbGlvYTc3RUxuZjZDUHN4VWU1WG11TldDajFHVktSTjdnUE5sX0VXSGZPdjBEQVN0aENXWHc0QXpBWUxGaDVHaVNqZEpoS3A5RlRNVmdQd0dOaVpEMVB1N3UwbEZxeVg3bGpXcFJJSl9fam1Z?oc=5"
     },
@@ -58,18 +64,12 @@
      "source": "Calcalist",
      "date": "2026-07-28",
      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE40c2UyZ1ZRbmJOYjlKMzQyTlRPSWdETUp1cjRGNU1vSEN1UlVyYXo0TnlWc3ZpYWFDZzh4M2o1ZUhTMDFFemRqSFJ0bnFUZ1RrRDRackNoakoxbE9lRlRHMWpKQ08?oc=5"
-    },
-    {
-     "title": "אחרי 13 שנים: Bits of Gold חושפת מיתוג חדש ופלטפורמה מעודכנת",
-     "source": "Crypto Jungle",
-     "date": "2026-06-22",
-     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0xUV90RW80QnBpY3RfUWxHS3pGWW52SUFxT2ZVblF4aW1UWkxVa1podEtsdktmYThKNm9uZDYwZ3NTN2llSFJrTUI2WGRTdEdQNC1sSFVrcExnX3RXSkRaeGFWQUhCTzFya1AzUF9MejFIOGFuNWdDc0tRUVU?oc=5"
     }
    ],
    "status": "ok"
   }
  },
- "updated_iso": "2026-11-16T10:57:31+00:00",
+ "updated_iso": "2026-11-16T20:55:30+00:00",
  "source": "Yahoo Finance (via yfinance)",
  "lists": {
   "alerts": [
@@ -116,34 +116,34 @@
   "NVDA": {
    "name": "NVIDIA Corporation",
    "ccy": "USD",
-   "last": 162.85,
-   "date": "2026-11-13",
-   "d1": -2.009745645841854,
-   "w1": -12.746460224995193,
-   "m1": -26.412108514328338,
-   "ytd": -12.680961874790553,
+   "last": 155.8399,
+   "date": "2026-11-16",
+   "d1": -4.304636816472329,
+   "w1": -12.777799080851604,
+   "m1": -27.221827286445365,
+   "ytd": -16.43972933771782,
    "status": "ok"
   },
   "SPY": {
    "name": "State Street SPDR S&P 500 ETF T",
    "ccy": "USD",
-   "last": 754.37,
-   "date": "2026-11-13",
-   "d1": -0.3632185145994393,
-   "w1": 2.5948969331843985,
-   "m1": -1.9789476288840313,
-   "ytd": 10.624415477288718,
+   "last": 739.365,
+   "date": "2026-11-16",
+   "d1": -1.9890776382856412,
+   "w1": -1.7703187452750235,
+   "m1": -3.1293822162626883,
+   "ytd": 8.424009966545775,
    "status": "ok"
   },
   "LUMI.TA": {
    "name": "BK LEUMI LE ISRAEL",
    "ccy": "ILA",
-   "last": 7356.0,
+   "last": 7352.0,
    "date": "2026-11-16",
-   "d1": -0.1899592944369033,
-   "w1": 0.9053497942386857,
-   "m1": -1.5392852362468235,
-   "ytd": 4.7863247863247915,
+   "d1": -0.24423337856174232,
+   "w1": 0.85048010973936,
+   "m1": -1.5928255922901924,
+   "ytd": 4.72934472934472,
    "status": "ok",
    "he_name": "בנק לאומי",
    "fin": {
@@ -185,34 +185,34 @@
   "GOOGL": {
    "name": "Alphabet Inc.",
    "ccy": "USD",
-   "last": 295.77,
-   "date": "2026-11-13",
-   "d1": -0.9809250330155894,
-   "w1": 3.8591159075368253,
-   "m1": -14.920614270259113,
-   "ytd": -5.504795842277355,
+   "last": 283.91,
+   "date": "2026-11-16",
+   "d1": -4.0098677323933245,
+   "w1": -1.4714524810637952,
+   "m1": -16.641708002354385,
+   "ytd": -9.293928542457063,
    "status": "ok"
   },
   "SNDK": {
    "name": "Sandisk Corporation",
    "ccy": "USD",
-   "last": 885.01,
-   "date": "2026-11-13",
-   "d1": -5.594906553632328,
-   "w1": 5.981607591438531,
-   "m1": -36.93545175646027,
-   "ytd": 272.82416023309474,
+   "last": 811.32,
+   "date": "2026-11-16",
+   "d1": -8.326459772011097,
+   "w1": -8.481573993877966,
+   "m1": -37.55714793854038,
+   "ytd": 241.7811065109479,
    "status": "ok"
   },
   "POLI.TA": {
    "name": "BANK HAPOALIM B.M.",
    "ccy": "ILA",
-   "last": 7387.0,
+   "last": 7365.0,
    "date": "2026-11-16",
-   "d1": -0.17567567567567943,
-   "w1": 0.06773232186398914,
-   "m1": -4.089846793040763,
-   "ytd": 2.52602359472589,
+   "d1": -0.4729729729729737,
+   "w1": -0.2302898943375764,
+   "m1": -4.3754868865229835,
+   "ytd": 2.2206800832754947,
    "status": "ok",
    "he_name": "בנק הפועלים",
    "fin": {
@@ -254,12 +254,12 @@
   "DSCT.TA": {
    "name": "ISRAEL DISCOUNT BK",
    "ccy": "ILA",
-   "last": 3194.0,
+   "last": 3189.0,
    "date": "2026-11-16",
-   "d1": -2.3241590214067243,
-   "w1": -4.026442307692313,
-   "m1": -7.714533371857845,
-   "ytd": -5.55884092253105,
+   "d1": -2.477064220183489,
+   "w1": -4.176682692307687,
+   "m1": -7.859000288933837,
+   "ytd": -5.706682436428146,
    "status": "ok",
    "he_name": "בנק דיסקונט",
    "fin": {
@@ -301,12 +301,12 @@
   "MZTF.TA": {
    "name": "MIZRAHI TEFAHOT BK",
    "ccy": "ILA",
-   "last": 21300.0,
+   "last": 21220.0,
    "date": "2026-11-16",
-   "d1": -2.383134738771764,
-   "w1": -4.91071428571429,
-   "m1": -9.013242204186245,
-   "ytd": -4.226618705035968,
+   "d1": -2.7497708524289677,
+   "w1": -5.267857142857146,
+   "m1": -9.354976505766766,
+   "ytd": -4.586330935251803,
    "status": "ok",
    "he_name": "מזרחי טפחות",
    "fin": {
@@ -348,12 +348,12 @@
   "FIBI.TA": {
    "name": "FIRST INTER BK ISR",
    "ccy": "ILA",
-   "last": 21970.0,
+   "last": 21950.0,
    "date": "2026-11-16",
-   "d1": -0.13636363636363447,
-   "w1": -4.76809709579541,
-   "m1": -7.650273224043714,
-   "ytd": -12.29540918163673,
+   "d1": -0.2272727272727315,
+   "w1": -4.854789770264412,
+   "m1": -7.734342160571672,
+   "ytd": -12.37524950099801,
    "status": "ok",
    "he_name": "הבינלאומי הראשון",
    "fin": {
@@ -366,12 +366,6 @@
     "eps": 5.82
    },
    "news": [
-    {
-     "title": "בנק ההשקעות העולמי על מניית הביטוח הישראלית: \"תעלה ב-17%\"",
-     "source": "ice (אייס)",
-     "date": "2026-08-27",
-     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBUVzFVTUxvWWFJZnMzQW9TMkx3X0NacDhIUmJnaVNkTk02d3E3dTRqZERuWU5DdHFNeGxqbUo1UzV1X1kwMXNYMjBQdEpnZ0dtV194WnVtd2M2aVpUWmFF?oc=5"
-    },
     {
      "title": "\"אין ממצאים למעילה\": מניית בנק ירושלים ירדה על רקע שמועות ברשתות החברתיות",
      "source": "גלובס",
@@ -389,18 +383,24 @@
      "source": "ביזפורטל",
      "date": "2026-05-18",
      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBOSTRGaDRTNlJCUVJPQmpMeEszZU1qeTZrSlBCbFNUSWpQNVNWWVdtWE5iV0pILXV3QUZ2aV9oMFVSNDBVUzFtVnNNZ1pPNFcycTBRVGJFNXE5MF9uN3NKTk40M2tBQWNkTmU2MG1udjQ?oc=5"
+    },
+    {
+     "title": "מה קרה למניות הבנקים? המשקיעים הפסידו מעל 30 מיליארד ש' בשבוע",
+     "source": "גלובס",
+     "date": "2026-05-18",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5FZ3ZqQ2o5Wk5Tdzg1c1doZHJtSTM0VXJXQnZqMlZVTlprTGlnbnJ3UnBmWFJpOF9sUllFdjVRNDlFVFNyYmJheHp4X29faVBNeEdOTC05YkIyMXJOWFhiWHNkLVF6aXI2?oc=5"
     }
    ]
   },
   "JBNK.TA": {
    "name": "BANK OF JERUSALEM",
    "ccy": "ILA",
-   "last": 1710.0,
+   "last": 1722.0,
    "date": "2026-11-16",
-   "d1": -1.6110471806674354,
-   "w1": 0.35211267605634866,
-   "m1": -11.214953271028039,
-   "ytd": -26.165803108808294,
+   "d1": -0.9205983889528202,
+   "w1": 1.0563380281690238,
+   "m1": -10.59190031152648,
+   "ytd": -25.647668393782386,
    "status": "ok",
    "he_name": "בנק ירושלים",
    "fin": {
@@ -442,12 +442,12 @@
   "HARL.TA": {
    "name": "HAREL INS INVS",
    "ccy": "ILA",
-   "last": 18150.0,
+   "last": 17890.0,
    "date": "2026-11-16",
-   "d1": 1.96629213483146,
-   "w1": 0.16556291390728006,
-   "m1": -5.714285714285716,
-   "ytd": 46.01769911504425,
+   "d1": 0.5056179775280834,
+   "w1": -1.2693156732891842,
+   "m1": -7.064935064935063,
+   "ytd": 43.925985518905875,
    "status": "ok",
    "he_name": "הראל השקעות",
    "fin": {
@@ -489,12 +489,12 @@
   "PHOE.TA": {
    "name": "PHOENIX FINANC LTD",
    "ccy": "ILA",
-   "last": 17100.0,
+   "last": 16810.0,
    "date": "2026-11-16",
-   "d1": 1.7251635930993547,
-   "w1": 1.6042780748663166,
-   "m1": -5.000000000000004,
-   "ytd": 29.74203338391501,
+   "d1": 0.0,
+   "w1": -0.11883541295305555,
+   "m1": -6.6111111111111125,
+   "ytd": 27.541729893778456,
    "status": "ok",
    "he_name": "הפניקס",
    "fin": {
@@ -536,12 +536,12 @@
   "MGDL.TA": {
    "name": "MIGDAL INS & FINAN",
    "ccy": "ILA",
-   "last": 1726.0,
+   "last": 1732.0,
    "date": "2026-11-16",
-   "d1": 2.1906453522794633,
-   "w1": -0.23121387283236983,
-   "m1": -13.222724987430867,
-   "ytd": 11.642949547218628,
+   "d1": 2.545885139135584,
+   "w1": 0.11560693641619046,
+   "m1": -12.921065862242331,
+   "ytd": 12.031047865459254,
    "status": "ok",
    "he_name": "מגדל ביטוח",
    "fin": {
@@ -583,12 +583,12 @@
   "CLIS.TA": {
    "name": "CLAL INSURANCE ENT",
    "ccy": "ILA",
-   "last": 26030.0,
+   "last": 25840.0,
    "date": "2026-11-16",
-   "d1": 0.15390534821084767,
-   "w1": -0.8003048780487854,
-   "m1": -8.538299367533375,
-   "ytd": 26.543509965969857,
+   "d1": -0.5771450557906843,
+   "w1": -1.5243902439024404,
+   "m1": -9.205903021784966,
+   "ytd": 25.619834710743806,
    "status": "ok",
    "he_name": "כלל ביטוח",
    "fin": {
@@ -630,12 +630,12 @@
   "MMHD.TA": {
    "name": "MENORA MIVTACHIM",
    "ccy": "ILA",
-   "last": 49160.0,
+   "last": 48870.0,
    "date": "2026-11-16",
-   "d1": 2.416666666666667,
-   "w1": -0.2030044660982555,
-   "m1": -8.317791868705704,
-   "ytd": 23.084626940410622,
+   "d1": 1.8124999999999947,
+   "w1": -0.7917174177831887,
+   "m1": -8.858634837747115,
+   "ytd": 22.358537806710068,
    "status": "ok",
    "he_name": "מנורה מבטחים",
    "fin": {
@@ -677,12 +677,12 @@
   "AMAL.TA": {
    "name": "AMAL HOLDINGS AD L",
    "ccy": "ILA",
-   "last": 1486.0,
+   "last": 1483.0,
    "date": "2026-11-16",
-   "d1": -0.8010680907877155,
-   "w1": -3.6941023979261134,
-   "m1": -5.7106598984771555,
-   "ytd": 7356.096223009534,
+   "d1": -1.001335113484647,
+   "w1": -3.888528839922234,
+   "m1": -5.901015228426399,
+   "ytd": 7341.043538844643,
    "status": "ok",
    "he_name": "עמל החזקות",
    "fin": {
@@ -724,12 +724,12 @@
   "MTRD.TA": {
    "name": "MEITAV TRADE INV",
    "ccy": "ILA",
-   "last": 1753.0,
+   "last": 1729.0,
    "date": "2026-11-16",
-   "d1": 2.037252619324792,
-   "w1": -2.3398328690807824,
-   "m1": -16.64289110794104,
-   "ytd": 8157.183409318823,
+   "d1": 0.640279394644927,
+   "w1": -3.676880222841228,
+   "m1": -17.78411792677128,
+   "ytd": 8044.135832693807,
    "status": "ok",
    "he_name": "מיטב טרייד",
    "fin": {
