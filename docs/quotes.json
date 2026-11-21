@@ -41,16 +41,16 @@
      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1tSlU3NVNuWGxTNkRfMDBqOGRaSFBHSEVuM0FCS1FaSnpsUi1WbDd5NTN0VkxTUjYyQk1waVlwQVJDc05obTh6NzZDeWxGVWF2NTRiMzl5ODZnaTlXYlAtaEt1OUJkVzZzYUt3TEczUlZ2VU0?oc=5"
     },
     {
-     "title": "דליפת מידע בביטס אוף גולד: מטבעות הקריפטו בטוחים, אך ייתכן שמידע על כ-200,000 לקוחות נחשף",
-     "source": "קריפטו ג'ונגל",
-     "date": "2026-08-16",
-     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5OQ3lzbGlvYTc3RUxuZjZDUHN4VWU1WG11TldDajFHVktSTjdnUE5sX0VXSGZPdjBEQVN0aENXWHc0QXpBWUxGaDVHaVNqZEpoS3A5RlRNVmdQd0dOaVpEMVB1N3UwbEZxeVg3bGpXcFJJSl9fam1Z?oc=5"
-    },
-    {
      "title": "אירוע סייבר בחברת הקריפטו ביטס אוף גולד: ייתכן שדלפו פרטים אישיים של לקוחות",
      "source": "כלכליסט",
      "date": "2026-08-16",
      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1fenVha2N0UkpkNU43SDhsRGY4ZHJOTzkzOUJiYnVwZExyM0RVUjZ6VHVudU1IX2VYOWtXSjJ2cUVrTms2TUpTNkFONHVWMUZDQ3dzRkxJZWxYUDgtTXU0ejgtTQ?oc=5"
+    },
+    {
+     "title": "דליפת מידע בביטס אוף גולד: מטבעות הקריפטו בטוחים, אך ייתכן שמידע על כ-200,000 לקוחות נחשף",
+     "source": "קריפטו ג'ונגל",
+     "date": "2026-08-16",
+     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5OQ3lzbGlvYTc3RUxuZjZDUHN4VWU1WG11TldDajFHVktSTjdnUE5sX0VXSGZPdjBEQVN0aENXWHc0QXpBWUxGaDVHaVNqZEpoS3A5RlRNVmdQd0dOaVpEMVB1N3UwbEZxeVg3bGpXcFJJSl9fam1Z?oc=5"
     },
     {
      "title": "אפליקציית Yellow תאפשר להמיר נקודות לרכישת ביטקוין",
@@ -62,7 +62,7 @@
    "status": "ok"
   }
  },
- "updated_iso": "2026-11-21T10:52:58+00:00",
+ "updated_iso": "2026-11-21T17:56:43+00:00",
  "source": "Yahoo Finance (via yfinance)",
  "lists": {
   "alerts": [
@@ -219,10 +219,16 @@
    },
    "news": [
     {
-     "title": "באיזה מחיר הונפקה מניית אנתרופיק? טריוויה שבועית של ביזפורטל",
+     "title": "בואו לשחק - באיזה מחיר הונפקה מניית אנתרופיק? כמה ירדה אנביידה השבוע? טריוויה שבועית של ביזפורטל",
      "source": "ביזפורטל",
      "date": "2026-11-21",
      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE05dFBvanpobzc5Rk90cnpQVURWOXBQTTNPaHZPYlc4RUQtd0lhR19wWFFPaHE5aXFKV0hra0xBcmJycVhfVkRLRzNBdVBFUkYxM3hCYkNvTjhuNzZXSVZYa21lRDlGMDZ5TmtxNXZYZ3Q?oc=5"
+    },
+    {
+     "title": "בנק הפועלים הכניס יותר - בנק לאומי הרוויח יותר - FUNDER-PRO: השוואת הדוחות של שני ענקי הבנקאות הישראלים - מי מהם מוכן יותר להאטה ?",
+     "source": "פאנדר",
+     "date": "2026-11-19",
+     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9XSDAyUTVkN2V4ZWZScC1WR1VSb2dhcEZmVmtreEpnMHZnanowT1JybjljenoxRFRmMUZ5Z25uRUdoOUhFazdsY0NLbHp5dWEx?oc=5"
     },
     {
      "title": "הפועלים מחלק מניות בפעם ה-3. מה התשואה מהחלוקה הראשונה?",
@@ -235,12 +241,6 @@
      "source": "C14",
      "date": "2026-11-17",
      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAwNWhsV0lqVm9BMnJVVUo3NWg0cEVSWHIwYlA5VVprTzA4eWswYW14b2hMYnF2YVVtOHNmejk4MUxMX2NxRXdMaVdBLTYzZw?oc=5"
-    },
-    {
-     "title": "רק נשמע נוצץ: המתנה של בנק הפועלים היא לא באמת מתנה",
-     "source": "מעריב",
-     "date": "2026-11-17",
-     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE95ZWRmWUVBSHY3ZlF2Y09fVDRSSDlJcGxCSmVWMjIxdEJoVjNCX3hMVEJab0xEQ3pyemFCclpScFNJZ2w5X2lhbEpzc2N3TTk4cTktOVQweUlMZUR4ZTlVSGxZOEdMUQ?oc=5"
     }
    ]
   },
@@ -501,6 +501,12 @@
    },
    "news": [
     {
+     "title": "\"המשקיעים מחקו אפשרות להפחתת ריבית נוספת בשנה הקרובה\"",
+     "source": "כלכליסט",
+     "date": "2026-10-08",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBDZ3A2ZXEzb3NlYkM5TnNYYU9rRHpERExXalFWY3RESkJ1V3VSdXk1dE9YcmhXWGVFbUhkbjJGOE1pY044YW5FTktET2tINTdRVG9VTkdYWG9XOU40NFZvR2dvOTk?oc=5"
+    },
+    {
      "title": "הפניקס מנסה לממש את מניות השליטה באלרון, אחרי שאריאלי לא עמדה בתנאים",
      "source": "כלכליסט",
      "date": "2026-08-30",
@@ -513,16 +519,10 @@
      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE13LWZxM2JycGpqMUZvYlFQb0EySXFmWC1La21BQzZtTmJOdnczR1F4Q1lMRVVoZW02S3U0VDlUOXo0dEI2cVR4Unh2c09GRnpp?oc=5"
     },
     {
-     "title": "חגיגת רווחים סעודית-קטארית: מאחורי מימוש הענק בהפניקס",
-     "source": "גלובס",
-     "date": "2026-07-28",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlejQzMTFMS2UyVDIzajJRYzlZbllRYnpHdkM2ZXh1d2duMjlLYVhBNEpFZ2gwYmp4NmhlY2t5N2luMG5fYm94OUNES2tWWFVueEl0SFhfVWN2NExkTTkxNUlDZXZwOTc3?oc=5"
-    },
-    {
-     "title": "יותר ממיליארד שקלים: הרווח המהיר של קושנר בחברת הפניקס",
-     "source": "mako",
-     "date": "2026-07-28",
-     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE53LWdzY2pBN3JfSmR6azRJX3ctQWY3d1NnN1NkOFlTTlJ5SGhjTV81SHVGSmZrUk5LUnQ4QmZwejltQm04XzhpS3prTUN4eGFScmhpSHktdnl3SnhLQnhqdkZWY1JzVkNQVFBWUVcyMS1ERDFTZDkyekNid18?oc=5"
+     "title": "אלקטרה נדל\"ן ממשיכה ליפול - מי צמצם בזמן ומי הגדיל?",
+     "source": "ביזפורטל",
+     "date": "2026-07-30",
+     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QTEdaMHlVVHJHeVpjQ09ka0pueWlxU1Y1RnNuZWdJYk5VQU5CX2tfTlhQLU03NXVtT1BBbmQ2Yy1KT0RpbG5pVFd6bUg1dU92TkxRVVV3NUxfV1I3TjdTa1V3U1FrdTJNMjBPd3VmcnY?oc=5"
     }
    ]
   },
@@ -642,6 +642,12 @@
    },
    "news": [
     {
+     "title": "רק מניית ביטוח אחת עלתה בת\"א באוקטובר: ומי איבדה כמעט 18%?",
+     "source": "ice (אייס)",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE85a2x4MnVWQ3FDTEU4bEx0dDRlQ3MteE5EUEpTN1o3WmZJVlJCYm1tVEVZcF9Nak5wTFZFYW00ZEJWcjdnS2pOYTBOZW40cjF3Z05hNk84b0lfNFZpdnFR?oc=5"
+    },
+    {
      "title": "יומיים של ירידות בוול סטריט מחקו 5.1 מיליארד שקל מהחסכונות",
      "source": "כלכליסט",
      "date": "2026-11-01",
@@ -658,12 +664,6 @@
      "source": "ביזפורטל",
      "date": "2026-10-16",
      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9sSzVMSjAteWF1bmpydmtuNmQtZ19Rb3NETUhKcy02R29OR1hBZmVDWmJoczI5WW1qZFUtNk5PbGZrX3VzcHRrQzVYSUNQMU8wbHJfLUZSVFl1TmtGTVhNZm9rVE1Fc3pZUU41NktON0g?oc=5"
-    },
-    {
-     "title": "בנק ההשקעות היוקרתי קבע: המניה הישראלית הזו בדרך לזנק 36%",
-     "source": "ice (אייס)",
-     "date": "2026-07-10",
-     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE53Zm5XTGFQOEM3WG1tam1VMXpUQzhiTlplNVhpbEhJc3M0N1ZWQThvd09PSnYtWHZiNjBsQ3NYQlRHV0NRZDZfVS1NbjJuVFJqbWxta1JGZ2l3X0dKeUVV?oc=5"
     }
    ]
   },
