@@ -2,7 +2,7 @@
  "news": {
   "שב״א (Shva)": {
    "items": [],
-   "status": "ok"
+   "status": "missing"
   },
   "מס״ב (Masav)": {
    "items": [],
@@ -62,7 +62,7 @@
    "status": "ok"
   }
  },
- "updated_iso": "2026-11-21T17:56:43+00:00",
+ "updated_iso": "2026-11-21T23:02:15+00:00",
  "source": "Yahoo Finance (via yfinance)",
  "lists": {
   "alerts": [
@@ -225,12 +225,6 @@
      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE05dFBvanpobzc5Rk90cnpQVURWOXBQTTNPaHZPYlc4RUQtd0lhR19wWFFPaHE5aXFKV0hra0xBcmJycVhfVkRLRzNBdVBFUkYxM3hCYkNvTjhuNzZXSVZYa21lRDlGMDZ5TmtxNXZYZ3Q?oc=5"
     },
     {
-     "title": "בנק הפועלים הכניס יותר - בנק לאומי הרוויח יותר - FUNDER-PRO: השוואת הדוחות של שני ענקי הבנקאות הישראלים - מי מהם מוכן יותר להאטה ?",
-     "source": "פאנדר",
-     "date": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9XSDAyUTVkN2V4ZWZScC1WR1VSb2dhcEZmVmtreEpnMHZnanowT1JybjljenoxRFRmMUZ5Z25uRUdoOUhFazdsY0NLbHp5dWEx?oc=5"
-    },
-    {
      "title": "הפועלים מחלק מניות בפעם ה-3. מה התשואה מהחלוקה הראשונה?",
      "source": "גלובס",
      "date": "2026-11-17",
@@ -241,6 +235,12 @@
      "source": "C14",
      "date": "2026-11-17",
      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAwNWhsV0lqVm9BMnJVVUo3NWg0cEVSWHIwYlA5VVprTzA4eWswYW14b2hMYnF2YVVtOHNmejk4MUxMX2NxRXdMaVdBLTYzZw?oc=5"
+    },
+    {
+     "title": "רק נשמע נוצץ: המתנה של בנק הפועלים היא לא באמת מתנה",
+     "source": "מעריב",
+     "date": "2026-11-17",
+     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE95ZWRmWUVBSHY3ZlF2Y09fVDRSSDlJcGxCSmVWMjIxdEJoVjNCX3hMVEJab0xEQ3pyemFCclpScFNJZ2w5X2lhbEpzc2N3TTk4cTktOVQweUlMZUR4ZTlVSGxZOEdMUQ?oc=5"
     }
    ]
   },
@@ -325,16 +325,16 @@
      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE82U3hfWlNxSHpHeHBOX29RbU40bXdDQkI4a01adTU1d0pscGFYME5DbDBjb0JEdkhNWkpxNEo0djFZRnpLbGVHMjR4WlZiYV9wOGlnMFpIMlFiRkhVcElJNGJDSldIUTM0Q3dDcTVmRTk?oc=5"
     },
     {
+     "title": "S&P הוציאה דוח שגוי על בנק מזרחי טפחות - ונאלצה לתקן",
+     "source": "גלובס",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5LSHZZSWtFOG8tQUd2WnkzWVNPckYzMGhxZXZ1OGx3ME53UlZwSGdIQmVGblJyemZqbTBHdE0yZ19BRnNlclZUdGVMNklGdG5uUnRVenpsVVltLTZsaWZ4OExFZWRCdzho?oc=5"
+    },
+    {
      "title": "S&P חזתה צניחה ברווחיות של מזרחי טפחות - ואז פרסמה תיקון",
      "source": "ביזפורטל",
      "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9oVjNSSjRrTVZzUkxCanBLQm5jV0lxRlNWM2tnQTgzWUdWMFBuNE5FN0EtdTlzU1VRdXJBdGZ0clRMWDBMUHVreXN5bTBRTHp3QnRfLVdXU0VQVVNsX3lTM1ZUNkcwT2t0aVhwSVJKbWU?oc=5"
-    },
-    {
-     "title": "דירוג מניות הבנקים ביולי: זו המניה שזינקה ביותר מ-15% - אייס",
-     "source": "ice (אייס)",
-     "date": "2026-08-02",
-     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBaOTNUbjlJdk5NSGFuelN6MWl4c1loVEhJWndfTTBYRUhHSmxxbkY3MHVOd2QxUkUtS3VGT2YzbXRaWXI1MElDWXpIVXZJSmtkMVNrSWZTQ1gxTTYyNTc4?oc=5"
     }
    ]
   },
@@ -466,16 +466,16 @@
      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA2LV93TEtxOGZtejVfNHdCRXptRHV2T1J6M000QmxKRTkwUzF5Qi1pUmdjcWpWbzBrX3VsU2plc25xOE1YamlnQjJUS2d6MkhH?oc=5"
     },
     {
+     "title": "קרן פימי מימשה עוד נתח ממנועי בית שמש: הראל רכשה מניות בכ-500 מיליון שקל",
+     "source": "כלכליסט",
+     "date": "2026-06-22",
+     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAzMC05MmxEV0dXZy0xOF9GdEplbHlnN2wwbVlRbkxEUnpteUg0QnJfQlNXU3RFQjF1TlhfejNVZGNqRTlPckUtb3lJVURWVDhWYVNaeXNuYlg1NGdOeGliSFF5UQ?oc=5"
+    },
+    {
      "title": "אחרי מכירת הענק: משפחת המבורגר רכשה מניות הראל בבורסה",
      "source": "כלכליסט",
      "date": "2026-06-07",
      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9xZTZmaVpLQndUZWhmZDdnNlY0ZEE4R2RUOHpUc2t0VE1rSHVzQ1RBcnRsOEs0NFRCaS1sTnVYeW50MGxiZ2NwNTN6TTRyOE5JcXZ1d2U5U3dnTHUyRmY0V291NHg?oc=5"
-    },
-    {
-     "title": "10 מיליארד שקל בתוך חצי שנה: המהלך של מנהל ההשקעות הראשי החדש בהראל",
-     "source": "TheMarker",
-     "date": "2026-02-03",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTjlsa21sNGhndGpfM2FNemdTSTFzX2JhMWVTbkFRZEJiQlhkOTBHcjMyeVp1M2hNbUZjdDFMaHRWUzlXM29uTmNrOHQzUG0xYkNTem1QeXQ1dG5McGF5cG9EekpRN0tGN1V2a1ZaNHBsTE1IaHdjSXdHSnkxOFIyX0NMUWlUU2YzNjdYLXgtZkVQZG8zWXEwWTNQN2FzbEtDdFZLcThB?oc=5"
     }
    ]
   },
@@ -501,12 +501,6 @@
    },
    "news": [
     {
-     "title": "\"המשקיעים מחקו אפשרות להפחתת ריבית נוספת בשנה הקרובה\"",
-     "source": "כלכליסט",
-     "date": "2026-10-08",
-     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBDZ3A2ZXEzb3NlYkM5TnNYYU9rRHpERExXalFWY3RESkJ1V3VSdXk1dE9YcmhXWGVFbUhkbjJGOE1pY044YW5FTktET2tINTdRVG9VTkdYWG9XOU40NFZvR2dvOTk?oc=5"
-    },
-    {
      "title": "הפניקס מנסה לממש את מניות השליטה באלרון, אחרי שאריאלי לא עמדה בתנאים",
      "source": "כלכליסט",
      "date": "2026-08-30",
@@ -519,10 +513,16 @@
      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE13LWZxM2JycGpqMUZvYlFQb0EySXFmWC1La21BQzZtTmJOdnczR1F4Q1lMRVVoZW02S3U0VDlUOXo0dEI2cVR4Unh2c09GRnpp?oc=5"
     },
     {
-     "title": "אלקטרה נדל\"ן ממשיכה ליפול - מי צמצם בזמן ומי הגדיל?",
-     "source": "ביזפורטל",
-     "date": "2026-07-30",
-     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QTEdaMHlVVHJHeVpjQ09ka0pueWlxU1Y1RnNuZWdJYk5VQU5CX2tfTlhQLU03NXVtT1BBbmQ2Yy1KT0RpbG5pVFd6bUg1dU92TkxRVVV3NUxfV1I3TjdTa1V3U1FrdTJNMjBPd3VmcnY?oc=5"
+     "title": "חגיגת רווחים סעודית-קטארית: מאחורי מימוש הענק בהפניקס",
+     "source": "גלובס",
+     "date": "2026-07-28",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlejQzMTFMS2UyVDIzajJRYzlZbllRYnpHdkM2ZXh1d2duMjlLYVhBNEpFZ2gwYmp4NmhlY2t5N2luMG5fYm94OUNES2tWWFVueEl0SFhfVWN2NExkTTkxNUlDZXZwOTc3?oc=5"
+    },
+    {
+     "title": "יותר ממיליארד שקלים: הרווח המהיר של קושנר בחברת הפניקס",
+     "source": "mako",
+     "date": "2026-07-28",
+     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE53LWdzY2pBN3JfSmR6azRJX3ctQWY3d1NnN1NkOFlTTlJ5SGhjTV81SHVGSmZrUk5LUnQ4QmZwejltQm04XzhpS3prTUN4eGFScmhpSHktdnl3SnhLQnhqdkZWY1JzVkNQVFBWUVcyMS1ERDFTZDkyekNid18?oc=5"
     }
    ]
   },
@@ -642,12 +642,6 @@
    },
    "news": [
     {
-     "title": "רק מניית ביטוח אחת עלתה בת\"א באוקטובר: ומי איבדה כמעט 18%?",
-     "source": "ice (אייס)",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE85a2x4MnVWQ3FDTEU4bEx0dDRlQ3MteE5EUEpTN1o3WmZJVlJCYm1tVEVZcF9Nak5wTFZFYW00ZEJWcjdnS2pOYTBOZW40cjF3Z05hNk84b0lfNFZpdnFR?oc=5"
-    },
-    {
      "title": "יומיים של ירידות בוול סטריט מחקו 5.1 מיליארד שקל מהחסכונות",
      "source": "כלכליסט",
      "date": "2026-11-01",
@@ -664,6 +658,12 @@
      "source": "ביזפורטל",
      "date": "2026-10-16",
      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9sSzVMSjAteWF1bmpydmtuNmQtZ19Rb3NETUhKcy02R29OR1hBZmVDWmJoczI5WW1qZFUtNk5PbGZrX3VzcHRrQzVYSUNQMU8wbHJfLUZSVFl1TmtGTVhNZm9rVE1Fc3pZUU41NktON0g?oc=5"
+    },
+    {
+     "title": "בנק ההשקעות היוקרתי קבע: המניה הישראלית הזו בדרך לזנק 36%",
+     "source": "ice (אייס)",
+     "date": "2026-07-10",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE53Zm5XTGFQOEM3WG1tam1VMXpUQzhiTlplNVhpbEhJc3M0N1ZWQThvd09PSnYtWHZiNjBsQ3NYQlRHV0NRZDZfVS1NbjJuVFJqbWxta1JGZ2l3X0dKeUVV?oc=5"
     }
    ]
   },
@@ -701,16 +701,16 @@
      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ua25UMnNyd1Rhenl3WXhWZGtEWHgwbXhZREhJYXh1MGFFd3pJaHo4bzdrakpYN09hSUs2RWVWOWp0SV9vQTVQQ044RktfNzJMeEhJUkpRUXBiSWV4TU5xdU5JanF5T0RtcWJ3WXhJOG0?oc=5"
     },
     {
-     "title": "נמוך מהמתוכנן: נחשף שווייה של חברת התרופות רפא בהנפקה",
-     "source": "TheMarker",
-     "date": "2026-07-10",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVEJJVVlIWHZxcmdDdEdHSUFRd1hTdlRrQm1lbFlWVkhVaVpERjRXNzZuOHN5Smk0Z211M2lqTkREOER1ZGN2ZnVVUGJpWldrVy1BaVRLemdXaWtYcHp1N2pBWVd5ZC1YRWVLQW5UWld3Z2RYSjd3VmNsalg4U1BLWmNrUkJrZ1RfanZraHJMbkxsSDQ0QkZmbzFMc1QycV9kdHYw?oc=5"
-    },
-    {
      "title": "אחרי עמל: דוידי נערך להנפקת גלעם לפי שווי של כ-1.5 מיליארד שקל",
      "source": "TheMarker",
      "date": "2026-03-03",
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQXcwc2tnUE0xTHg0VWpVTzdqcXJiNVJ1Rkp4VjFDQ1ZMc0VDSlhiejVtc1IwNUNwbUtzWVlnRldOZVVGVzJFeE1uT1ZlVFIzeFh6bGw4T3JyVEhubGt4aUR0Zk1tWUJqTk1oc0pJaWNYOUJ0Ulk3RWxiMTIwajhIQ3N5cERFSlc1R3AzbWJUMkpmVFhmU0ZkUl9JRVFZNnFLM0FV?oc=5"
+    },
+    {
+     "title": "6.5 מיליארד שקל עומדים להחליף ידיים בעדכון המדדים בת\"א",
+     "source": "כלכליסט",
+     "date": "2026-01-14",
+     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1uVTlsN2pmR0NTOGtRMVgxVDAwX3VMeHRpeWtXYzNVT0MwT3d3c1l2NEdzU1MzeWxZWFJHOW9kbW1qUHNIMHhGaDFER2k2dlVnQkFEOG1RTHphMjhCM0ZyX2J1RQ?oc=5"
     }
    ]
   },
