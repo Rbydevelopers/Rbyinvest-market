@@ -2,7 +2,7 @@
  "news": {
   "שב״א (Shva)": {
    "items": [],
-   "status": "missing"
+   "status": "ok"
   },
   "מס״ב (Masav)": {
    "items": [],
@@ -62,7 +62,7 @@
    "status": "ok"
   }
  },
- "updated_iso": "2026-11-21T23:02:15+00:00",
+ "updated_iso": "2026-11-22T11:02:29+00:00",
  "source": "Yahoo Finance (via yfinance)",
  "lists": {
   "alerts": [
@@ -360,6 +360,12 @@
    },
    "news": [
     {
+     "title": "הבינלאומי גייס כ-1.58 מיליארד שקל מהמוסדיים",
+     "source": "פאנדר",
+     "date": "2026-11-22",
+     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9LMVg2TlZ2MGhYUzg4WWV6Z0pQQUJsdjVaR28tVUt4TE1ZdmpTb0JKSnlhdFNDU2syUFpCbmVnYXlIRXFoUm5mOXpSY2ZzV2dp?oc=5"
+    },
+    {
      "title": "\"אין ממצאים למעילה\": מניית בנק ירושלים ירדה על רקע שמועות ברשתות החברתיות",
      "source": "גלובס",
      "date": "2026-08-13",
@@ -376,12 +382,6 @@
      "source": "פאנדר",
      "date": "2026-07-21",
      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1tbGVCU29NWjh1N3ozN2NEXzlKWjdfX2Z4dFBJeU5jSUxQVGNzQXY5YWVjbHpEcHdrdGFrR0doQ0RpRlRtN00yUDFVQ2lYa2Zy?oc=5"
-    },
-    {
-     "title": "הבינלאומי: תוקנה התקלה באפליקציה ששיבשה את המסחר במניות",
-     "source": "Calcalist",
-     "date": "2026-06-01",
-     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9tTGZKdklQY0ZFLVJVeEdEUHF0LVZ6dlpGWjFUWkdWYTVXNElURWlkX3VyN3RTZGxoLVBXUV95NUJRRWFYU0FaZWRjdV9hc3dBNzg4bnpRQ2xSN1czX19fWUpaOA?oc=5"
     }
    ]
   },
@@ -595,28 +595,28 @@
    },
    "news": [
     {
-     "title": "קבוצת כלל ביטוח בוחנת השקעה בקבוצת ווליו בייס לפי שווי של 600 מיליון שקל",
-     "source": "ביזפורטל",
-     "date": "2026-09-23",
-     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5PTmZaQ3VURDZSREk2dzF5R2xMV1BmWFRjOC1nQ2J5S0ZOZUo0cWgydkRlOE53Slp0Zk1feGtqVXJ3cW90NGxZM2ZNT0o2ZDBNc0g0STN3Z1BKLUJQbnZwWElSbWlod1hNUUVFMDQ3VGs?oc=5"
+     "title": "פאנדר פורטל קרנות נאמנות - Funder",
+     "source": "פאנדר",
+     "date": "2026-11-20",
+     "link": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE1pRTJNMTZhU2cwRlVqVDN2TTZRbVVUeU9teng3dWpwOWhwWG0tSFNHZXZ4SjBoT19ya2VRT1VR?oc=5"
     },
     {
-     "title": "עסקה גדולה בפיננסים: כלל ביטוח במו\"מ להשקעה בווליו בייס לפי שווי של 600 מיליון שקל",
-     "source": "TheMarker",
-     "date": "2026-09-23",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbmdWTTVrXzNaelo2aVFudkZET3JDNm5oRnR1aVlOZHdUZ2c4QmlDTzY5cGNqdkhOU0dtek5YeFhEZ1RZRC1Ld01zN3VCX2YtX2xhZjl2aS1UY3J0MnAyV1F3d0hqMVpDZ21ERUdCY05HWXVzMUJ6R1pjNTZScWpoOEVmcVZFOTRNcTZXMDQ3Ui1hRUxkNTA4?oc=5"
-    },
-    {
-     "title": "הנתון בדוחות של כלל שהקפיץ את כל מניות הביטוח בבורסה",
+     "title": "מי הישראלים שירוויחו מההנפקה הגדולה בהיסטוריה?",
      "source": "גלובס",
-     "date": "2026-08-19",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFByMEM1VFpIdTZFcXJPLTJnTTg2QklkSHpLdjY4TnowN3hIbFdYTDQ5dHZxWVk1aF9kUnV3OVhUZDNub1BfYXBrbkRGYlZzZUw5SE5TQXVyNzJYLS1icVNtMUxRbzByRHhI?oc=5"
+     "date": "2026-11-19",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8tM29pMGNCV2JSbUZwUDE2anJlX0gyX29aLW8zRllqTkttTjBNaExJS2VudVVheVQwcG9RWEdEMG1WMk9ybW50RVo0OHpTYU03M0NqVGpDelBxQUxDR0h1ZkRzb0s4SlRz?oc=5"
     },
     {
-     "title": "נעילה מעורבת בתל אביב; מניות השבבים גררו מטה את ת\"א 35",
-     "source": "גלובס",
-     "date": "2026-08-19",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBmUzZxQmY0NUpteUN4NlJkWGNfZmdkaEpXMmtjMzNhSlh1eHlaUkFmVENvMDcySGdTbldyZU1jOTV1Z3BNdFp0QnBxOXV0YWhHTVZrdEE3TkJCbVFmVUY4RUgtTldoN0NE?oc=5"
+     "title": "רק מניית ביטוח אחת עלתה בת\"א באוקטובר: ומי איבדה כמעט 18%?",
+     "source": "ice (אייס)",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE85a2x4MnVWQ3FDTEU4bEx0dDRlQ3MteE5EUEpTN1o3WmZJVlJCYm1tVEVZcF9Nak5wTFZFYW00ZEJWcjdnS2pOYTBOZW40cjF3Z05hNk84b0lfNFZpdnFR?oc=5"
+    },
+    {
+     "title": "אלפרד אקירוב יוצא מהבורסה תוך 3 ימים - בדרך לתביעת ענק",
+     "source": "ice (אייס)",
+     "date": "2026-11-01",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBLNGhxRkhBR3pCWWFiWTh1ODJqcXdRMGZueF9DQkVVN2Fva0hqOEQ4TllOY0ZhR2Y0MUlSYUtyQktjd2lLc3FPMW9DcmRoQXFZVE9zZVVBTVR1Nmxla0hF?oc=5"
     }
    ]
   },
