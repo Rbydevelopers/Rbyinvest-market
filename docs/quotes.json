@@ -62,7 +62,7 @@
    "status": "ok"
   }
  },
- "updated_iso": "2026-11-22T11:02:29+00:00",
+ "updated_iso": "2026-11-22T18:25:19+00:00",
  "source": "Yahoo Finance (via yfinance)",
  "lists": {
   "alerts": [
@@ -156,6 +156,12 @@
      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9XSDAyUTVkN2V4ZWZScC1WR1VSb2dhcEZmVmtreEpnMHZnanowT1JybjljenoxRFRmMUZ5Z25uRUdoOUhFazdsY0NLbHp5dWEx?oc=5"
     },
     {
+     "title": "אחרי רווחי השיא, מנכ\"ל לאומי מימש אופציות ב-5.5 מיליון שקל",
+     "source": "גלובס",
+     "date": "2026-11-19",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA1anBuQlk2ZUdHbWVNUkthMnJUcFhaZlM2aUNBTlJDUmxaTHlUVXJuSTJKRWM1cnk3Z1hEWlE3VTVzdmhzZmVWb3ptUS1YMjAyWnExVFItVUd5VmNlNTd0eDV0VnN1M0Vk?oc=5"
+    },
+    {
      "title": "הבנקים הרוויחו 8.1 מיליארד שקל - נסחרים במכפיל 10; ניתוח התוצאות",
      "source": "ביזפורטל",
      "date": "2026-11-18",
@@ -166,12 +172,6 @@
      "source": "פאנדר",
      "date": "2026-11-10",
      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1sTnVmb09pNHF1QzhtZFFyc0ZXNHdENE5sQ21FQ1owUUJVVkFzLUpkM3AydThZTFpmNExoSHRZMzYyQUlQekdrTFE2TkJ1UHNH?oc=5"
-    },
-    {
-     "title": "ברק קפיטל חצתה את רף ה-2.5% בפועלים: מחזיקה מניות ב-2.5 מיליארד שקל",
-     "source": "TheMarker",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObnZyZWMzN211UXp3dHc2SFFLdGNOM1JtNFNGRzN3aU1Wc1VYUjJVNlktVk9CQWtHWFF2eGFKM19ybkExN1RMbEhSdDdCcVFSSDFScGVGTEcxdElCYTM2UzA3R00zdFRleFQ3b05hUHhGbjVKa2UxandYcmprcElZaTg5ak5uVDFYTFVoWmxZMFNTTktlTFBaa3lxYnJsbjZHWDZj?oc=5"
     }
    ]
   },
@@ -225,6 +225,12 @@
      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE05dFBvanpobzc5Rk90cnpQVURWOXBQTTNPaHZPYlc4RUQtd0lhR19wWFFPaHE5aXFKV0hra0xBcmJycVhfVkRLRzNBdVBFUkYxM3hCYkNvTjhuNzZXSVZYa21lRDlGMDZ5TmtxNXZYZ3Q?oc=5"
     },
     {
+     "title": "בנק הפועלים הכניס יותר - בנק לאומי הרוויח יותר - FUNDER-PRO: השוואת הדוחות של שני ענקי הבנקאות הישראלים - מי מהם מוכן יותר להאטה ?",
+     "source": "פאנדר",
+     "date": "2026-11-19",
+     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9XSDAyUTVkN2V4ZWZScC1WR1VSb2dhcEZmVmtreEpnMHZnanowT1JybjljenoxRFRmMUZ5Z25uRUdoOUhFazdsY0NLbHp5dWEx?oc=5"
+    },
+    {
      "title": "הפועלים מחלק מניות בפעם ה-3. מה התשואה מהחלוקה הראשונה?",
      "source": "גלובס",
      "date": "2026-11-17",
@@ -235,12 +241,6 @@
      "source": "C14",
      "date": "2026-11-17",
      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAwNWhsV0lqVm9BMnJVVUo3NWg0cEVSWHIwYlA5VVprTzA4eWswYW14b2hMYnF2YVVtOHNmejk4MUxMX2NxRXdMaVdBLTYzZw?oc=5"
-    },
-    {
-     "title": "רק נשמע נוצץ: המתנה של בנק הפועלים היא לא באמת מתנה",
-     "source": "מעריב",
-     "date": "2026-11-17",
-     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE95ZWRmWUVBSHY3ZlF2Y09fVDRSSDlJcGxCSmVWMjIxdEJoVjNCX3hMVEJab0xEQ3pyemFCclpScFNJZ2w5X2lhbEpzc2N3TTk4cTktOVQweUlMZUR4ZTlVSGxZOEdMUQ?oc=5"
     }
    ]
   },
@@ -313,28 +313,28 @@
    },
    "news": [
     {
-     "title": "מניית מזרחי טפחות מגיעה לוול סטריט. כך זה יעבוד",
-     "source": "גלובס",
-     "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5OczNPbGh2azFRbWtXcUZNemJCNDV1SW9JZHlMQUhabloxSHI1bXZIb09SMjhPclA5c19jRy0yWWF4WHR5eFdIUFp5U2R4Vk9lNDFvNzlUYWxDdEtGaHBqOUw5TENrSmI1?oc=5"
+     "title": "5 זה יותר טוב מ-1: בנק מזרחי יבצע פיצול מניות כדי לקרוץ למשקיעים קטנים",
+     "source": "TheMarker",
+     "date": "2026-11-22",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYTFWazFSOGJxMDZPSmpPTnlRLXQ0SDBIazFfd0ZISFU5SndMY05JNllpZEgySHp3TEZzcTE3RnBHeWxGWmx0ajhjRF90bzdhVU9zNTM5Y3hwWmh1bzlYY28zaTdCUGU2UUl2ZnJYQWdBZGowV0ppOG51MWJKM1h2MG55cjZ4QzgyTWthc0lfelY5TUpDSHU5VVFUdXdOUGhkaDNn?oc=5"
     },
     {
-     "title": "מזרחי טפחות בדרך למסחר בארה\"ב: מה זה ADR ומי עוד שם",
-     "source": "ביזפורטל",
-     "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE82U3hfWlNxSHpHeHBOX29RbU40bXdDQkI4a01adTU1d0pscGFYME5DbDBjb0JEdkhNWkpxNEo0djFZRnpLbGVHMjR4WlZiYV9wOGlnMFpIMlFiRkhVcElJNGJDSldIUTM0Q3dDcTVmRTk?oc=5"
+     "title": "מזרחי טפחות יבצע פיצול מניות: כל מניה תחולק לחמש",
+     "source": "כלכליסט",
+     "date": "2026-11-22",
+     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5HWk5ScjlKdnNCelVJQmlXcWMwSnRCcUpZWXY0SGJ4OXRBSHJ5UWMyRWUyRTJ6X1FmMTA5UGFRc3pza3VXaTJ5UWtUX1pkZFV6WDVybjU2aWRuWG9GRkVhVE5iNA?oc=5"
     },
     {
-     "title": "S&P הוציאה דוח שגוי על בנק מזרחי טפחות - ונאלצה לתקן",
-     "source": "גלובס",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5LSHZZSWtFOG8tQUd2WnkzWVNPckYzMGhxZXZ1OGx3ME53UlZwSGdIQmVGblJyemZqbTBHdE0yZ19BRnNlclZUdGVMNklGdG5uUnRVenpsVVltLTZsaWZ4OExFZWRCdzho?oc=5"
+     "title": "מניה אחת תהפוך לחמש: המהלך של מזרחי-טפחות",
+     "source": "מעריב",
+     "date": "2026-11-22",
+     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBwY0cyUDk0dlMyODNrcUs4a1YwYmpHWUNhdm1KcHk2OWxjMnVOY2hvNElnRDBNSGV5ME1oWlVVT3MyUFhkQXdySUlRTlhpWlY1RkJxOFBpMnp3UUZpRGM4allBMDNQQQ?oc=5"
     },
     {
-     "title": "S&P חזתה צניחה ברווחיות של מזרחי טפחות - ואז פרסמה תיקון",
-     "source": "ביזפורטל",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9oVjNSSjRrTVZzUkxCanBLQm5jV0lxRlNWM2tnQTgzWUdWMFBuNE5FN0EtdTlzU1VRdXJBdGZ0clRMWDBMUHVreXN5bTBRTHp3QnRfLVdXU0VQVVNsX3lTM1ZUNkcwT2t0aVhwSVJKbWU?oc=5"
+     "title": "מזרחי טפחות רוצה להנגיש לכם את המניה: יפצל את המניה ביחס של 1:5",
+     "source": "היום",
+     "date": "2026-11-22",
+     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5uMmpBMjFySmVHV085dGhuTkpTTkhRZ0ZsdER5OXR2eVRvYXFoQWtXWV9LUmgwaUpOYWtGX3VZWktIanFHX2wtV3E5bm02bTlaUkVHMHk1eGFHV0JIZV9kbmlIVHpJQQ?oc=5"
     }
    ]
   },
@@ -366,22 +366,22 @@
      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9LMVg2TlZ2MGhYUzg4WWV6Z0pQQUJsdjVaR28tVUt4TE1ZdmpTb0JKSnlhdFNDU2syUFpCbmVnYXlIRXFoUm5mOXpSY2ZzV2dp?oc=5"
     },
     {
-     "title": "\"אין ממצאים למעילה\": מניית בנק ירושלים ירדה על רקע שמועות ברשתות החברתיות",
-     "source": "גלובס",
-     "date": "2026-08-13",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Ha3Y2d2pLamNrczNvTTJXTEFBa2pRLW85VFBfWmY4TUh6SDVKVVVWU1UxeFliM0ZUakZLc0NXSGIteEtQOTNEMXJ4bzZhSnI1clAzYkxzS0dlU09acDBlRDVUcUpFbVFp?oc=5"
+     "title": "האוצר מתכנן להחזיר את מס היציאה: על מניות וקריפטו ישלמו ביום העזיבה",
+     "source": "ביזפורטל",
+     "date": "2026-11-21",
+     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE84ckdzbzdIN0JLdnFIZG9BaGJZaVd1VXptS001dDJUVjI3cHpqUExtSGQ1VGxfb0FSZ0w1LWpvaWtMeTVEMlV5djhHUUdUZkNZb0tKU2NBaDByLU5aUER4ODJEOVBzM0pBbVBucXlWOGYxVXo1aWsyWEJR?oc=5"
     },
     {
-     "title": "583 מיליון שקל ברבעון: הבינלאומי מחלק כמעט את כל הרווח כדיווידנד",
-     "source": "TheMarker",
-     "date": "2026-08-12",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSEJFYWRNdEUtcXlWRUdEdzZhRFVLeU54a2c4MlBnd1l6TmYzX041OVdmdDdyNzdwSjRQclowX2M4bXNfODZON3djN0ttaUpRR0hFZjhIX0FvelVzSDRaU01zNldCRnFFT2Z3bEdMd0hFYUJLLWt3OW9CdnVJQ19uOU8zV0xmUXBaMEtYLU1NSGZPTUJ2dmwxRHhmblNvWEJidUlZ?oc=5"
+     "title": "חברת החלב לוף אינטרנשיונל (IDP) עומדת לשלם כמעט 198 מיליארד דונג וייט כדיבידנד ביניים.",
+     "source": "Vietnam.vn",
+     "date": "2026-11-19",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSUlicDJQaVIzYk5zNERQc2VPVGV2V0xSenkxNHVJdEJoS3ZXYm03Q25uWFFzbi05dVRzY2xTSWJ3ekNYeGJTZE9hNkw2WTMxRW84VXdvNU95Wk5wVFkxQ2RueUJ6RkE2MWV2TnFXRmd2RlZtZ0ttZEowMVhJX1Y0Ty1ZSTJTdkpkR1d3TQ?oc=5"
     },
     {
-     "title": "תוכנית פרישה מרצון בבנק הבינלאומי לצורך התייעלות - עשרות עובדים צפויים לפרוש",
-     "source": "פאנדר",
-     "date": "2026-07-21",
-     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1tbGVCU29NWjh1N3ozN2NEXzlKWjdfX2Z4dFBJeU5jSUxQVGNzQXY5YWVjbHpEcHdrdGFrR0doQ0RpRlRtN00yUDFVQ2lYa2Zy?oc=5"
+     "title": "האתגר הבא של מניות הבנקים: להצדיק את השווי הגבוה שלהן",
+     "source": "כלכליסט",
+     "date": "2026-11-12",
+     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5FbllHQkJNRm9PVHg5ejdwRG9kQS1hSktWT19INzZ1aThyYk8tNXZGa2p0YWNzTkJNN3Mzdnc1YzFOV2o3b2JzV1lncGhKODBKQWhwU2tjdHgzUE92UDRyMkRLQQ?oc=5"
     }
    ]
   },
@@ -595,28 +595,28 @@
    },
    "news": [
     {
-     "title": "פאנדר פורטל קרנות נאמנות - Funder",
-     "source": "פאנדר",
-     "date": "2026-11-20",
-     "link": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE1pRTJNMTZhU2cwRlVqVDN2TTZRbVVUeU9teng3dWpwOWhwWG0tSFNHZXZ4SjBoT19ya2VRT1VR?oc=5"
+     "title": "קבוצת כלל ביטוח בוחנת השקעה בקבוצת ווליו בייס לפי שווי של 600 מיליון שקל",
+     "source": "ביזפורטל",
+     "date": "2026-09-23",
+     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5PTmZaQ3VURDZSREk2dzF5R2xMV1BmWFRjOC1nQ2J5S0ZOZUo0cWgydkRlOE53Slp0Zk1feGtqVXJ3cW90NGxZM2ZNT0o2ZDBNc0g0STN3Z1BKLUJQbnZwWElSbWlod1hNUUVFMDQ3VGs?oc=5"
     },
     {
-     "title": "מי הישראלים שירוויחו מההנפקה הגדולה בהיסטוריה?",
+     "title": "עסקה גדולה בפיננסים: כלל ביטוח במו\"מ להשקעה בווליו בייס לפי שווי של 600 מיליון שקל",
+     "source": "TheMarker",
+     "date": "2026-09-23",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbmdWTTVrXzNaelo2aVFudkZET3JDNm5oRnR1aVlOZHdUZ2c4QmlDTzY5cGNqdkhOU0dtek5YeFhEZ1RZRC1Ld01zN3VCX2YtX2xhZjl2aS1UY3J0MnAyV1F3d0hqMVpDZ21ERUdCY05HWXVzMUJ6R1pjNTZScWpoOEVmcVZFOTRNcTZXMDQ3Ui1hRUxkNTA4?oc=5"
+    },
+    {
+     "title": "הנתון בדוחות של כלל שהקפיץ את כל מניות הביטוח בבורסה",
      "source": "גלובס",
-     "date": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8tM29pMGNCV2JSbUZwUDE2anJlX0gyX29aLW8zRllqTkttTjBNaExJS2VudVVheVQwcG9RWEdEMG1WMk9ybW50RVo0OHpTYU03M0NqVGpDelBxQUxDR0h1ZkRzb0s4SlRz?oc=5"
+     "date": "2026-08-19",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFByMEM1VFpIdTZFcXJPLTJnTTg2QklkSHpLdjY4TnowN3hIbFdYTDQ5dHZxWVk1aF9kUnV3OVhUZDNub1BfYXBrbkRGYlZzZUw5SE5TQXVyNzJYLS1icVNtMUxRbzByRHhI?oc=5"
     },
     {
-     "title": "רק מניית ביטוח אחת עלתה בת\"א באוקטובר: ומי איבדה כמעט 18%?",
-     "source": "ice (אייס)",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE85a2x4MnVWQ3FDTEU4bEx0dDRlQ3MteE5EUEpTN1o3WmZJVlJCYm1tVEVZcF9Nak5wTFZFYW00ZEJWcjdnS2pOYTBOZW40cjF3Z05hNk84b0lfNFZpdnFR?oc=5"
-    },
-    {
-     "title": "אלפרד אקירוב יוצא מהבורסה תוך 3 ימים - בדרך לתביעת ענק",
-     "source": "ice (אייס)",
-     "date": "2026-11-01",
-     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBLNGhxRkhBR3pCWWFiWTh1ODJqcXdRMGZueF9DQkVVN2Fva0hqOEQ4TllOY0ZhR2Y0MUlSYUtyQktjd2lLc3FPMW9DcmRoQXFZVE9zZVVBTVR1Nmxla0hF?oc=5"
+     "title": "נעילה מעורבת בתל אביב; מניות השבבים גררו מטה את ת\"א 35",
+     "source": "גלובס",
+     "date": "2026-08-19",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBmUzZxQmY0NUpteUN4NlJkWGNfZmdkaEpXMmtjMzNhSlh1eHlaUkFmVENvMDcySGdTbldyZU1jOTV1Z3BNdFp0QnBxOXV0YWhHTVZrdEE3TkJCbVFmVUY4RUgtTldoN0NE?oc=5"
     }
    ]
   },
@@ -642,6 +642,12 @@
    },
    "news": [
     {
+     "title": "מנורה מב החז - חדשות מניה",
+     "source": "ביזפורטל",
+     "date": "2026-11-20",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBxRE55QXNaelFnNlhsOWV0QnJnZW9qMDk1VkF1LWJadVJOeGJDbm1zSEpoSDlXaUZxWGtXZ2txSWgxc0FkVEszZ2lGbV9od3c4alYzbTJmYUMxdGlnNzloZmNmZ1pBdk1DemRj?oc=5"
+    },
+    {
      "title": "יומיים של ירידות בוול סטריט מחקו 5.1 מיליארד שקל מהחסכונות",
      "source": "כלכליסט",
      "date": "2026-11-01",
@@ -658,12 +664,6 @@
      "source": "ביזפורטל",
      "date": "2026-10-16",
      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9sSzVMSjAteWF1bmpydmtuNmQtZ19Rb3NETUhKcy02R29OR1hBZmVDWmJoczI5WW1qZFUtNk5PbGZrX3VzcHRrQzVYSUNQMU8wbHJfLUZSVFl1TmtGTVhNZm9rVE1Fc3pZUU41NktON0g?oc=5"
-    },
-    {
-     "title": "בנק ההשקעות היוקרתי קבע: המניה הישראלית הזו בדרך לזנק 36%",
-     "source": "ice (אייס)",
-     "date": "2026-07-10",
-     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE53Zm5XTGFQOEM3WG1tam1VMXpUQzhiTlplNVhpbEhJc3M0N1ZWQThvd09PSnYtWHZiNjBsQ3NYQlRHV0NRZDZfVS1NbjJuVFJqbWxta1JGZ2l3X0dKeUVV?oc=5"
     }
    ]
   },

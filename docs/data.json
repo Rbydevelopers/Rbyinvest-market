@@ -1,6 +1,6 @@
 {
- "updated_il": "22.11.2026 13:01",
- "updated_iso": "2026-11-22T13:01:57.372074+02:00",
+ "updated_il": "22.11.2026 20:24",
+ "updated_iso": "2026-11-22T20:24:50.625673+02:00",
  "central_bank_rates": [
   {
    "label": "Israel — BoI",
@@ -75,17 +75,17 @@
  "fx": [
   {
    "label": "USD/ILS",
-   "value": 3.2982,
+   "value": 3.355,
    "status": "ok",
-   "d1": 0.6426371082115967,
+   "d1": 1.7227657068999536,
    "key": "ILS=X",
    "as_of": "2026-11-22"
   },
   {
    "label": "EUR/ILS",
-   "value": 3.6221,
+   "value": 3.6503,
    "status": "ok",
-   "d1": 0.788782799524812,
+   "d1": 0.7781666530303211,
    "key": "EURILS=X",
    "as_of": "2026-11-22"
   }
@@ -488,8 +488,8 @@
   "  UK yields: {'1Y': None, '3Y': None, '5Y': 4.9244, '10Y': 5.268}",
   "  JP yields (2026/11/19): {'1Y': 1.659, '3Y': 1.954, '5Y': 2.235, '10Y': 2.87}",
   "Indices: israel",
-  "  search 'TA Banks 5': HRL-F12.TA[TLV] Harel Index Funds Ltd. - Harel Sal (4A) TA-Banks 5, 204.TA[TLV] TA Banks 5-Equal Weight, TA-BANKS.TA[TLV] TA Banks-5",
-  "  search 'TA Insurance': 0966.HK[HKG] China Taiping Insurance Holdings Company Limited, WETHAQ.KW[KUW] Wethaq Takaful Insurance Company K.S.C.P., HIUC.MU[MUN] China Taiping Insurance Holdings Co Ltd, HIUC.SG[STU] China Taiping Insurance Holdings Co Ltd, CINSF[PNK] China Taiping Insurance Holdings Company Limited",
+  "  search 'TA Banks 5': TA-BANKS.TA[TLV] TA Banks-5, HRL-F12.TA[TLV] Harel Index Funds Ltd. - Harel Sal (4A) TA-Banks 5, 204.TA[TLV] TA Banks 5-Equal Weight",
+  "  search 'TA Insurance': 0966.HK[HKG] China Taiping Insurance Holdings Company Limited, WETHAQ.KW[KUW] Wethaq Takaful Insurance Company K.S.C.P., HIUC.MU[MUN] China Taiping Insurance Holdings Co Ltd, HIUC.SG[STU] China Taiping Insurance Holdings Co Ltd, HIUC.DU[DUS] China Taiping Insurance Holdings Co Ltd",
   "Indices: us",
   "Indices: europe",
   "Indices: asia",
