@@ -1,13 +1,13 @@
 {
- "updated_il": "22.11.2026 20:24",
- "updated_iso": "2026-11-22T20:24:50.625673+02:00",
+ "updated_il": "23.11.2026 02:09",
+ "updated_iso": "2026-11-23T02:09:51.163009+02:00",
  "central_bank_rates": [
   {
    "label": "Israel — BoI",
    "value": 3.25,
    "status": "ok",
    "key": "israel",
-   "as_of": "2026-11-22"
+   "as_of": "2026-11-23"
   },
   {
    "label": "United States — Fed",
@@ -15,21 +15,21 @@
    "status": "ok",
    "key": "us",
    "display": "3.75–4.00%",
-   "as_of": "2026-11-22"
+   "as_of": "2026-11-23"
   },
   {
    "label": "Euro Area — ECB",
    "value": 2.5,
    "status": "ok",
    "key": "ecb",
-   "as_of": "2026-11-22"
+   "as_of": "2026-11-23"
   },
   {
    "label": "United Kingdom — BoE",
    "value": 3.75,
    "status": "ok",
    "key": "uk",
-   "as_of": "2026-11-22"
+   "as_of": "2026-11-23"
   },
   {
    "label": "Japan — BoJ",
@@ -45,49 +45,49 @@
    "status": "ok",
    "d1": 26.195494780913453,
    "key": "^VIX",
-   "as_of": "2026-11-22"
+   "as_of": "2026-11-23"
   },
   {
    "label": "Brent Oil",
-   "value": 89.95,
+   "value": 89.34,
    "status": "ok",
-   "d1": -2.207008409005873,
+   "d1": -3.4892550152122226,
    "key": "BZ=F",
-   "as_of": "2026-11-22"
+   "as_of": "2026-11-23"
   },
   {
    "label": "Gold (USD/oz)",
-   "value": 3515.4,
+   "value": 3584.4,
    "status": "ok",
-   "d1": -4.615387265126847,
+   "d1": 1.9627923398984226,
    "key": "GC=F",
-   "as_of": "2026-11-22"
+   "as_of": "2026-11-23"
   },
   {
    "label": "Silver (USD/oz)",
-   "value": 41.07,
+   "value": 42.21,
    "status": "ok",
-   "d1": -7.32885292766261,
+   "d1": 2.851229409024514,
    "key": "SI=F",
-   "as_of": "2026-11-22"
+   "as_of": "2026-11-23"
   }
  ],
  "fx": [
   {
    "label": "USD/ILS",
-   "value": 3.355,
+   "value": 3.342,
    "status": "ok",
-   "d1": 1.7227657068999536,
+   "d1": 1.3286085948891024,
    "key": "ILS=X",
-   "as_of": "2026-11-22"
+   "as_of": "2026-11-23"
   },
   {
    "label": "EUR/ILS",
-   "value": 3.6503,
+   "value": 3.6667,
    "status": "ok",
-   "d1": 0.7781666530303211,
+   "d1": 1.2309370694144173,
    "key": "EURILS=X",
-   "as_of": "2026-11-22"
+   "as_of": "2026-11-23"
   }
  ],
  "bond_yields": [
@@ -98,22 +98,22 @@
     "1Y": {
      "value": 4.51,
      "status": "ok",
-     "as_of": "2026-11-22"
+     "as_of": "2026-11-23"
     },
     "3Y": {
      "value": 4.65,
      "status": "ok",
-     "as_of": "2026-11-22"
+     "as_of": "2026-11-23"
     },
     "5Y": {
      "value": 4.71,
      "status": "ok",
-     "as_of": "2026-11-22"
+     "as_of": "2026-11-23"
     },
     "10Y": {
      "value": 4.92,
      "status": "ok",
-     "as_of": "2026-11-22"
+     "as_of": "2026-11-23"
     }
    }
   },
@@ -124,22 +124,22 @@
     "1Y": {
      "value": 3.08,
      "status": "ok",
-     "as_of": "2026-11-22"
+     "as_of": "2026-11-23"
     },
     "3Y": {
      "value": 3.65,
      "status": "ok",
-     "as_of": "2026-11-22"
+     "as_of": "2026-11-23"
     },
     "5Y": {
      "value": 3.83,
      "status": "ok",
-     "as_of": "2026-11-22"
+     "as_of": "2026-11-23"
     },
     "10Y": {
      "value": 4.22,
      "status": "ok",
-     "as_of": "2026-11-22"
+     "as_of": "2026-11-23"
     }
    }
   },
@@ -150,22 +150,22 @@
     "1Y": {
      "value": 2.98,
      "status": "ok",
-     "as_of": "2026-11-22"
+     "as_of": "2026-11-23"
     },
     "3Y": {
      "value": 3.09,
      "status": "ok",
-     "as_of": "2026-11-22"
+     "as_of": "2026-11-23"
     },
     "5Y": {
      "value": 3.13,
      "status": "ok",
-     "as_of": "2026-11-22"
+     "as_of": "2026-11-23"
     },
     "10Y": {
      "value": 3.39,
      "status": "ok",
-     "as_of": "2026-11-22"
+     "as_of": "2026-11-23"
     }
    }
   },
@@ -184,12 +184,12 @@
     "5Y": {
      "value": 4.92,
      "status": "ok",
-     "as_of": "2026-11-22"
+     "as_of": "2026-11-23"
     },
     "10Y": {
      "value": 5.27,
      "status": "ok",
-     "as_of": "2026-11-22"
+     "as_of": "2026-11-23"
     }
    }
   },
@@ -200,22 +200,22 @@
     "1Y": {
      "value": 1.66,
      "status": "ok",
-     "as_of": "2026-11-22"
+     "as_of": "2026-11-23"
     },
     "3Y": {
      "value": 1.95,
      "status": "ok",
-     "as_of": "2026-11-22"
+     "as_of": "2026-11-23"
     },
     "5Y": {
      "value": 2.23,
      "status": "ok",
-     "as_of": "2026-11-22"
+     "as_of": "2026-11-23"
     },
     "10Y": {
      "value": 2.87,
      "status": "ok",
-     "as_of": "2026-11-22"
+     "as_of": "2026-11-23"
     }
    }
   }
@@ -231,7 +231,7 @@
     "m1": -8.32405179331177,
     "ytd": 6.704852197533384,
     "key": "TA35.TA",
-    "as_of": "2026-11-22"
+    "as_of": "2026-11-23"
    },
    {
     "label": "TA-90",
@@ -242,7 +242,7 @@
     "m1": -9.844799885941836,
     "ytd": -10.378807393527156,
     "key": "TA90.TA",
-    "as_of": "2026-11-22"
+    "as_of": "2026-11-23"
    },
    {
     "label": "TA-125",
@@ -253,7 +253,7 @@
     "m1": -8.611711249029542,
     "ytd": 2.673367073164701,
     "key": "^TA125.TA",
-    "as_of": "2026-11-22"
+    "as_of": "2026-11-23"
    },
    {
     "label": "TA Banks 5",
@@ -279,7 +279,7 @@
     "m1": -10.916091740730794,
     "ytd": 0.9479239897560499,
     "key": "^GSPC",
-    "as_of": "2026-11-22"
+    "as_of": "2026-11-23"
    },
    {
     "label": "Nasdaq Composite",
@@ -290,7 +290,7 @@
     "m1": -15.298469908711787,
     "ytd": -2.6859135527116607,
     "key": "^IXIC",
-    "as_of": "2026-11-22"
+    "as_of": "2026-11-23"
    },
    {
     "label": "Dow Jones",
@@ -301,7 +301,7 @@
     "m1": -8.908645593477981,
     "ytd": 0.17485083551131986,
     "key": "^DJI",
-    "as_of": "2026-11-22"
+    "as_of": "2026-11-23"
    },
    {
     "label": "Russell 2000",
@@ -312,7 +312,7 @@
     "m1": -7.163917521972063,
     "ytd": 4.024325237020254,
     "key": "^RUT",
-    "as_of": "2026-11-22"
+    "as_of": "2026-11-23"
    }
   ],
   "europe": [
@@ -325,7 +325,7 @@
     "m1": -3.284299016165715,
     "ytd": 1.2754753335369573,
     "key": "^GDAXI",
-    "as_of": "2026-11-22"
+    "as_of": "2026-11-23"
    },
    {
     "label": "CAC 40 — France",
@@ -336,7 +336,7 @@
     "m1": 0.07662293962973354,
     "ytd": -2.7210258298055123,
     "key": "^FCHI",
-    "as_of": "2026-11-22"
+    "as_of": "2026-11-23"
    },
    {
     "label": "FTSE 100 — United Kingdom",
@@ -347,7 +347,7 @@
     "m1": -3.7813108200276613,
     "ytd": 4.177652674784471,
     "key": "^FTSE",
-    "as_of": "2026-11-22"
+    "as_of": "2026-11-23"
    }
   ],
   "asia": [
@@ -360,7 +360,7 @@
     "m1": -12.665479742323004,
     "ytd": 12.112099513094954,
     "key": "^N225",
-    "as_of": "2026-11-22"
+    "as_of": "2026-11-23"
    },
    {
     "label": "KOSPI — South Korea",
@@ -371,7 +371,7 @@
     "m1": -15.093296529592482,
     "ytd": 15.561547142615485,
     "key": "^KS11",
-    "as_of": "2026-11-22"
+    "as_of": "2026-11-23"
    },
    {
     "label": "Nifty 50 — India",
@@ -382,7 +382,7 @@
     "m1": 13.104222464643133,
     "ytd": -1.2591084628865046,
     "key": "^NSEI",
-    "as_of": "2026-11-22"
+    "as_of": "2026-11-23"
    }
   ]
  },
@@ -474,6 +474,24 @@
    "previous": "—",
    "forecast": "—",
    "indicative": false
+  },
+  {
+   "date": "2026-12-23",
+   "time": "15:30",
+   "country": "US",
+   "event": "GDP Q3 (third estimate)",
+   "previous": "—",
+   "forecast": "—",
+   "indicative": false
+  },
+  {
+   "date": "2026-12-23",
+   "time": "15:30",
+   "country": "US",
+   "event": "PCE / Personal income (Nov)",
+   "previous": "—",
+   "forecast": "—",
+   "indicative": false
   }
  ],
  "_log": [
@@ -489,7 +507,7 @@
   "  JP yields (2026/11/19): {'1Y': 1.659, '3Y': 1.954, '5Y': 2.235, '10Y': 2.87}",
   "Indices: israel",
   "  search 'TA Banks 5': TA-BANKS.TA[TLV] TA Banks-5, HRL-F12.TA[TLV] Harel Index Funds Ltd. - Harel Sal (4A) TA-Banks 5, 204.TA[TLV] TA Banks 5-Equal Weight",
-  "  search 'TA Insurance': 0966.HK[HKG] China Taiping Insurance Holdings Company Limited, WETHAQ.KW[KUW] Wethaq Takaful Insurance Company K.S.C.P., HIUC.MU[MUN] China Taiping Insurance Holdings Co Ltd, HIUC.SG[STU] China Taiping Insurance Holdings Co Ltd, HIUC.DU[DUS] China Taiping Insurance Holdings Co Ltd",
+  "  search 'TA Insurance': 0966.HK[HKG] China Taiping Insurance Holdings Company Limited, HIUC.MU[MUN] China Taiping Insurance Holdings Co Ltd, HIUC.SG[STU] China Taiping Insurance Holdings Co Ltd, AKHI.QA[DOH] Al Khaleej Takaful Insurance Company Q.P.S.C., WETHAQ.KW[KUW] Wethaq Takaful Insurance Company K.S.C.P.",
   "Indices: us",
   "Indices: europe",
   "Indices: asia",
