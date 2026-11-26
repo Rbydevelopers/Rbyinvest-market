@@ -1,6 +1,6 @@
 {
- "updated_il": "26.11.2026 14:12",
- "updated_iso": "2026-11-26T14:12:37.749001+02:00",
+ "updated_il": "27.11.2026 00:13",
+ "updated_iso": "2026-11-27T00:13:58.032679+02:00",
  "central_bank_rates": [
   {
    "label": "Israel — BoI",
@@ -41,33 +41,33 @@
  "commodities": [
   {
    "label": "VIX",
-   "value": 27.05,
+   "value": 26.8,
    "status": "ok",
-   "d1": -4.3831800577503905,
+   "d1": -5.266884518370551,
    "key": "^VIX",
    "as_of": "2026-11-26"
   },
   {
    "label": "Brent Oil",
-   "value": 90.79,
+   "value": 91.73,
    "status": "ok",
-   "d1": -4.037627809090472,
+   "d1": -3.0440727564088554,
    "key": "BZ=F",
    "as_of": "2026-11-26"
   },
   {
    "label": "Gold (USD/oz)",
-   "value": 3597.4,
+   "value": 3593.4,
    "status": "ok",
-   "d1": 1.742175820605052,
+   "d1": 1.6290472515468002,
    "key": "GC=F",
    "as_of": "2026-11-26"
   },
   {
    "label": "Silver (USD/oz)",
-   "value": 41.78,
+   "value": 41.75,
    "status": "ok",
-   "d1": 4.32687953044133,
+   "d1": 4.239493509671188,
    "key": "SI=F",
    "as_of": "2026-11-26"
   }
@@ -75,17 +75,17 @@
  "fx": [
   {
    "label": "USD/ILS",
-   "value": 3.3372,
+   "value": 3.3124,
    "status": "ok",
-   "d1": -0.33983919883644464,
+   "d1": -1.0819305025242865,
    "key": "ILS=X",
    "as_of": "2026-11-26"
   },
   {
    "label": "EUR/ILS",
-   "value": 3.6614,
+   "value": 3.6296,
    "status": "ok",
-   "d1": -0.335271936880277,
+   "d1": -1.2008811134187614,
    "key": "EURILS=X",
    "as_of": "2026-11-26"
   }
@@ -224,34 +224,34 @@
   "israel": [
    {
     "label": "TA-35",
-    "value": 3836.65,
+    "value": 3792.38,
     "status": "ok",
-    "d1": 1.167341376634945,
-    "w1": -2.1030541576953277,
-    "m1": -8.78909712052961,
-    "ytd": 6.01789448374852,
+    "d1": -1.4226321337616255,
+    "w1": -4.3516651650534754,
+    "m1": -9.841553965620008,
+    "ytd": 4.7945839448874095,
     "key": "TA35.TA",
     "as_of": "2026-11-26"
    },
    {
     "label": "TA-90",
-    "value": 3524.4,
+    "value": 3435.35,
     "status": "ok",
-    "d1": 2.59216097795254,
-    "w1": 2.2202184700412797,
-    "m1": -7.539020342650138,
-    "ytd": -7.5889635839136,
+    "d1": -0.5687381286179405,
+    "w1": -1.8670459424106722,
+    "m1": -9.875200233651293,
+    "ytd": -9.92388157615094,
     "key": "TA90.TA",
     "as_of": "2026-11-26"
    },
    {
     "label": "TA-125",
-    "value": 3756.9,
+    "value": 3702.15,
     "status": "ok",
-    "d1": 1.478870425136991,
-    "w1": -1.1937578736087584,
-    "m1": -8.54784919946856,
-    "ytd": 2.7896480536495627,
+    "d1": -1.2075039008166422,
+    "w1": -3.7557702721468855,
+    "m1": -9.880598377375971,
+    "ytd": 1.2916754226975247,
     "key": "^TA125.TA",
     "as_of": "2026-11-26"
    },
@@ -318,34 +318,34 @@
   "europe": [
    {
     "label": "DAX — Germany",
-    "value": 25154.35,
+    "value": 25215.52,
     "status": "ok",
-    "d1": 1.8306872090282589,
-    "w1": -1.2152970464900714,
-    "m1": -1.7053802205598712,
-    "ytd": 2.7110181041845927,
+    "d1": 2.0783173516391473,
+    "w1": -0.9750740768666,
+    "m1": -1.466349026908964,
+    "ytd": 2.960789020574861,
     "key": "^GDAXI",
     "as_of": "2026-11-26"
    },
    {
     "label": "CAC 40 — France",
-    "value": 8115.58,
+    "value": 8108.74,
     "status": "ok",
-    "d1": 1.6917370172808033,
-    "w1": 0.4311466863121449,
-    "m1": 2.896359611296151,
-    "ytd": -0.41622089545371166,
+    "d1": 1.6060308095706244,
+    "w1": 0.3465029092370786,
+    "m1": 2.8096381427862083,
+    "ytd": -0.5001505076998591,
     "key": "^FCHI",
     "as_of": "2026-11-26"
    },
    {
     "label": "FTSE 100 — United Kingdom",
-    "value": 10581.73,
+    "value": 10609.3,
     "status": "ok",
-    "d1": 1.4849099188116277,
-    "w1": 1.234420494480104,
-    "m1": -0.9803914401347535,
-    "ytd": 6.548221323740977,
+    "d1": 1.7493157815768434,
+    "w1": 1.4981737393102268,
+    "m1": -0.7224086025592991,
+    "ytd": 6.825818992278476,
     "key": "^FTSE",
     "as_of": "2026-11-26"
    }
@@ -353,34 +353,34 @@
   "asia": [
    {
     "label": "Nikkei 225 — Japan",
-    "value": 57499.16,
+    "value": 57011.62,
     "status": "ok",
-    "d1": 0.8551573401119228,
-    "w1": -3.272060896384066,
-    "m1": -9.11863358857664,
-    "ytd": 14.222792171930788,
+    "d1": -2.784582054582607,
+    "w1": -3.4098850737805497,
+    "m1": -8.32618847966936,
+    "ytd": 13.25428979971688,
     "key": "^N225",
     "as_of": "2026-11-26"
    },
    {
     "label": "KOSPI — South Korea",
-    "value": 4711.21,
+    "value": 4697.51,
     "status": "ok",
-    "d1": 0.2916480432409996,
-    "w1": -8.304579592543494,
-    "m1": -16.44331325363807,
-    "ytd": 11.794494485911788,
+    "d1": -6.1629681158922756,
+    "w1": -7.3001393219983886,
+    "m1": -14.113989452281949,
+    "ytd": 11.469396173160206,
     "key": "^KS11",
     "as_of": "2026-11-26"
    },
    {
     "label": "Nifty 50 — India",
-    "value": 25884.5,
+    "value": 25819.25,
     "status": "ok",
-    "d1": 0.2527184174598407,
-    "w1": 1.450947928865265,
-    "m1": 13.779272299695599,
-    "ytd": -0.9380151745113641,
+    "d1": 1.8524894905401545,
+    "w1": 2.343832136821211,
+    "m1": 13.475251333989945,
+    "ytd": -1.1877319745215331,
     "key": "^NSEI",
     "as_of": "2026-11-26"
    }
@@ -482,7 +482,7 @@
   "  JP yields (2026/11/25): {'1Y': 1.594, '3Y': 1.811, '5Y': 2.07, '10Y': 2.713}",
   "Indices: israel",
   "  search 'TA Banks 5': TA-BANKS.TA[TLV] TA Banks-5, HRL-F12.TA[TLV] Harel Index Funds Ltd. - Harel Sal (4A) TA-Banks 5, 204.TA[TLV] TA Banks 5-Equal Weight",
-  "  search 'TA Insurance': 0966.HK[HKG] China Taiping Insurance Holdings Company Limited, AKHI.QA[DOH] Al Khaleej Takaful Insurance Company Q.P.S.C., WETHAQ.KW[KUW] Wethaq Takaful Insurance Company K.S.C.P., HIUC.MU[MUN] China Taiping Insurance Holdings Co Ltd, FTI.KW[KUW] First Takaful Insurance Company - KPSC",
+  "  search 'TA Insurance': 0966.HK[HKG] China Taiping Insurance Holdings Company Limited, AKHI.QA[DOH] Al Khaleej Takaful Insurance Company Q.P.S.C., WETHAQ.KW[KUW] Wethaq Takaful Insurance Company K.S.C.P., HIUC.MU[MUN] China Taiping Insurance Holdings Co Ltd, HIUC.SG[STU] China Taiping Insurance Holdings Co Ltd",
   "Indices: us",
   "Indices: europe",
   "Indices: asia",
